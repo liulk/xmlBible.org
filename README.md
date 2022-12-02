@@ -14,7 +14,7 @@ The purpose of xmlBible.org is to provide an exhaustive xml coded version of the
 		<book name="Genesis">
 			<chapter num="1">
 				<paragraph note="God creates heaven and earth">
-				<!-- Most paragraphs have notes tat can be used for outlines or headers -->
+				<!-- Most paragraphs have notes that can be used for outlines or headers -->
 					<verse num="1">
 						<phrase strongs="H7225">
 						<!-- The phrases are the grouping of word linked to a single Strong's Lexicon defiction -->
