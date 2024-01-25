@@ -3,7 +3,7 @@
 The purpose of xmlBible.org is to provide an exhaustive xml coded version of the Bible. I will start with the KJV (Oxford) and provide coding to show information about the various levels. 
 
 
-### Below is an sample of how the finished product will look
+### Below is an sample of how the finished product will (hoepfully) eventually look
 
 ```xml
 
