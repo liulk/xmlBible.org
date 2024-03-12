@@ -1,5 +1,5 @@
 # xmlBible.org 
-<div style="text-align: right">[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M83FULE)</div>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M83FULE)
 
 The purpose of xmlBible.org is to provide an exhaustive xml coded version of the Bible. I will start with the KJV (Oxford) and provide coding to show information about the various levels. 
 
