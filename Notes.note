@@ -18,3 +18,8 @@ In KJVs words not in the original (typically italicized) are included under the 
 			<phrase strongs="5971">is upon thy people.</phrase>
 			<phrase strongs="5542">Selah.</phrase>
 		</verse>
+	Interlinear uses brackets [] to denote added words.
+	Create a phrase by phrase KJV (oxford) database table.
+		id,book,chapter,verse,phrase 
+		include punctuation with word (dashes are treated as a "letter" with a word)
+		This will allow me to add KJV to the Interlinear, with <KJV></KJV> and <KJV_order></KJV_order>
