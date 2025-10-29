@@ -1,0 +1,8 @@
+verse {
+    direction: ltr;
+}
+
+verse::before {
+    position: absolute;
+    left: -3ex;
+}
