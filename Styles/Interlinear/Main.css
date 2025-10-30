@@ -65,9 +65,10 @@ word * {
 
 strongs {
     font-size: 75%;
+    position: relative;
 }
 
-strongs, strongs a:link, strongs a:visited {
+strongs, strongs a, strongs a:link, strongs a:visited {
     color: midnightblue;
     text-decoration: none;
 }

@@ -12,9 +12,9 @@ window.onload = function() {
     const isGreek = words[i].getElementsByTagName('greek').length > 0;
     let hrefPrefix;
     if (isHebrew) {
-      hrefPrefix = 'https://biblehub.com/hebrew/';
+      hrefPrefix = 'https://biblehub.com/hebrew';
     } else if (isGreek) {
-      hrefPrefix = 'https://biblehub.com/greek/';
+      hrefPrefix = 'https://biblehub.com/greek';
     } else {
       continue;
     }
