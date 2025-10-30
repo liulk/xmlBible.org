@@ -34,12 +34,24 @@ verse {
     position: relative;
 }
 
+book[testament="old"] verse {
+    direction: rtl;
+}
+
+book[testament="new"] verse {
+    direction: ltr;  /* This is the default. */
+}
+
 verse::before {
     display: inline-block;
     content: attr(num);
     font-size: 150%;
     font-weight: bold;
     color: maroon;
+
+    position: absolute;
+    left: -3ex;
+    right: -3ex;
 }
 
 word {
