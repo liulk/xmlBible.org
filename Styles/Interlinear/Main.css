@@ -78,17 +78,29 @@ pos {
     color: grey;
 }
 
-parse {
+parse, strongs-definition, english-definition, chinese-definition {
     visibility: hidden;
     position: absolute;
-    margin-top: -2.5lh;
     z-index: 1;
 
     border: 1px solid black;
     padding: 1px 4px;
     background: lightyellow;
+    max-width: 100ex;
 
     font-size: 75%;
+}
+
+strongs-definition {
+    margin-top: -2.5lh;
+}
+
+strongs:hover + strongs-definition, strongs-definition:hover {
+    visibility: visible;
+}
+
+parse {
+    margin-top: -2.5lh;
 }
 
 pos:hover + parse, parse:hover {
@@ -106,4 +118,34 @@ hebrew, greek {
 
 english {
     color: crimson;
+}
+
+english-definition {
+    margin-top: -2.75lh;
+}
+
+english:hover + english-definition, english-definition:hover {
+    visibility: visible;
+}
+
+chinese-definition {
+    margin-top: -3.5lh;
+}
+
+chinese:hover + chinese-definition, chinese-definition:hover {
+    visibility: visible;
+}
+
+chinese {
+    color: darkgreen;
+}
+
+chinese[unaudited] {
+    background: repeating-linear-gradient(
+        -45deg,
+        ivory,
+        palegreen 0.5ex,
+        palegreen 0.5ex,
+        white 1ex
+    );
 }
