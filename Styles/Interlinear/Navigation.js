@@ -1194,7 +1194,7 @@ const interlinearXMLs = [
 const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
-  const currParts = window.location.pathname.split('/').slice(-2);
+  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
   const currBook = currParts[0];
   const currChapter = currParts[1];
 
@@ -1249,7 +1249,7 @@ const initializeNavigation = () => {
     hierarchy[book].push(xml);
   }
 
-  const currParts = window.location.pathname.split('/').slice(-2);
+  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
   const currBook = currParts[0];
   const currChapter = currParts[1];
 
