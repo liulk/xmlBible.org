@@ -1,9 +1,14 @@
 const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
-window.onload = function() {
+window.addEventListener('load', (e) => {
+  // Check if the navigation has been loaded successfully.
+  if (typeof initializeNavigation === 'function') {
+    initializeNavigation();
+  }
+
   // Check if the dictionaries have been loaded sucessfully.
-  const hasDict = (typeof strongsGreekDictionary == 'object' &&
-                   typeof strongsHebrewDictionary == 'object');
+  const hasDict = (typeof strongsGreekDictionary === 'object' &&
+                   typeof strongsHebrewDictionary === 'object');
 
   const words = document.getElementsByTagName('word');
 
@@ -42,26 +47,28 @@ window.onload = function() {
     }
 
     const sd = document.createElement('strongs-definition');
-    sd.appendChild(document.createTextNode(entry.strongs_def || ''));
+    sd.appendChild(document.createTextNode(entry?.strongs_def || ''));
     w.insertBefore(sd, strongs.nextSibling);
 
     const ed = document.createElement('english-definition');
-    ed.appendChild(document.createTextNode(entry.kjv_def || ''));
+    ed.appendChild(document.createTextNode(entry?.kjv_def || ''));
     w.insertBefore(ed, english.nextSibling);
   }
-}
+});
 
-function loadStrongs() {
+const loadScripts = () => {
+  // The script paths are relative to the Interlinear XML files.
   const scripts = [
-    "../../Strongs/greek/strongs-greek-dictionary.js",
-    "../../Strongs/hebrew/strongs-hebrew-dictionary.js"
+    '../../Styles/Interlinear/Navigation.js',
+    '../../Strongs/greek/strongs-greek-dictionary.js',
+    '../../Strongs/hebrew/strongs-hebrew-dictionary.js'
   ];
   for (const s of scripts) {
     const script = document.createElementNS(XHTML_NS, 'script');
     script.src = s;
     document.documentElement.appendChild(script);
   }
-}
+};
 
 module = {};
-loadStrongs();
+loadScripts();
