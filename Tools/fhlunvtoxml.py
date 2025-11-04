@@ -15,7 +15,7 @@ import sqlite3
 import sys
 import unicodedata
 
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 
 def Parser() -> argparse.ArgumentParser:
@@ -104,7 +104,13 @@ def Main():
       if not os.path.isdir(dirname):
         os.makedirs(dirname)
 
-      with open(in_xml) as in_file, open(out_xml, 'w') as out_file:
+      try:
+        out_file = open(out_xml, 'x')
+      except FileExistsError:
+        logging.warning('Skipping already created: %s', out_xml)
+        continue
+
+      with open(in_xml) as in_file, out_file:
         try:
           Process(ctx, out_file, in_file)
         except:
@@ -226,8 +232,9 @@ BOOKS = (
 #       word that is not translated in Chinese.
 #
 #     - The words may be out of order relative to the wid.
-UNV_RE = re.compile(r'({<.*?>})|(.*?)((<.*?>)+)')
-SN_RE = re.compile(r'<W[AT]?[HG](\d+)>')
+UNV_RE = re.compile(r'(.*?)((<.*?>)+)|([^<>]+)$')
+UNV_NO_TRANS_RE = re.compile(r'{<.*?>}')
+DIGITS_RE = re.compile(r'(\d+)')
 
 
 def LettersOnly(s: str) -> str:
@@ -248,28 +255,58 @@ def DigitsOnly(s: str) -> str:
 OMISSION = '－'
 
 
+def CleanUpNoTrans(unv_txt: str) -> str:
+  """Cleans up words with no translation."""
+  return UNV_NO_TRANS_RE.sub('', unv_txt)
+
+
+def CleanUpTrailing(unv_txt: str) -> str:
+  """Cleans up trailing text.
+
+  Example:
+    '運行<WH07363><WTH8764>在<WH05921>水<WH04325>面<WH06440>上。' becomes
+    '運行<WH07363><WTH8764>在<WH05921>水<WH04325>面上。<WH06440>'
+  """
+  matches = list(UNV_RE.finditer(unv_txt))
+  if len(matches) < 2:
+    return unv_txt
+  trail_txt = matches[-1].group(4)
+  if not trail_txt:
+    return unv_txt  # No trailing text.
+  prior_word = matches[-2].group(1)
+  prior_word_at = matches[-2].span()[0]
+  prior_word_sn_tags = matches[-2].group(2)
+  return unv_txt[:prior_word_at] + prior_word + trail_txt + prior_word_sn_tags
+
+
+def CleanUp(unv_txt: str) -> str:
+  unv_txt = CleanUpNoTrans(unv_txt)
+  unv_txt = CleanUpTrailing(unv_txt)
+  return unv_txt
+
+
 def StrongsToUNV(unv_txt: str) -> Dict[int, str]:
   """Builds a map from Strong's number in int to the unv text."""
   d = {}
-  for no_trans, txt, sn_tags, _ in UNV_RE.findall(unv_txt):
-    for sn in SN_RE.findall(no_trans or sn_tags):
-      if no_trans:
-        sn = int(sn, 10)
-        d[sn] = OMISSION
-      else:
-        sn = int(sn, 10)
-        d[sn] = LettersOnly(txt)
+  prev_sn_tags = ''
+  for txt, sn_tags, _, _ in UNV_RE.findall(unv_txt):
+    if not txt:
+      continue
+    for sn in DIGITS_RE.findall(sn_tags):
+      sn = int(sn, 10)
+      d[sn] = LettersOnly(txt)
   return d
 
 
 def StrongsToFIFO(unv_txt: str) -> Dict[int, List[str]]:
   """Like StrongsToUNV, but keeps ordering for multiple occurrences."""
   d = collections.defaultdict(list)
-  for no_trans, txt, sn_tags, _ in UNV_RE.findall(unv_txt):
-    for sn in SN_RE.findall(no_trans or sn_tags):
-      if not no_trans:
-        sn = int(sn, 10)
-        d[sn].append(LettersOnly(txt))
+  for txt, sn_tags, _, _ in UNV_RE.findall(unv_txt):
+    if not txt:
+      continue
+    for sn in DIGITS_RE.findall(sn_tags):
+      sn = int(sn, 10)
+      d[sn].append(LettersOnly(txt))
   return d
 
 
@@ -277,17 +314,8 @@ def StrongsToExp(words_exp: List[Tuple[int, str, str, str]]) -> Dict[int, str]:
   """Builds a map from Strong's number to the parsing exp."""
   d = {}
   for wid, osn, sn, exp in words_exp:
-    osn, sn = osn.strip(), sn.strip()
-    if osn:
-      try:
-        d[int(osn, 10)] = exp
-      except ValueError:
-        logging.exception('osn is not an integer: %s', osn)
-    if sn:
-      try:
-        d[int(sn, 10)] = exp
-      except ValueError:
-        logging.exception('sn is not an integer: %s', sn)
+    for n in DIGITS_RE.findall(f'{osn} {sn}'):
+      d[int(n, 10)] = exp
   return d
 
 
@@ -445,8 +473,9 @@ def Process(ctx: Context, out_file: io.TextIOBase, in_file: io.TextIOBase):
             'unv.txt missing data for book %d, chapter %d, verse %d',
             book_id, chapter_num, verse_num)
         else:
-          strongs_fifo_map = StrongsToFIFO(unv_txts[0])
-          strongs_unv_map = StrongsToUNV(unv_txts[0])
+          unv_txt = CleanUp(unv_txts[0])
+          strongs_fifo_map = StrongsToFIFO(unv_txt)
+          strongs_unv_map = StrongsToUNV(unv_txt)
 
       out_file.write(line)
       continue
@@ -480,7 +509,7 @@ def Process(ctx: Context, out_file: io.TextIOBase, in_file: io.TextIOBase):
 
     m = RE_CHINESE.search(line)
     if m:
-      if UNAUDITED in line:
+      if UNAUDITED not in line:
         is_audited = True
         out_file.write(line)
         continue
@@ -512,7 +541,7 @@ def Process(ctx: Context, out_file: io.TextIOBase, in_file: io.TextIOBase):
           if not chinese:
             logging.warning(
               'uni.txt missing strongs_num %d at %s', strongs_num, loc)
-            chinese = OMISSION
+            chinese = strongs_unv_map.get(strongs_num, OMISSION)
         out_file.write(
           '\t\t\t\t<chinese unaudited="unaudited">'
           f'{chinese}'
