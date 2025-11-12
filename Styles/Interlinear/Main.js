@@ -2,8 +2,8 @@ const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
 window.onload = function() {
   // Check if the dictionaries have been loaded sucessfully.
-  const hasDict = (typeof strongsGreekDictionary == 'object' &&
-                   typeof strongsHebrewDictionary == 'object');
+  const hasDict = (typeof strongsGreekDictionary === 'object' &&
+                   typeof strongsHebrewDictionary === 'object');
 
   const words = document.getElementsByTagName('word');
 
@@ -27,8 +27,9 @@ window.onload = function() {
     } else if (isGreek) {
       hrefPrefix = 'https://biblehub.com/greek';
     }
-    strongs.innerHTML =
-      `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${sn}</a>`;
+    const snLinkHTML =
+          `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${sn}</a>`;
+    strongs.innerHTML = snLinkHTML;
 
     if (!hasDict) {
       continue;
@@ -42,11 +43,12 @@ window.onload = function() {
     }
 
     const sd = document.createElement('strongs-definition');
-    sd.appendChild(document.createTextNode(entry.strongs_def || ''));
+    sd.innerHTML = `[${snLinkHTML}] `;
+    sd.appendChild(document.createTextNode(entry?.strongs_def || ''));
     w.insertBefore(sd, strongs.nextSibling);
 
     const ed = document.createElement('english-definition');
-    ed.appendChild(document.createTextNode(entry.kjv_def || ''));
+    ed.appendChild(document.createTextNode(entry?.kjv_def || ''));
     w.insertBefore(ed, english.nextSibling);
   }
 }

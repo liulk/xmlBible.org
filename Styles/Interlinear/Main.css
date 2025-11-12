@@ -59,7 +59,7 @@ word {
     padding: 1ex 2ex;
 }
 
-word * {
+word > * {
     display: block;
 }
 
@@ -79,6 +79,7 @@ pos {
 }
 
 parse, strongs-definition, english-definition, chinese-definition {
+    direction: ltr;
     visibility: hidden;
     position: absolute;
     z-index: 1;
