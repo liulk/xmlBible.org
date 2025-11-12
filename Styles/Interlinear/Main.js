@@ -32,8 +32,9 @@ window.addEventListener('load', (e) => {
     } else if (isGreek) {
       hrefPrefix = 'https://biblehub.com/greek';
     }
-    strongs.innerHTML =
-      `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${sn}</a>`;
+    const snLinkHTML =
+          `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${sn}</a>`;
+    strongs.innerHTML = snLinkHTML;
 
     if (!hasDict) {
       continue;
@@ -47,6 +48,7 @@ window.addEventListener('load', (e) => {
     }
 
     const sd = document.createElement('strongs-definition');
+    sd.innerHTML = `[${snLinkHTML}] `;
     sd.appendChild(document.createTextNode(entry?.strongs_def || ''));
     w.insertBefore(sd, strongs.nextSibling);
 
