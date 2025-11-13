@@ -529,23 +529,21 @@ def Process(ctx: Context, out_file: io.TextIOBase, in_file: io.TextIOBase):
 
       if not is_audited:
         # The audited version is already written above.
-        chinese = OMISSION
+        chinese = None
         if not strongs_unv_map or not strongs_fifo_map:
           logging.error('uni.txt data missing for %s', loc)
         elif not strongs_num:
           pass  # Already warned above.
         else:
-          chinese = strongs_unv_map.get(strongs_num)
           if strongs_fifo_map[strongs_num]:
             chinese = strongs_fifo_map[strongs_num].pop(0)
           if not chinese:
             logging.warning(
               'uni.txt missing strongs_num %d at %s', strongs_num, loc)
-            chinese = strongs_unv_map.get(strongs_num, OMISSION)
+            chinese = strongs_unv_map.get(strongs_num)
+        chinese = chinese or OMISSION
         out_file.write(
-          '\t\t\t\t<chinese unaudited="unaudited">'
-          f'{chinese}'
-          '</chinese>\n')
+          f'\t\t\t\t<chinese unaudited="unaudited">{chinese}</chinese>\n')
 
       chinese_definition = OMISSION
 
