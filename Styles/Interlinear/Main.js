@@ -64,40 +64,110 @@ function addStrongsLinksAndDefinitions(words) {
   }
 }
 
-// renderVersePreview renders the language tags of the words into a
-// verse.  This is very experimental.
+// Begin section to render verse preview from the words of a given
+// language.  This is an experimental feature.
 //
-//   - Word ordering can be manipulated via the "order" attribute.
-//     The meaning is subject to change.
+//   - By default, word ordering comes from the <word num="N"> that
+//     the language tag belongs to.  The language tag may override the
+//     ordering with its own "num" attribute by specifying a numerical
+//     value "N" or an adjustment: "+n" to move forward, "-n" to move
+//     backward, or just "-" to omit the word.
 //
-//   - Text content '-' will be omitted.
+//   - Words with the text content '-' for the language will be
+//     omitted.
 //
-//   - TODO: add "before" and "after" text support for punctuation.
+//   - The "before" and "after" attributes of the language tag can be
+//     used to add punctuation or commentary around this word.
 //
-//   - TODO: "And-verb-subject" handling of Hebrew (or maybe using
-//     render instruction?)
-//
-//   - TODO: render instruction, e.g. render="And {2} said,"
-function renderVersePreview(verse, langTag, joiner) {
-  const langWords = verse.getElementsByTagName(langTag);
-  let ordered = [...langWords].filter((e) => {
-    const trimmed = e.textContent.trim();
-    const validOrder = !isNaN(parseInt(e.getAttribute('order') || '0'));
+//   - The "render" attribute overrides the text content of this
+//     language and provides a render string.  The render string can
+//     reference another word's text content, e.g. "And {N} said"
+//     where the text content from the original word number "N" is
+//     substituted for "{N}".  The reference can also be an offset,
+//     e.g. "+n" for the nth word ahead, or "-n" for the nth word
+//     behind.
+
+function mapWordNumToLang(langs) {
+  const a = new Array(langs.length + 1);
+  let n = 1;
+  for (const lang of langs) {
+    const wordNum = lang.parentNode.getAttribute('num') || n;
+    a[wordNum] = lang;
+  }
+  return a;
+}
+
+function getLangNum(lang) {
+  const wordNum = parseInt(lang.parentNode.getAttribute('num'));
+  if (!lang.hasAttribute('num')) {
+    return wordNum;
+  }
+  const langNum = lang.getAttribute('num');
+  if (langNum[0] === '+' || langNum[0] === '-') {
+    return wordNum + parseInt(langNum);
+  }
+  return parseInt(langNum);
+}
+
+function sortLangs(langs) {
+  return [...langs].filter((lang) => {
+    const trimmed = lang.textContent.trim();
     return (
-      validOrder &&
+      lang.getAttribute('num') !== '-' &&
         trimmed != '-' &&
-        trimmed != '－'
-    );
+        trimmed != '－');
+  }).map((lang) => {
+    return {
+      'langNum': getLangNum(lang),
+      'lang': lang,
+      'precedence': lang.hasAttribute('num') ? 0 : 1,
+    };
   }).sort((a, b) => {
-    const aorder = parseInt(a.getAttribute('order') || '0');
-    const border = parseInt(b.getAttribute('order') || '0');
-    return aorder - border;
-  }).map((e) => e.textContent);
+    if (a.langNum != b.langNum) {
+      return a.langNum - b.langNum;
+    }
+    return a.precedence - b.precedence;
+  }).map((s) => s.lang);
+}
+
+function renderLang(wordNumToLangMap, lang) {
+  let render;
+
+  if (!lang.hasAttribute('render')) {
+    render = lang.textContent;
+  } else {
+    const thisNum = parseInt(lang.parentNode.getAttribute('num'));
+    render = lang.getAttribute('render').replace(/\{[+\-]?\d+\}/, (match) => {
+      let inside = match.substring(1, match.length - 1);
+      let thatNum = 0;
+      if (inside[0] === '+' || inside[0] === '-') {
+        thatNum = thisNum + parseInt(inside);
+      } else {
+        thatNum = parseInt(inside);
+      }
+      return wordNumToLangMap[thatNum]?.textContent || '';
+    });
+  }
+
+  const before = lang.getAttribute('before') || '';
+  const after = lang.getAttribute('after') || '';
+
+  render = render.replace('&nbsp;', ' ');
+  return before + render + after;
+}
+
+function renderVersePreview(verse, langTag, joiner) {
+  const langs = verse.getElementsByTagName(langTag);
+  const wordNumToLangMap = mapWordNumToLang(langs);
+  const sorted = sortLangs(langs);
+  const rendered = sorted.map((lang) => renderLang(wordNumToLangMap, lang));
 
   const e = document.createElement(langTag);
-  e.textContent = ordered.join(joiner);
+  e.textContent = rendered.join(joiner);
   return e;
 }
+
+// End section to render verse preview.
 
 // The values are also the joiners for the language.
 const PREVIEW_LANGS = {'english': ' ', 'chinese': ''};
