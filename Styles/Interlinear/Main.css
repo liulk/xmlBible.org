@@ -1,6 +1,6 @@
 book {
     display: block;
-    margin: 5% 15%;
+    margin: 5% 10%;
     font-family: sans-serif;
 }
 
@@ -28,18 +28,49 @@ chapter::before {
     padding: 1ex 0;
 }
 
-verse {
-    display: block;
-    padding: 1ex 0;
-    position: relative;
-}
-
 book[testament="old"] verse {
     direction: rtl;
 }
 
 book[testament="new"] verse {
     direction: ltr;  /* This is the default. */
+}
+
+verse {
+    display: block;
+    padding: 1ex 0;
+    position: relative;
+}
+
+book[testament="old"] {
+    margin-right: 30ex;
+}
+
+book[testament="old"] preview {
+    right: -30ex;
+}
+
+book[testament="new"] {
+    margin-left: 30ex;
+}
+
+book[testament="new"] preview {
+    left: -30ex;
+}
+
+preview {
+    direction: ltr;
+    display: block;
+    position: absolute;
+    top: 3lh;
+    width: 28ex;
+    padding: 2ex;
+    font-size: 80%;
+}
+
+preview > * {
+    display: block;
+    opacity: 0.33;  /* Preview is experimental, so make it very faint. */
 }
 
 verse::before {
