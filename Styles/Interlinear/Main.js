@@ -1,16 +1,22 @@
 const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
-window.addEventListener('load', (e) => {
-  // Check if the navigation has been loaded successfully.
-  if (typeof initializeNavigation === 'function') {
-    initializeNavigation();
+function getLangTags(words) {
+  const count = {};
+  for (const w of words) {
+    for (const child of w.children) {
+      if (child.nodeType !== child.ELEMENT_NODE) {
+        continue;
+      }
+      ++count[child.tagName];
+    }
   }
+  return count;
+}
 
+function addStrongsLinksAndDefinitions(words) {
   // Check if the dictionaries have been loaded sucessfully.
   const hasDict = (typeof strongsGreekDictionary === 'object' &&
                    typeof strongsHebrewDictionary === 'object');
-
-  const words = document.getElementsByTagName('word');
 
   for (const w of words) {
     const strongs = w.getElementsByTagName('strongs')[0];
@@ -55,6 +61,74 @@ window.addEventListener('load', (e) => {
     const ed = document.createElement('english-definition');
     ed.appendChild(document.createTextNode(entry?.kjv_def || ''));
     w.insertBefore(ed, english.nextSibling);
+  }
+}
+
+// renderVersePreview renders the language tags of the words into a
+// verse.  This is very experimental.
+//
+//   - Word ordering can be manipulated via the "order" attribute.
+//     The meaning is subject to change.
+//
+//   - Text content '-' will be omitted.
+//
+//   - TODO: add "before" and "after" text support for punctuation.
+//
+//   - TODO: "And-verb-subject" handling of Hebrew (or maybe using
+//     render instruction?)
+//
+//   - TODO: render instruction, e.g. render="And {2} said,"
+function renderVersePreview(verse, langTag, joiner) {
+  const langWords = verse.getElementsByTagName(langTag);
+  let ordered = [...langWords].filter((e) => {
+    const trimmed = e.textContent.trim();
+    const validOrder = !isNaN(parseInt(e.getAttribute('order') || '0'));
+    return (
+      validOrder &&
+        trimmed != '-' &&
+        trimmed != '－'
+    );
+  }).sort((a, b) => {
+    const aorder = parseInt(a.getAttribute('order') || '0');
+    const border = parseInt(b.getAttribute('order') || '0');
+    return aorder - border;
+  }).map((e) => e.textContent);
+
+  const e = document.createElement(langTag);
+  e.textContent = ordered.join(joiner);
+  return e;
+}
+
+// The values are also the joiners for the language.
+const PREVIEW_LANGS = {'english': ' ', 'chinese': ''};
+
+window.addEventListener('load', (e) => {
+  // Check if the navigation has been loaded successfully.
+  if (typeof initializeNavigation === 'function') {
+    initializeNavigation();
+  }
+
+  const verses = document.getElementsByTagName('verse');
+  for (const verse of verses) {
+    const words = verse.getElementsByTagName('word');
+    if (!words.length) {
+      continue;
+    }
+
+    const langTags = getLangTags(words);
+    addStrongsLinksAndDefinitions(words);
+
+    if (!langTags) {
+      continue;
+    }
+    const preview = document.createElement('preview');
+    for (const langTag in langTags) {
+      if (langTag in PREVIEW_LANGS) {
+        const lang = renderVersePreview(verse, langTag, PREVIEW_LANGS[langTag]);
+        preview.appendChild(lang);
+      }
+    }
+    verse.insertBefore(preview, words[0]);
   }
 });
 
