@@ -137,7 +137,7 @@ function renderLang(wordNumToLangMap, lang) {
     render = lang.textContent;
   } else {
     const thisNum = parseInt(lang.parentNode.getAttribute('num'));
-    render = lang.getAttribute('render').replace(/\{[+\-]?\d+\}/, (match) => {
+    render = lang.getAttribute('render').replace(/\{[+\-]?\d+\}/g, (match) => {
       let inside = match.substring(1, match.length - 1);
       let thatNum = 0;
       if (inside[0] === '+' || inside[0] === '-') {
