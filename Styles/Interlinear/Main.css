@@ -190,9 +190,74 @@ chinese[unaudited] {
     );
 }
 
-nav .home {
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: 0 -10vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 0.5lh 10vw;
+
+    border: 1px solid lightgrey;
+}
+
+book[testament="old"] nav {
+    margin-right: -30ex;
+    padding-right: 30ex;
+}
+
+book[testament="new"] nav {
+    margin-left: -30ex;
+    padding-left: 30ex;
+}
+
+nav form {
+    display: inline-block;
+    margin: 0 2ex;
+}
+
+nav a {
+    display: inline-block;
+
+    width: 1.5lh;
+    height: 1.5lh;
+    text-align: center;
+
     font-size: 200%;
-    border: 4px solid lightgrey;
-    padding: 0.5ex;
-    margin-right: 0.5ex;
+    vertical-align: middle;
+    background: white;
+
+    text-decoration: none;
+    user-select: none;
+}
+
+nav a:not([href]) {
+    color: lightgrey;
+    background: linear-gradient(
+        to left top,
+        transparent 47.75%,
+        currentColor 49.5%,
+        currentColor 50.5%,
+        transparent 52.25%);
+}
+
+nav a:link, nav a:visited {
+    color: lightblue;
+}
+
+nav a[href]:hover {
+    border-color: lightblue;
+    box-shadow: 0 0 2px 2px lightblue;
+}
+
+nav .home {
+    border: 2px solid lightgrey;
+    margin-right: 1ex;
+}
+
+nav > a {
+    padding: 0.25ex 0.125ex 0 0.125ex;
+    border: 2px solid lightgrey;
+    border-radius: 2ex;
 }
