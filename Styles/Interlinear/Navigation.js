@@ -120,22 +120,46 @@ const initializeNavigation = () => {
 
   // First convert the interlinearXMLs to a hierarchy.
   let hierarchy = {};  // Maps from directory name to a list of files there.
+  let xmls = [];
 
   for (const book in bookChapters) {
     hierarchy[book] = [];
     const numChapters = bookChapters[book];
     for (let i = 1; i <= numChapters; ++i) {
-      hierarchy[book].push(xmlPath(book, i));
+      const path = xmlPath(book, i);
+      hierarchy[book].push(path);
+      xmls.push(path);
     }
   }
 
   const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
   const currBook = currParts[0];
   const currChapter = currParts[1];
+  const currXML = `../${currBook}/${currChapter}`;
+  const currPos = xmls.indexOf(currXML);
 
   const nav = document.createElementNS(XHTML_NS, 'nav');
+
+  const aPrev = document.createElementNS(XHTML_NS, 'a');
+  aPrev.id = 'prev';
+  aPrev.title = 'Previous';
+  aPrev.textContent = '🡄 ';
+  if (currPos > 0) {
+    aPrev.href = xmls[currPos - 1];
+  }
+  nav.appendChild(aPrev);
+
   const navForm = document.createElementNS(XHTML_NS, 'form');
   nav.appendChild(navForm);
+
+  const aNext = document.createElementNS(XHTML_NS, 'a');
+  aNext.id = 'next';
+  aNext.title = 'Next';
+  aNext.textContent = ' 🡆';
+  if (currPos < xmls.length - 1) {
+    aNext.href = xmls[currPos + 1];
+  }
+  nav.appendChild(aNext);
 
   if (window.location.hostname !== "") {
     navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';
