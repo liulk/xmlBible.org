@@ -2,9 +2,9 @@
 <?xml-stylesheet href="../../Styles/Interlinear/Main.css"?>
 <book name="1 Corinthians" id="46" testament="new">
 	<script xmlns="http://www.w3.org/1999/xhtml" src="../../Styles/Interlinear/Main.js"></script>
-	<chapter num="1">
-		<verse num="1">
-			<word num="1">
+	<chapter num="1" id="c1">
+		<verse num="1" id="v1">
+			<word num="1" id="v1-w1">
 				<strongs>3972</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -14,7 +14,7 @@
 				<chinese unaudited="unaudited">的保羅</chinese>
 				<chinese-definition>專有名詞，人名：保羅</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v1-w2">
 				<strongs>2822</strongs>
 				<pos>Adj-NMS</pos>
 				<parse>Adjective - Nominative Masculine Singular</parse>
@@ -24,7 +24,7 @@
 				<chinese unaudited="unaudited">蒙召</chinese>
 				<chinese-definition>被召的、被邀請的</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v1-w3">
 				<strongs>652</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -34,7 +34,7 @@
 				<chinese unaudited="unaudited">使徒</chinese>
 				<chinese-definition>使徒</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v1-w4">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -44,7 +44,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v1-w5">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -54,7 +54,7 @@
 				<chinese unaudited="unaudited">作耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v1-w6">
 				<strongs>1223</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -64,7 +64,7 @@
 				<chinese unaudited="unaudited">奉</chinese>
 				<chinese-definition>後接所有格時意思是「藉著、通過」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v1-w7">
 				<strongs>2307</strongs>
 				<pos>N-GNS</pos>
 				<parse>Noun - Genitive Neuter Singular</parse>
@@ -74,7 +74,7 @@
 				<chinese unaudited="unaudited">旨意</chinese>
 				<chinese-definition>意願、旨意</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v1-w8">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -84,7 +84,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v1-w9">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -94,7 +94,7 @@
 				<chinese unaudited="unaudited">同</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v1-w10">
 				<strongs>4988</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -104,7 +104,7 @@
 				<chinese unaudited="unaudited">所提尼</chinese>
 				<chinese-definition>專有名詞，人名：所提尼(哥林多的基督徒、歌林多會堂的領袖)</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v1-w11">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -114,7 +114,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v1-w12">
 				<strongs>80</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -125,8 +125,8 @@
 				<chinese-definition>弟兄、兄弟</chinese-definition>
 			</word>
 		</verse>
-		<verse num="2">
-			<word num="1">
+		<verse num="2" id="v2">
+			<word num="1" id="v2-w1">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -136,7 +136,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v2-w2">
 				<strongs>1577</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -146,7 +146,7 @@
 				<chinese unaudited="unaudited">的教會</chinese>
 				<chinese-definition>會眾、教會</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v2-w3">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -156,7 +156,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v2-w4">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -166,7 +166,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v2-w5">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -176,7 +176,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v2-w6">
 				<strongs>1510</strongs>
 				<pos>V-PPA-DFS</pos>
 				<parse>Verb - Present Participle Active - Dative Feminine Singular</parse>
@@ -186,7 +186,7 @@
 				<chinese unaudited="unaudited">是</chinese>
 				<chinese-definition>是、在、有</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v2-w7">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -196,7 +196,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v2-w8">
 				<strongs>2882</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -206,7 +206,7 @@
 				<chinese unaudited="unaudited">寫信給在哥林多</chinese>
 				<chinese-definition>專有名詞，地名：哥林多</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v2-w9">
 				<strongs>37</strongs>
 				<pos>V-RPM/P-DMP</pos>
 				<parse>Verb - Perfect Participle Middle or Passive - Dative Masculine Plural</parse>
@@ -216,7 +216,7 @@
 				<chinese unaudited="unaudited">成聖</chinese>
 				<chinese-definition>分別為聖、使成聖潔、潔淨</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v2-w10">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -226,7 +226,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v2-w11">
 				<strongs>5547</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -236,7 +236,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v2-w12">
 				<strongs>2424</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -246,7 +246,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v2-w13">
 				<strongs>2822</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -256,7 +256,7 @@
 				<chinese unaudited="unaudited">蒙召</chinese>
 				<chinese-definition>蒙召的</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v2-w14">
 				<strongs>40</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -266,7 +266,7 @@
 				<chinese unaudited="unaudited">作聖徒</chinese>
 				<chinese-definition>聖潔的、分別為聖的、聖徒</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v2-w15">
 				<strongs>4862</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -276,7 +276,7 @@
 				<chinese unaudited="unaudited">的以及</chinese>
 				<chinese-definition>後接間接受格，意思是「跟...一起」</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v2-w16">
 				<strongs>3956</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -286,7 +286,7 @@
 				<chinese unaudited="unaudited">所有</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v2-w17">
 				<strongs>3588</strongs>
 				<pos>Art-DMP</pos>
 				<parse>Article - Dative Masculine Plural</parse>
@@ -296,7 +296,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v2-w18">
 				<strongs>1941</strongs>
 				<pos>V-PPM-DMP</pos>
 				<parse>Verb - Present Participle Middle - Dative Masculine Plural</parse>
@@ -306,7 +306,7 @@
 				<chinese unaudited="unaudited">求告</chinese>
 				<chinese-definition>叫、請求、取名，關身時意思是「求告、上訴」</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v2-w19">
 				<strongs>3588</strongs>
 				<pos>Art-ANS</pos>
 				<parse>Article - Accusative Neuter Singular</parse>
@@ -316,7 +316,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v2-w20">
 				<strongs>3686</strongs>
 				<pos>N-ANS</pos>
 				<parse>Noun - Accusative Neuter Singular</parse>
@@ -326,7 +326,7 @@
 				<chinese unaudited="unaudited">之名</chinese>
 				<chinese-definition>名字</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v2-w21">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -336,7 +336,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v2-w22">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -346,7 +346,7 @@
 				<chinese unaudited="unaudited">我主</chinese>
 				<chinese-definition>主</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v2-w23">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -356,7 +356,7 @@
 				<chinese unaudited="unaudited">是我們的主</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v2-w24">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -366,7 +366,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v2-w25">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -376,7 +376,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="26">
+			<word num="26" id="v2-w26">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -386,7 +386,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="27">
+			<word num="27" id="v2-w27">
 				<strongs>3956</strongs>
 				<pos>Adj-DMS</pos>
 				<parse>Adjective - Dative Masculine Singular</parse>
@@ -396,7 +396,7 @@
 				<chinese unaudited="unaudited">各</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="28">
+			<word num="28" id="v2-w28">
 				<strongs>5117</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -406,7 +406,7 @@
 				<chinese unaudited="unaudited">處</chinese>
 				<chinese-definition>地方</chinese-definition>
 			</word>
-			<word num="29">
+			<word num="29" id="v2-w29">
 				<strongs>846</strongs>
 				<pos>PPro-GM3P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive Masculine 3rd Person Plural</parse>
@@ -416,7 +416,7 @@
 				<chinese unaudited="unaudited">的人基督是他們的</chinese>
 				<chinese-definition>他</chinese-definition>
 			</word>
-			<word num="30">
+			<word num="30" id="v2-w30">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -426,7 +426,7 @@
 				<chinese unaudited="unaudited">主也</chinese>
 				<chinese-definition>甚至、也、並且、然後、和</chinese-definition>
 			</word>
-			<word num="31">
+			<word num="31" id="v2-w31">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -437,8 +437,8 @@
 				<chinese-definition>我</chinese-definition>
 			</word>
 		</verse>
-		<verse num="3">
-			<word num="1">
+		<verse num="3" id="v3">
+			<word num="1" id="v3-w1">
 				<strongs>5485</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -448,7 +448,7 @@
 				<chinese unaudited="unaudited">願恩惠</chinese>
 				<chinese-definition>恩惠、善意、憐憫</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v3-w2">
 				<strongs>4771</strongs>
 				<pos>PPro-D2P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 2nd Person Plural</parse>
@@ -458,7 +458,7 @@
 				<chinese unaudited="unaudited">歸與你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v3-w3">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -468,7 +468,7 @@
 				<chinese unaudited="unaudited">並</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v3-w4">
 				<strongs>1515</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -478,7 +478,7 @@
 				<chinese unaudited="unaudited">平安</chinese>
 				<chinese-definition>平安、和諧</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v3-w5">
 				<strongs>575</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -488,7 +488,7 @@
 				<chinese unaudited="unaudited">從</chinese>
 				<chinese-definition>後接所有格，意思是「從... 」</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v3-w6">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -498,7 +498,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v3-w7">
 				<strongs>3962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -508,7 +508,7 @@
 				<chinese unaudited="unaudited">父</chinese>
 				<chinese-definition>父親、祖先</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v3-w8">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -518,7 +518,7 @@
 				<chinese unaudited="unaudited">我們的</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v3-w9">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -528,7 +528,7 @@
 				<chinese unaudited="unaudited">並</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v3-w10">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -538,7 +538,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v3-w11">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -548,7 +548,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v3-w12">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -559,8 +559,8 @@
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
 		</verse>
-		<verse num="4">
-			<word num="1">
+		<verse num="4" id="v4">
+			<word num="1" id="v4-w1">
 				<strongs>2168</strongs>
 				<pos>V-PIA-1S</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Singular</parse>
@@ -570,7 +570,7 @@
 				<chinese unaudited="unaudited">感謝</chinese>
 				<chinese-definition>感謝</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v4-w2">
 				<strongs>3588</strongs>
 				<pos>Art-DMS</pos>
 				<parse>Article - Dative Masculine Singular</parse>
@@ -580,7 +580,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v4-w3">
 				<strongs>2316</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -590,7 +590,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v4-w4">
 				<strongs>1473</strongs>
 				<pos>PPro-G1S</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Singular</parse>
@@ -600,7 +600,7 @@
 				<chinese unaudited="unaudited">我的</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v4-w5">
 				<strongs>3842</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -610,7 +610,7 @@
 				<chinese unaudited="unaudited">我常</chinese>
 				<chinese-definition>總是</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v4-w6">
 				<strongs>4012</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -620,7 +620,7 @@
 				<chinese unaudited="unaudited">所</chinese>
 				<chinese-definition>後接所有格時意思是「為了、關於」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v4-w7">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -630,7 +630,7 @@
 				<chinese unaudited="unaudited">為你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v4-w8">
 				<strongs>1909</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -640,7 +640,7 @@
 				<chinese unaudited="unaudited">因</chinese>
 				<chinese-definition>後接間接受格時意思是「在...之上、因為」</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v4-w9">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -650,7 +650,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v4-w10">
 				<strongs>5485</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -660,7 +660,7 @@
 				<chinese unaudited="unaudited">的恩惠</chinese>
 				<chinese-definition>恩惠、善意、憐憫</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v4-w11">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -670,7 +670,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v4-w12">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -680,7 +680,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v4-w13">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -690,7 +690,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v4-w14">
 				<strongs>1325</strongs>
 				<pos>V-APP-DFS</pos>
 				<parse>Verb - Aorist Participle Passive - Dative Feminine Singular</parse>
@@ -700,7 +700,7 @@
 				<chinese unaudited="unaudited">賜給</chinese>
 				<chinese-definition>給、允許、使...發生</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v4-w15">
 				<strongs>4771</strongs>
 				<pos>PPro-D2P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 2nd Person Plural</parse>
@@ -710,7 +710,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v4-w16">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -720,7 +720,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v4-w17">
 				<strongs>5547</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -730,7 +730,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v4-w18">
 				<strongs>2424</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -741,8 +741,8 @@
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
 		</verse>
-		<verse num="5">
-			<word num="1">
+		<verse num="5" id="v5">
+			<word num="1" id="v5-w1">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -752,7 +752,7 @@
 				<chinese unaudited="unaudited">又因</chinese>
 				<chinese-definition>因為、不必翻譯帶出子句</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v5-w2">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -762,7 +762,7 @@
 				<chinese unaudited="unaudited">你們在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v5-w3">
 				<strongs>3956</strongs>
 				<pos>Adj-DNS</pos>
 				<parse>Adjective - Dative Neuter Singular</parse>
@@ -772,7 +772,7 @@
 				<chinese unaudited="unaudited">凡事</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v5-w4">
 				<strongs>4148</strongs>
 				<pos>V-AIP-2P</pos>
 				<parse>Verb - Aorist Indicative Passive - 2nd Person Plural</parse>
@@ -782,7 +782,7 @@
 				<chinese unaudited="unaudited">富足</chinese>
 				<chinese-definition>使富足</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v5-w5">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -792,7 +792,7 @@
 				<chinese unaudited="unaudited">裡面</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v5-w6">
 				<strongs>846</strongs>
 				<pos>PPro-DM3S</pos>
 				<parse>Personal / Possessive Pronoun - Dative Masculine 3rd Person Singular</parse>
@@ -802,7 +802,7 @@
 				<chinese unaudited="unaudited">他</chinese>
 				<chinese-definition>他</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v5-w7">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -812,7 +812,7 @@
 				<chinese unaudited="unaudited">裡面</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v5-w8">
 				<strongs>3956</strongs>
 				<pos>Adj-DMS</pos>
 				<parse>Adjective - Dative Masculine Singular</parse>
@@ -822,7 +822,7 @@
 				<chinese unaudited="unaudited">都全備</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v5-w9">
 				<strongs>3056</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -832,7 +832,7 @@
 				<chinese unaudited="unaudited">口才</chinese>
 				<chinese-definition>話語、道</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v5-w10">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -842,7 +842,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v5-w11">
 				<strongs>3956</strongs>
 				<pos>Adj-DFS</pos>
 				<parse>Adjective - Dative Feminine Singular</parse>
@@ -852,7 +852,7 @@
 				<chinese unaudited="unaudited">都全備</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v5-w12">
 				<strongs>1108</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -863,8 +863,8 @@
 				<chinese-definition>知識</chinese-definition>
 			</word>
 		</verse>
-		<verse num="6">
-			<word num="1">
+		<verse num="6" id="v6">
+			<word num="1" id="v6-w1">
 				<strongs>2531</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -874,7 +874,7 @@
 				<chinese unaudited="unaudited">正如</chinese>
 				<chinese-definition>正如、照著</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v6-w2">
 				<strongs>3588</strongs>
 				<pos>Art-NNS</pos>
 				<parse>Article - Nominative Neuter Singular</parse>
@@ -884,7 +884,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v6-w3">
 				<strongs>3142</strongs>
 				<pos>N-NNS</pos>
 				<parse>Noun - Nominative Neuter Singular</parse>
@@ -894,7 +894,7 @@
 				<chinese unaudited="unaudited">作的見證</chinese>
 				<chinese-definition>見證、證詞</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v6-w4">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -904,7 +904,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v6-w5">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -914,7 +914,7 @@
 				<chinese unaudited="unaudited">我為基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v6-w6">
 				<strongs>950</strongs>
 				<pos>V-AIP-3S</pos>
 				<parse>Verb - Aorist Indicative Passive - 3rd Person Singular</parse>
@@ -924,7 +924,7 @@
 				<chinese unaudited="unaudited">心裡得以堅固</chinese>
 				<chinese-definition>堅固、證實</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v6-w7">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -934,7 +934,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v6-w8">
 				<strongs>4771</strongs>
 				<pos>PPro-D2P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 2nd Person Plural</parse>
@@ -945,8 +945,8 @@
 				<chinese-definition>你</chinese-definition>
 			</word>
 		</verse>
-		<verse num="7">
-			<word num="1">
+		<verse num="7" id="v7">
+			<word num="1" id="v7-w1">
 				<strongs>5620</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -956,7 +956,7 @@
 				<chinese unaudited="unaudited">以致</chinese>
 				<chinese-definition>因此、以致於</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v7-w2">
 				<strongs>4771</strongs>
 				<pos>PPro-A2P</pos>
 				<parse>Personal / Possessive Pronoun - Accusative 2nd Person Plural</parse>
@@ -966,7 +966,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v7-w3">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -976,7 +976,7 @@
 				<chinese unaudited="unaudited">沒有</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v7-w4">
 				<strongs>5302</strongs>
 				<pos>V-PNM/P</pos>
 				<parse>Verb - Present Infinitive Middle or Passive</parse>
@@ -986,7 +986,7 @@
 				<chinese unaudited="unaudited">一樣不及</chinese>
 				<chinese-definition>晚到、遲到、缺少，被動時意思是「缺少」</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v7-w5">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -996,7 +996,7 @@
 				<chinese unaudited="unaudited">上</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v7-w6">
 				<strongs>3367</strongs>
 				<pos>Adj-DNS</pos>
 				<parse>Adjective - Dative Neuter Singular</parse>
@@ -1006,7 +1006,7 @@
 				<chinese unaudited="unaudited">沒有</chinese>
 				<chinese-definition>沒有一個</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v7-w7">
 				<strongs>5486</strongs>
 				<pos>N-DNP</pos>
 				<parse>Noun - Dative Neuter Plural</parse>
@@ -1016,7 +1016,7 @@
 				<chinese unaudited="unaudited">在恩賜</chinese>
 				<chinese-definition>恩賜</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v7-w8">
 				<strongs>553</strongs>
 				<pos>V-PPM/P-AMP</pos>
 				<parse>Verb - Present Participle Middle or Passive - Accusative Masculine Plural</parse>
@@ -1026,7 +1026,7 @@
 				<chinese unaudited="unaudited">人的等候</chinese>
 				<chinese-definition>等待</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v7-w9">
 				<strongs>3588</strongs>
 				<pos>Art-AFS</pos>
 				<parse>Article - Accusative Feminine Singular</parse>
@@ -1036,7 +1036,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v7-w10">
 				<strongs>602</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -1046,7 +1046,7 @@
 				<chinese unaudited="unaudited">顯現</chinese>
 				<chinese-definition>顯現、啟示</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v7-w11">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -1056,7 +1056,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v7-w12">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1066,7 +1066,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v7-w13">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -1076,7 +1076,7 @@
 				<chinese unaudited="unaudited">我們的</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v7-w14">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1086,7 +1086,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v7-w15">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1097,8 +1097,8 @@
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
 		</verse>
-		<verse num="8">
-			<word num="1">
+		<verse num="8" id="v8">
+			<word num="1" id="v8-w1">
 				<strongs>3739</strongs>
 				<pos>RelPro-NMS</pos>
 				<parse>Personal / Relative Pronoun - Nominative Masculine Singular</parse>
@@ -1108,7 +1108,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>帶出關係子句修飾先行詞</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v8-w2">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1118,7 +1118,7 @@
 				<chinese unaudited="unaudited">他也</chinese>
 				<chinese-definition>甚至、也、並且、然後、和</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v8-w3">
 				<strongs>950</strongs>
 				<pos>V-FIA-3S</pos>
 				<parse>Verb - Future Indicative Active - 3rd Person Singular</parse>
@@ -1128,7 +1128,7 @@
 				<chinese unaudited="unaudited">必堅固</chinese>
 				<chinese-definition>證實、加強、使堅固</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v8-w4">
 				<strongs>4771</strongs>
 				<pos>PPro-A2P</pos>
 				<parse>Personal / Possessive Pronoun - Accusative 2nd Person Plural</parse>
@@ -1138,7 +1138,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v8-w5">
 				<strongs>2193</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1148,7 +1148,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>後接所有格，意思是「直到」</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v8-w6">
 				<strongs>5056</strongs>
 				<pos>N-GNS</pos>
 				<parse>Noun - Genitive Neuter Singular</parse>
@@ -1158,7 +1158,7 @@
 				<chinese unaudited="unaudited">底</chinese>
 				<chinese-definition>結束、終局、總結</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v8-w7">
 				<strongs>410</strongs>
 				<pos>Adj-AMP</pos>
 				<parse>Adjective - Accusative Masculine Plural</parse>
@@ -1168,7 +1168,7 @@
 				<chinese unaudited="unaudited">無可責備</chinese>
 				<chinese-definition>沒有過錯、無可非難的</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v8-w8">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1178,7 +1178,7 @@
 				<chinese unaudited="unaudited">叫你們在</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v8-w9">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -1188,7 +1188,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v8-w10">
 				<strongs>2250</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -1198,7 +1198,7 @@
 				<chinese unaudited="unaudited">的日子</chinese>
 				<chinese-definition>一天、日子</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v8-w11">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -1208,7 +1208,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v8-w12">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1218,7 +1218,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v8-w13">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -1228,7 +1228,7 @@
 				<chinese unaudited="unaudited">我們</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v8-w14">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1238,7 +1238,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v8-w15">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1249,8 +1249,8 @@
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
 		</verse>
-		<verse num="9">
-			<word num="1">
+		<verse num="9" id="v9">
+			<word num="1" id="v9-w1">
 				<strongs>4103</strongs>
 				<pos>Adj-NMS</pos>
 				<parse>Adjective - Nominative Masculine Singular</parse>
@@ -1260,7 +1260,7 @@
 				<chinese unaudited="unaudited">是信實</chinese>
 				<chinese-definition>忠心的、忠實的、相信的</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v9-w2">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -1270,7 +1270,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v9-w3">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -1280,7 +1280,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v9-w4">
 				<strongs>1223</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1290,7 +1290,7 @@
 				<chinese unaudited="unaudited">的你們原是被</chinese>
 				<chinese-definition>後接所有格時意思是「藉著、通過」</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v9-w5">
 				<strongs>3739</strongs>
 				<pos>RelPro-GMS</pos>
 				<parse>Personal / Relative Pronoun - Genitive Masculine Singular</parse>
@@ -1300,7 +1300,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>帶出關係子句修飾先行詞</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v9-w6">
 				<strongs>2564</strongs>
 				<pos>V-AIP-2P</pos>
 				<parse>Verb - Aorist Indicative Passive - 2nd Person Plural</parse>
@@ -1310,7 +1310,7 @@
 				<chinese unaudited="unaudited">他所召</chinese>
 				<chinese-definition>呼叫、取名</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v9-w7">
 				<strongs>1519</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1320,7 +1320,7 @@
 				<chinese unaudited="unaudited">好與</chinese>
 				<chinese-definition>後接直接受格，意思是「成為、進入...之內、到、為了」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v9-w8">
 				<strongs>2842</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -1330,7 +1330,7 @@
 				<chinese unaudited="unaudited">一同得分</chinese>
 				<chinese-definition>團契、親密關係、交流</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v9-w9">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -1340,7 +1340,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v9-w10">
 				<strongs>5207</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1350,7 +1350,7 @@
 				<chinese unaudited="unaudited">兒子</chinese>
 				<chinese-definition>兒子、子孫、子民</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v9-w11">
 				<strongs>846</strongs>
 				<pos>PPro-GM3S</pos>
 				<parse>Personal / Possessive Pronoun - Genitive Masculine 3rd Person Singular</parse>
@@ -1360,7 +1360,7 @@
 				<chinese unaudited="unaudited">他</chinese>
 				<chinese-definition>他</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v9-w12">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1370,7 +1370,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v9-w13">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1380,7 +1380,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v9-w14">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -1390,7 +1390,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v9-w15">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1400,7 +1400,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主、先生</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v9-w16">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -1411,8 +1411,8 @@
 				<chinese-definition>我</chinese-definition>
 			</word>
 		</verse>
-		<verse num="10">
-			<word num="1">
+		<verse num="10" id="v10">
+			<word num="1" id="v10-w1">
 				<strongs>3870</strongs>
 				<pos>V-PIA-1S</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Singular</parse>
@@ -1422,7 +1422,7 @@
 				<chinese unaudited="unaudited">勸</chinese>
 				<chinese-definition>勸勉、懇求、邀請、鼓勵</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v10-w2">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1432,7 +1432,7 @@
 				<chinese unaudited="unaudited">只</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v10-w3">
 				<strongs>4771</strongs>
 				<pos>PPro-A2P</pos>
 				<parse>Personal / Possessive Pronoun - Accusative 2nd Person Plural</parse>
@@ -1442,7 +1442,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v10-w4">
 				<strongs>80</strongs>
 				<pos>N-VMP</pos>
 				<parse>Noun - Vocative Masculine Plural</parse>
@@ -1452,7 +1452,7 @@
 				<chinese unaudited="unaudited">弟兄們</chinese>
 				<chinese-definition>弟兄、兄弟</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v10-w5">
 				<strongs>1223</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1462,7 +1462,7 @@
 				<chinese unaudited="unaudited">我藉</chinese>
 				<chinese-definition>後接所有格時意思是「藉著、通過」</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v10-w6">
 				<strongs>3588</strongs>
 				<pos>Art-GNS</pos>
 				<parse>Article - Genitive Neuter Singular</parse>
@@ -1472,7 +1472,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v10-w7">
 				<strongs>3686</strongs>
 				<pos>N-GNS</pos>
 				<parse>Noun - Genitive Neuter Singular</parse>
@@ -1482,7 +1482,7 @@
 				<chinese unaudited="unaudited">的名</chinese>
 				<chinese-definition>名字</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v10-w8">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -1492,7 +1492,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v10-w9">
 				<strongs>2962</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1502,7 +1502,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主、先生</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v10-w10">
 				<strongs>1473</strongs>
 				<pos>PPro-G1P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Plural</parse>
@@ -1512,7 +1512,7 @@
 				<chinese unaudited="unaudited">我們</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v10-w11">
 				<strongs>2424</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1522,7 +1522,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v10-w12">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -1532,7 +1532,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v10-w13">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1542,7 +1542,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v10-w14">
 				<strongs>3588</strongs>
 				<pos>Art-ANS</pos>
 				<parse>Article - Accusative Neuter Singular</parse>
@@ -1552,7 +1552,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v10-w15">
 				<strongs>846</strongs>
 				<pos>PPro-AN3S</pos>
 				<parse>Personal / Possessive Pronoun - Accusative Neuter 3rd Person Singular</parse>
@@ -1562,7 +1562,7 @@
 				<chinese unaudited="unaudited">一樣的話</chinese>
 				<chinese-definition>形容詞時意思是「相同的」</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v10-w16">
 				<strongs>3004</strongs>
 				<pos>V-PSA-2P</pos>
 				<parse>Verb - Present Subjunctive Active - 2nd Person Plural</parse>
@@ -1572,7 +1572,7 @@
 				<chinese unaudited="unaudited">說</chinese>
 				<chinese-definition>說</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v10-w17">
 				<strongs>3956</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -1582,7 +1582,7 @@
 				<chinese unaudited="unaudited">都</chinese>
 				<chinese-definition>所有的、每一個</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v10-w18">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1592,7 +1592,7 @@
 				<chinese unaudited="unaudited">也</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v10-w19">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -1602,7 +1602,7 @@
 				<chinese unaudited="unaudited">不</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v10-w20">
 				<strongs>1510</strongs>
 				<pos>V-PSA-3S</pos>
 				<parse>Verb - Present Subjunctive Active - 3rd Person Singular</parse>
@@ -1612,7 +1612,7 @@
 				<chinese unaudited="unaudited">可</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v10-w21">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1622,7 +1622,7 @@
 				<chinese unaudited="unaudited">中間</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v10-w22">
 				<strongs>4771</strongs>
 				<pos>PPro-D2P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 2nd Person Plural</parse>
@@ -1632,7 +1632,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v10-w23">
 				<strongs>4978</strongs>
 				<pos>N-NNP</pos>
 				<parse>Noun - Nominative Neuter Plural</parse>
@@ -1642,7 +1642,7 @@
 				<chinese unaudited="unaudited">分黨</chinese>
 				<chinese-definition>分裂</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v10-w24">
 				<strongs>1510</strongs>
 				<pos>V-PSA-2P</pos>
 				<parse>Verb - Present Subjunctive Active - 2nd Person Plural</parse>
@@ -1652,7 +1652,7 @@
 				<chinese unaudited="unaudited">要</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v10-w25">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1662,7 +1662,7 @@
 				<chinese unaudited="unaudited">只</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="26">
+			<word num="26" id="v10-w26">
 				<strongs>2675</strongs>
 				<pos>V-RPM/P-NMP</pos>
 				<parse>Verb - Perfect Participle Middle or Passive - Nominative Masculine Plural</parse>
@@ -1672,7 +1672,7 @@
 				<chinese unaudited="unaudited">彼此相合</chinese>
 				<chinese-definition>復原、修理、恢復</chinese-definition>
 			</word>
-			<word num="27">
+			<word num="27" id="v10-w27">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1682,7 +1682,7 @@
 				<chinese unaudited="unaudited">中間</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="28">
+			<word num="28" id="v10-w28">
 				<strongs>3588</strongs>
 				<pos>Art-DMS</pos>
 				<parse>Article - Dative Masculine Singular</parse>
@@ -1692,7 +1692,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="29">
+			<word num="29" id="v10-w29">
 				<strongs>846</strongs>
 				<pos>PPro-DM3S</pos>
 				<parse>Personal / Possessive Pronoun - Dative Masculine 3rd Person Singular</parse>
@@ -1702,7 +1702,7 @@
 				<chinese unaudited="unaudited">一</chinese>
 				<chinese-definition>形容詞時意思是「相同的」</chinese-definition>
 			</word>
-			<word num="30">
+			<word num="30" id="v10-w30">
 				<strongs>3563</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -1712,7 +1712,7 @@
 				<chinese unaudited="unaudited">心</chinese>
 				<chinese-definition>心思、思想、理智</chinese-definition>
 			</word>
-			<word num="31">
+			<word num="31" id="v10-w31">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1722,7 +1722,7 @@
 				<chinese unaudited="unaudited">也</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="32">
+			<word num="32" id="v10-w32">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1732,7 +1732,7 @@
 				<chinese unaudited="unaudited">中間</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="33">
+			<word num="33" id="v10-w33">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -1742,7 +1742,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="34">
+			<word num="34" id="v10-w34">
 				<strongs>846</strongs>
 				<pos>PPro-DF3S</pos>
 				<parse>Personal / Possessive Pronoun - Dative Feminine 3rd Person Singular</parse>
@@ -1752,7 +1752,7 @@
 				<chinese unaudited="unaudited">一</chinese>
 				<chinese-definition>形容詞時意思是「相同的」</chinese-definition>
 			</word>
-			<word num="35">
+			<word num="35" id="v10-w35">
 				<strongs>1106</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -1763,8 +1763,8 @@
 				<chinese-definition>想法、目的、意圖、心態</chinese-definition>
 			</word>
 		</verse>
-		<verse num="11">
-			<word num="1">
+		<verse num="11" id="v11">
+			<word num="1" id="v11-w1">
 				<strongs>1213</strongs>
 				<pos>V-AIP-3S</pos>
 				<parse>Verb - Aorist Indicative Passive - 3rd Person Singular</parse>
@@ -1774,7 +1774,7 @@
 				<chinese unaudited="unaudited">提</chinese>
 				<chinese-definition>使知道、使清晰、顯示、指示</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v11-w2">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1784,7 +1784,7 @@
 				<chinese unaudited="unaudited">因為</chinese>
 				<chinese-definition>因為、的確</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v11-w3">
 				<strongs>1473</strongs>
 				<pos>PPro-D1S</pos>
 				<parse>Personal / Possessive Pronoun - Dative 1st Person Singular</parse>
@@ -1794,7 +1794,7 @@
 				<chinese unaudited="unaudited">裡的人曾對我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v11-w4">
 				<strongs>4012</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1804,7 +1804,7 @@
 				<chinese unaudited="unaudited">起</chinese>
 				<chinese-definition>後接所有格時意思是「關於...」</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v11-w5">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -1814,7 +1814,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v11-w6">
 				<strongs>80</strongs>
 				<pos>N-VMP</pos>
 				<parse>Noun - Vocative Masculine Plural</parse>
@@ -1824,7 +1824,7 @@
 				<chinese unaudited="unaudited">弟兄們</chinese>
 				<chinese-definition>弟兄、兄弟</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v11-w7">
 				<strongs>1473</strongs>
 				<pos>PPro-G1S</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 1st Person Singular</parse>
@@ -1834,7 +1834,7 @@
 				<chinese unaudited="unaudited">裡的人曾對我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v11-w8">
 				<strongs>5259</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1844,7 +1844,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>後接所有格時意思是「被...」</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v11-w9">
 				<strongs>3588</strongs>
 				<pos>Art-GMP</pos>
 				<parse>Article - Genitive Masculine Plural</parse>
@@ -1854,7 +1854,7 @@
 				<chinese unaudited="unaudited">家</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v11-w10">
 				<strongs>5514</strongs>
 				<pos>N-GFS</pos>
 				<parse>Noun - Genitive Feminine Singular</parse>
@@ -1864,7 +1864,7 @@
 				<chinese unaudited="unaudited">革來氏</chinese>
 				<chinese-definition>專有名詞，人名：革來</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v11-w11">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1874,7 +1874,7 @@
 				<chinese unaudited="unaudited">來說</chinese>
 				<chinese-definition>不必翻譯帶出子句、因為</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v11-w12">
 				<strongs>2054</strongs>
 				<pos>N-NFP</pos>
 				<parse>Noun - Nominative Feminine Plural</parse>
@@ -1884,7 +1884,7 @@
 				<chinese unaudited="unaudited">紛爭</chinese>
 				<chinese-definition>爭吵、對立</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v11-w13">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1894,7 +1894,7 @@
 				<chinese unaudited="unaudited">中間</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v11-w14">
 				<strongs>4771</strongs>
 				<pos>PPro-D2P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 2nd Person Plural</parse>
@@ -1904,7 +1904,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v11-w15">
 				<strongs>1510</strongs>
 				<pos>V-PIA-3P</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Plural</parse>
@@ -1915,8 +1915,8 @@
 				<chinese-definition>是、有</chinese-definition>
 			</word>
 		</verse>
-		<verse num="12">
-			<word num="1">
+		<verse num="12" id="v12">
+			<word num="1" id="v12-w1">
 				<strongs>3004</strongs>
 				<pos>V-PIA-1S</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Singular</parse>
@@ -1926,7 +1926,7 @@
 				<chinese unaudited="unaudited">我的意思</chinese>
 				<chinese-definition>說</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v12-w2">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1936,7 +1936,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v12-w3">
 				<strongs>3778</strongs>
 				<pos>DPro-ANS</pos>
 				<parse>Demonstrative Pronoun - Accusative Neuter Singular</parse>
@@ -1946,7 +1946,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>這個</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v12-w4">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -1956,7 +1956,7 @@
 				<chinese unaudited="unaudited">就是</chinese>
 				<chinese-definition>因為、不必翻譯帶出子句</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v12-w5">
 				<strongs>1538</strongs>
 				<pos>Adj-NMS</pos>
 				<parse>Adjective - Nominative Masculine Singular</parse>
@@ -1966,7 +1966,7 @@
 				<chinese unaudited="unaudited">各人</chinese>
 				<chinese-definition>每一個</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v12-w6">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -1976,7 +1976,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v12-w7">
 				<strongs>3004</strongs>
 				<pos>V-PIA-3S</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Singular</parse>
@@ -1986,7 +1986,7 @@
 				<chinese unaudited="unaudited">說</chinese>
 				<chinese-definition>說</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v12-w8">
 				<strongs>1473</strongs>
 				<pos>PPro-N1S</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 1st Person Singular</parse>
@@ -1996,7 +1996,7 @@
 				<chinese unaudited="unaudited">我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v12-w9">
 				<strongs>3303</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2006,7 +2006,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯，表示對比</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v12-w10">
 				<strongs>1510</strongs>
 				<pos>V-PIA-1S</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Singular</parse>
@@ -2016,7 +2016,7 @@
 				<chinese unaudited="unaudited">是</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v12-w11">
 				<strongs>3972</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2026,7 +2026,7 @@
 				<chinese unaudited="unaudited">屬保羅</chinese>
 				<chinese-definition>專有名詞，人名：保羅</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v12-w12">
 				<strongs>1473</strongs>
 				<pos>PPro-N1S</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 1st Person Singular</parse>
@@ -2036,7 +2036,7 @@
 				<chinese unaudited="unaudited">的我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v12-w13">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2046,7 +2046,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v12-w14">
 				<strongs>625</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2056,7 +2056,7 @@
 				<chinese unaudited="unaudited">是屬亞波羅</chinese>
 				<chinese-definition>專有名詞，人名：亞波羅</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v12-w15">
 				<strongs>1473</strongs>
 				<pos>PPro-N1S</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 1st Person Singular</parse>
@@ -2066,7 +2066,7 @@
 				<chinese unaudited="unaudited">的我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v12-w16">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2076,7 +2076,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v12-w17">
 				<strongs>2786</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2086,7 +2086,7 @@
 				<chinese unaudited="unaudited">是屬磯法</chinese>
 				<chinese-definition>專有名詞，人名：磯法、「在...之時」</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v12-w18">
 				<strongs>1473</strongs>
 				<pos>PPro-N1S</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 1st Person Singular</parse>
@@ -2096,7 +2096,7 @@
 				<chinese unaudited="unaudited">的我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v12-w19">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2106,7 +2106,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v12-w20">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2117,8 +2117,8 @@
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
 		</verse>
-		<verse num="13">
-			<word num="1">
+		<verse num="13" id="v13">
+			<word num="1" id="v13-w1">
 				<strongs>3307</strongs>
 				<pos>V-RIM/P-3S</pos>
 				<parse>Verb - Perfect Indicative Middle or Passive - 3rd Person Singular</parse>
@@ -2128,7 +2128,7 @@
 				<chinese unaudited="unaudited">是分開</chinese>
 				<chinese-definition>區分、給</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v13-w2">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -2138,7 +2138,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v13-w3">
 				<strongs>5547</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -2148,7 +2148,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v13-w4">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2158,7 +2158,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v13-w5">
 				<strongs>3972</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -2168,7 +2168,7 @@
 				<chinese unaudited="unaudited">的嗎保羅</chinese>
 				<chinese-definition>專有名詞，人名：保羅</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v13-w6">
 				<strongs>4717</strongs>
 				<pos>V-AIP-3S</pos>
 				<parse>Verb - Aorist Indicative Passive - 3rd Person Singular</parse>
@@ -2178,7 +2178,7 @@
 				<chinese unaudited="unaudited">釘了十字架</chinese>
 				<chinese-definition>釘十字架</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v13-w7">
 				<strongs>5228</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2188,7 +2188,7 @@
 				<chinese unaudited="unaudited">為</chinese>
 				<chinese-definition>後接所有格時意思是「為了、代替、關於」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v13-w8">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -2198,7 +2198,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v13-w9">
 				<strongs>2228</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2208,7 +2208,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>或、比</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v13-w10">
 				<strongs>1519</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2218,7 +2218,7 @@
 				<chinese unaudited="unaudited">嗎你們是奉</chinese>
 				<chinese-definition>後接直接受格，意思是「成為、進入...之內、到、為了」</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v13-w11">
 				<strongs>3588</strongs>
 				<pos>Art-ANS</pos>
 				<parse>Article - Accusative Neuter Singular</parse>
@@ -2228,7 +2228,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v13-w12">
 				<strongs>3686</strongs>
 				<pos>N-ANS</pos>
 				<parse>Noun - Accusative Neuter Singular</parse>
@@ -2238,7 +2238,7 @@
 				<chinese unaudited="unaudited">的名</chinese>
 				<chinese-definition>名字</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v13-w13">
 				<strongs>3972</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2248,7 +2248,7 @@
 				<chinese unaudited="unaudited">保羅</chinese>
 				<chinese-definition>專有名詞，人名：保羅</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v13-w14">
 				<strongs>907</strongs>
 				<pos>V-AIP-2P</pos>
 				<parse>Verb - Aorist Indicative Passive - 2nd Person Plural</parse>
@@ -2259,8 +2259,8 @@
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
 		</verse>
-		<verse num="14">
-			<word num="1">
+		<verse num="14" id="v14">
+			<word num="1" id="v14-w1">
 				<strongs>2168</strongs>
 				<pos>V-PIA-1S</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Singular</parse>
@@ -2270,7 +2270,7 @@
 				<chinese unaudited="unaudited">我感謝</chinese>
 				<chinese-definition>感謝</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v14-w2">
 				<strongs>3588</strongs>
 				<pos>Art-DMS</pos>
 				<parse>Article - Dative Masculine Singular</parse>
@@ -2280,7 +2280,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v14-w3">
 				<strongs>2316</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -2290,7 +2290,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v14-w4">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2300,7 +2300,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯帶出子句、因為</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v14-w5">
 				<strongs>3762</strongs>
 				<pos>Adj-AMS</pos>
 				<parse>Adjective - Accusative Masculine Singular</parse>
@@ -2310,7 +2310,7 @@
 				<chinese unaudited="unaudited">一個人</chinese>
 				<chinese-definition>沒有一個、一點也不、無一人</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v14-w6">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -2320,7 +2320,7 @@
 				<chinese unaudited="unaudited">以外我沒有給你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v14-w7">
 				<strongs>907</strongs>
 				<pos>V-AIA-1S</pos>
 				<parse>Verb - Aorist Indicative Active - 1st Person Singular</parse>
@@ -2330,7 +2330,7 @@
 				<chinese unaudited="unaudited">施洗</chinese>
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v14-w8">
 				<strongs>1487</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2340,7 +2340,7 @@
 				<chinese unaudited="unaudited">除了</chinese>
 				<chinese-definition>是否、假若、既然</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v14-w9">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2350,7 +2350,7 @@
 				<chinese unaudited="unaudited">除了</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v14-w10">
 				<strongs>2921</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -2360,7 +2360,7 @@
 				<chinese unaudited="unaudited">基利司布</chinese>
 				<chinese-definition>專有名詞，人名：基利司布</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v14-w11">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2370,7 +2370,7 @@
 				<chinese unaudited="unaudited">並</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v14-w12">
 				<strongs>1050</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -2381,8 +2381,8 @@
 				<chinese-definition>專有名詞，人名：該猶</chinese-definition>
 			</word>
 		</verse>
-		<verse num="15">
-			<word num="1">
+		<verse num="15" id="v15">
+			<word num="1" id="v15-w1">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2392,7 +2392,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v15-w2">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2402,7 +2402,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v15-w3">
 				<strongs>5100</strongs>
 				<pos>IPro-NMS</pos>
 				<parse>Interrogative / Indefinite Pronoun - Nominative Masculine Singular</parse>
@@ -2412,7 +2412,7 @@
 				<chinese unaudited="unaudited">有人</chinese>
 				<chinese-definition>某個、有的、什麼</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v15-w4">
 				<strongs>2036</strongs>
 				<pos>V-ASA-3S</pos>
 				<parse>Verb - Aorist Subjunctive Active - 3rd Person Singular</parse>
@@ -2422,7 +2422,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>說</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v15-w5">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2432,7 +2432,7 @@
 				<chinese unaudited="unaudited">你們是</chinese>
 				<chinese-definition>不必翻譯帶出子句、因為</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v15-w6">
 				<strongs>1519</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2442,7 +2442,7 @@
 				<chinese unaudited="unaudited">奉</chinese>
 				<chinese-definition>後接直接受格，意思是「成為、進入...之內、到、為了」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v15-w7">
 				<strongs>3588</strongs>
 				<pos>Art-ANS</pos>
 				<parse>Article - Accusative Neuter Singular</parse>
@@ -2452,7 +2452,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v15-w8">
 				<strongs>1699</strongs>
 				<pos>PPro-AN1S</pos>
 				<parse>Personal / Possessive Pronoun - Accusative Neuter 1st Person Singular</parse>
@@ -2462,7 +2462,7 @@
 				<chinese unaudited="unaudited">我的</chinese>
 				<chinese-definition>我的</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v15-w9">
 				<strongs>3686</strongs>
 				<pos>N-ANS</pos>
 				<parse>Noun - Accusative Neuter Singular</parse>
@@ -2472,7 +2472,7 @@
 				<chinese unaudited="unaudited">名</chinese>
 				<chinese-definition>名字</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v15-w10">
 				<strongs>907</strongs>
 				<pos>V-AIP-2P</pos>
 				<parse>Verb - Aorist Indicative Passive - 2nd Person Plural</parse>
@@ -2483,8 +2483,8 @@
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
 		</verse>
-		<verse num="16">
-			<word num="1">
+		<verse num="16" id="v16">
+			<word num="1" id="v16-w1">
 				<strongs>907</strongs>
 				<pos>V-AIA-1S</pos>
 				<parse>Verb - Aorist Indicative Active - 1st Person Singular</parse>
@@ -2494,7 +2494,7 @@
 				<chinese unaudited="unaudited">施過洗</chinese>
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v16-w2">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2504,7 +2504,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v16-w3">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2514,7 +2514,7 @@
 				<chinese unaudited="unaudited">我也</chinese>
 				<chinese-definition>甚至、也、並且、然後、和</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v16-w4">
 				<strongs>3588</strongs>
 				<pos>Art-AMS</pos>
 				<parse>Article - Accusative Masculine Singular</parse>
@@ -2524,7 +2524,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v16-w5">
 				<strongs>4734</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2534,7 +2534,7 @@
 				<chinese unaudited="unaudited">給司提法那</chinese>
 				<chinese-definition>專有名詞，人名：司提法那</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v16-w6">
 				<strongs>3624</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -2544,7 +2544,7 @@
 				<chinese unaudited="unaudited">家</chinese>
 				<chinese-definition>屋子、聖殿、家人</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v16-w7">
 				<strongs>3063</strongs>
 				<pos>Adj-ANS</pos>
 				<parse>Adjective - Accusative Neuter Singular</parse>
@@ -2554,7 +2554,7 @@
 				<chinese unaudited="unaudited">此外給別</chinese>
 				<chinese-definition>其餘的、仍然、最後</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v16-w8">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2564,7 +2564,7 @@
 				<chinese unaudited="unaudited">不清</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v16-w9">
 				<strongs>1492</strongs>
 				<pos>V-RIA-1S</pos>
 				<parse>Verb - Perfect Indicative Active - 1st Person Singular</parse>
@@ -2574,7 +2574,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>記得、知道、認識、了解</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v16-w10">
 				<strongs>1487</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2584,7 +2584,7 @@
 				<chinese unaudited="unaudited">沒有</chinese>
 				<chinese-definition>是否、假若、既然</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v16-w11">
 				<strongs>5100</strongs>
 				<pos>IPro-AMS</pos>
 				<parse>Interrogative / Indefinite Pronoun - Accusative Masculine Singular</parse>
@@ -2594,7 +2594,7 @@
 				<chinese unaudited="unaudited">沒有</chinese>
 				<chinese-definition>某個、有的、什麼</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v16-w12">
 				<strongs>243</strongs>
 				<pos>Adj-AMS</pos>
 				<parse>Adjective - Accusative Masculine Singular</parse>
@@ -2604,7 +2604,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>另一個、其他的</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v16-w13">
 				<strongs>907</strongs>
 				<pos>V-AIA-1S</pos>
 				<parse>Verb - Aorist Indicative Active - 1st Person Singular</parse>
@@ -2615,8 +2615,8 @@
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
 		</verse>
-		<verse num="17">
-			<word num="1">
+		<verse num="17" id="v17">
+			<word num="1" id="v17-w1">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2626,7 +2626,7 @@
 				<chinese unaudited="unaudited">原不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v17-w2">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2636,7 +2636,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>因為、然後、的確是</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v17-w3">
 				<strongs>649</strongs>
 				<pos>V-AIA-3S</pos>
 				<parse>Verb - Aorist Indicative Active - 3rd Person Singular</parse>
@@ -2646,7 +2646,7 @@
 				<chinese unaudited="unaudited">差遣</chinese>
 				<chinese-definition>派遣</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v17-w4">
 				<strongs>1473</strongs>
 				<pos>PPro-A1S</pos>
 				<parse>Personal / Possessive Pronoun - Accusative 1st Person Singular</parse>
@@ -2656,7 +2656,7 @@
 				<chinese unaudited="unaudited">我</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v17-w5">
 				<strongs>5547</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -2666,7 +2666,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v17-w6">
 				<strongs>907</strongs>
 				<pos>V-PNA</pos>
 				<parse>Verb - Present Infinitive Active</parse>
@@ -2676,7 +2676,7 @@
 				<chinese unaudited="unaudited">是為施洗</chinese>
 				<chinese-definition>施洗、清洗</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v17-w7">
 				<strongs>235</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2686,7 +2686,7 @@
 				<chinese unaudited="unaudited">乃是</chinese>
 				<chinese-definition>而是、相反地</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v17-w8">
 				<strongs>2097</strongs>
 				<pos>V-PNM</pos>
 				<parse>Verb - Present Infinitive Middle</parse>
@@ -2696,7 +2696,7 @@
 				<chinese unaudited="unaudited">為傳福音</chinese>
 				<chinese-definition>傳福音、宣佈好消息，關身的意思和主動相同</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v17-w9">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2706,7 +2706,7 @@
 				<chinese unaudited="unaudited">並不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v17-w10">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2716,7 +2716,7 @@
 				<chinese unaudited="unaudited">用</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v17-w11">
 				<strongs>4678</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -2726,7 +2726,7 @@
 				<chinese unaudited="unaudited">智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v17-w12">
 				<strongs>3056</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2736,7 +2736,7 @@
 				<chinese unaudited="unaudited">的言語</chinese>
 				<chinese-definition>道、話語</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v17-w13">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2746,7 +2746,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v17-w14">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2756,7 +2756,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v17-w15">
 				<strongs>2758</strongs>
 				<pos>V-ASP-3S</pos>
 				<parse>Verb - Aorist Subjunctive Passive - 3rd Person Singular</parse>
@@ -2766,7 +2766,7 @@
 				<chinese unaudited="unaudited">落了空</chinese>
 				<chinese-definition>使無功效、使無意義</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v17-w16">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -2776,7 +2776,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v17-w17">
 				<strongs>4716</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -2786,7 +2786,7 @@
 				<chinese unaudited="unaudited">的十字架</chinese>
 				<chinese-definition>十字架</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v17-w18">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -2796,7 +2796,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v17-w19">
 				<strongs>5547</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2807,8 +2807,8 @@
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
 		</verse>
-		<verse num="18">
-			<word num="1">
+		<verse num="18" id="v18">
+			<word num="1" id="v18-w1">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -2818,7 +2818,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v18-w2">
 				<strongs>3056</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -2828,7 +2828,7 @@
 				<chinese unaudited="unaudited">的道理</chinese>
 				<chinese-definition>道、話語</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v18-w3">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2838,7 +2838,7 @@
 				<chinese unaudited="unaudited">因為</chinese>
 				<chinese-definition>因為、然後、的確是</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v18-w4">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -2848,7 +2848,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v18-w5">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -2858,7 +2858,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v18-w6">
 				<strongs>4716</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2868,7 +2868,7 @@
 				<chinese unaudited="unaudited">十字架</chinese>
 				<chinese-definition>十字架</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v18-w7">
 				<strongs>3588</strongs>
 				<pos>Art-DMP</pos>
 				<parse>Article - Dative Masculine Plural</parse>
@@ -2878,7 +2878,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v18-w8">
 				<strongs>3303</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2888,7 +2888,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯，表示對比</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v18-w9">
 				<strongs>622</strongs>
 				<pos>V-PPM/P-DMP</pos>
 				<parse>Verb - Present Participle Middle or Passive - Dative Masculine Plural</parse>
@@ -2898,7 +2898,7 @@
 				<chinese unaudited="unaudited">在那滅亡</chinese>
 				<chinese-definition>失去 、毀滅、殺害</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v18-w10">
 				<strongs>3472</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -2908,7 +2908,7 @@
 				<chinese unaudited="unaudited">愚拙</chinese>
 				<chinese-definition>愚昧</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v18-w11">
 				<strongs>1510</strongs>
 				<pos>V-PIA-3S</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Singular</parse>
@@ -2918,7 +2918,7 @@
 				<chinese unaudited="unaudited">的人為</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v18-w12">
 				<strongs>3588</strongs>
 				<pos>Art-DMP</pos>
 				<parse>Article - Dative Masculine Plural</parse>
@@ -2928,7 +2928,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v18-w13">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -2938,7 +2938,7 @@
 				<chinese unaudited="unaudited">的人卻</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v18-w14">
 				<strongs>4982</strongs>
 				<pos>V-PPM/P-DMP</pos>
 				<parse>Verb - Present Participle Middle or Passive - Dative Masculine Plural</parse>
@@ -2948,7 +2948,7 @@
 				<chinese unaudited="unaudited">得救</chinese>
 				<chinese-definition>醫治、拯救</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v18-w15">
 				<strongs>1473</strongs>
 				<pos>PPro-D1P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 1st Person Plural</parse>
@@ -2958,7 +2958,7 @@
 				<chinese unaudited="unaudited">在我們</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v18-w16">
 				<strongs>1411</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -2968,7 +2968,7 @@
 				<chinese unaudited="unaudited">的大能</chinese>
 				<chinese-definition>能力、力量</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v18-w17">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -2978,7 +2978,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v18-w18">
 				<strongs>1510</strongs>
 				<pos>V-PIA-3S</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Singular</parse>
@@ -2989,8 +2989,8 @@
 				<chinese-definition>是、有</chinese-definition>
 			</word>
 		</verse>
-		<verse num="19">
-			<word num="1">
+		<verse num="19" id="v19">
+			<word num="1" id="v19-w1">
 				<strongs>1125</strongs>
 				<pos>V-RIM/P-3S</pos>
 				<parse>Verb - Perfect Indicative Middle or Passive - 3rd Person Singular</parse>
@@ -3000,7 +3000,7 @@
 				<chinese unaudited="unaudited">經上所記</chinese>
 				<chinese-definition>寫信、寫</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v19-w2">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3010,7 +3010,7 @@
 				<chinese unaudited="unaudited">就如</chinese>
 				<chinese-definition>因為、然後、的確是</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v19-w3">
 				<strongs>622</strongs>
 				<pos>V-FIA-1S</pos>
 				<parse>Verb - Future Indicative Active - 1st Person Singular</parse>
@@ -3020,7 +3020,7 @@
 				<chinese unaudited="unaudited">我要滅絕</chinese>
 				<chinese-definition>失去 、毀滅、殺害</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v19-w4">
 				<strongs>3588</strongs>
 				<pos>Art-AFS</pos>
 				<parse>Article - Accusative Feminine Singular</parse>
@@ -3030,7 +3030,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v19-w5">
 				<strongs>4678</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3040,7 +3040,7 @@
 				<chinese unaudited="unaudited">的智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v19-w6">
 				<strongs>3588</strongs>
 				<pos>Art-GMP</pos>
 				<parse>Article - Genitive Masculine Plural</parse>
@@ -3050,7 +3050,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v19-w7">
 				<strongs>4680</strongs>
 				<pos>Adj-GMP</pos>
 				<parse>Adjective - Genitive Masculine Plural</parse>
@@ -3060,7 +3060,7 @@
 				<chinese unaudited="unaudited">智慧人</chinese>
 				<chinese-definition>聰明的、有經驗的</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v19-w8">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3070,7 +3070,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v19-w9">
 				<strongs>3588</strongs>
 				<pos>Art-AFS</pos>
 				<parse>Article - Accusative Feminine Singular</parse>
@@ -3080,7 +3080,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v19-w10">
 				<strongs>4907</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3090,7 +3090,7 @@
 				<chinese unaudited="unaudited">的聰明</chinese>
 				<chinese-definition>了解</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v19-w11">
 				<strongs>3588</strongs>
 				<pos>Art-GMP</pos>
 				<parse>Article - Genitive Masculine Plural</parse>
@@ -3100,7 +3100,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v19-w12">
 				<strongs>4908</strongs>
 				<pos>Adj-GMP</pos>
 				<parse>Adjective - Genitive Masculine Plural</parse>
@@ -3110,7 +3110,7 @@
 				<chinese unaudited="unaudited">聰明人</chinese>
 				<chinese-definition>有智慧的、聰明的</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v19-w13">
 				<strongs>114</strongs>
 				<pos>V-FIA-1S</pos>
 				<parse>Verb - Future Indicative Active - 1st Person Singular</parse>
@@ -3121,8 +3121,8 @@
 				<chinese-definition>拒絕、漠視、使之無效、置於一旁</chinese-definition>
 			</word>
 		</verse>
-		<verse num="20">
-			<word num="1">
+		<verse num="20" id="v20">
+			<word num="1" id="v20-w1">
 				<strongs>4226</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -3132,7 +3132,7 @@
 				<chinese unaudited="unaudited">在哪裡</chinese>
 				<chinese-definition>何處</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v20-w2">
 				<strongs>4680</strongs>
 				<pos>Adj-NMS</pos>
 				<parse>Adjective - Nominative Masculine Singular</parse>
@@ -3142,7 +3142,7 @@
 				<chinese unaudited="unaudited">智慧人</chinese>
 				<chinese-definition>聰明的、有經驗的</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v20-w3">
 				<strongs>4226</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -3152,7 +3152,7 @@
 				<chinese unaudited="unaudited">在哪裡</chinese>
 				<chinese-definition>何處</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v20-w4">
 				<strongs>1122</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -3162,7 +3162,7 @@
 				<chinese unaudited="unaudited">文士</chinese>
 				<chinese-definition>文士、書記</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v20-w5">
 				<strongs>4226</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -3172,7 +3172,7 @@
 				<chinese unaudited="unaudited">在哪裡</chinese>
 				<chinese-definition>何處</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v20-w6">
 				<strongs>4804</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -3182,7 +3182,7 @@
 				<chinese unaudited="unaudited">上的辯士</chinese>
 				<chinese-definition>有辯才的人</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v20-w7">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -3192,7 +3192,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v20-w8">
 				<strongs>165</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3202,7 +3202,7 @@
 				<chinese unaudited="unaudited">世</chinese>
 				<chinese-definition>世代、世界的秩序、永遠</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v20-w9">
 				<strongs>3778</strongs>
 				<pos>DPro-GMS</pos>
 				<parse>Demonstrative Pronoun - Genitive Masculine Singular</parse>
@@ -3212,7 +3212,7 @@
 				<chinese unaudited="unaudited">這</chinese>
 				<chinese-definition>這</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v20-w10">
 				<strongs>3780</strongs>
 				<pos>IntPrtcl</pos>
 				<parse>IntPrtcl</parse>
@@ -3222,7 +3222,7 @@
 				<chinese unaudited="unaudited">豈不</chinese>
 				<chinese-definition>不、確實不</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v20-w11">
 				<strongs>3471</strongs>
 				<pos>V-AIA-3S</pos>
 				<parse>Verb - Aorist Indicative Active - 3rd Person Singular</parse>
@@ -3232,7 +3232,7 @@
 				<chinese unaudited="unaudited">變成愚拙嗎</chinese>
 				<chinese-definition>使無味道、使愚拙</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v20-w12">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -3242,7 +3242,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v20-w13">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -3252,7 +3252,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v20-w14">
 				<strongs>3588</strongs>
 				<pos>Art-AFS</pos>
 				<parse>Article - Accusative Feminine Singular</parse>
@@ -3262,7 +3262,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v20-w15">
 				<strongs>4678</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3272,7 +3272,7 @@
 				<chinese unaudited="unaudited">上的智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v20-w16">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -3282,7 +3282,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v20-w17">
 				<strongs>2889</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3293,8 +3293,8 @@
 				<chinese-definition>世界、宇宙、世人</chinese-definition>
 			</word>
 		</verse>
-		<verse num="21">
-			<word num="1">
+		<verse num="21" id="v21">
+			<word num="1" id="v21-w1">
 				<strongs>1894</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3304,7 +3304,7 @@
 				<chinese unaudited="unaudited">的人這</chinese>
 				<chinese-definition>因為、在...之後</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v21-w2">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3314,7 +3314,7 @@
 				<chinese unaudited="unaudited">就</chinese>
 				<chinese-definition>因為、然後、的確是</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v21-w3">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3324,7 +3324,7 @@
 				<chinese unaudited="unaudited">是</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v21-w4">
 				<strongs>3588</strongs>
 				<pos>Art-DFS</pos>
 				<parse>Article - Dative Feminine Singular</parse>
@@ -3334,7 +3334,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v21-w5">
 				<strongs>4678</strongs>
 				<pos>N-DFS</pos>
 				<parse>Noun - Dative Feminine Singular</parse>
@@ -3344,7 +3344,7 @@
 				<chinese unaudited="unaudited">自己的智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v21-w6">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -3354,7 +3354,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v21-w7">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3364,7 +3364,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v21-w8">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -3374,7 +3374,7 @@
 				<chinese unaudited="unaudited">既不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v21-w9">
 				<strongs>1097</strongs>
 				<pos>V-AIA-3S</pos>
 				<parse>Verb - Aorist Indicative Active - 3rd Person Singular</parse>
@@ -3384,7 +3384,7 @@
 				<chinese unaudited="unaudited">認識</chinese>
 				<chinese-definition>知道、認識</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v21-w10">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -3394,7 +3394,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v21-w11">
 				<strongs>2889</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -3404,7 +3404,7 @@
 				<chinese unaudited="unaudited">世</chinese>
 				<chinese-definition>世界、宇宙、世人</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v21-w12">
 				<strongs>1223</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3414,7 +3414,7 @@
 				<chinese unaudited="unaudited">人憑</chinese>
 				<chinese-definition>後接所有格時意思是「藉著」</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v21-w13">
 				<strongs>3588</strongs>
 				<pos>Art-GFS</pos>
 				<parse>Article - Genitive Feminine Singular</parse>
@@ -3424,7 +3424,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v21-w14">
 				<strongs>4678</strongs>
 				<pos>N-GFS</pos>
 				<parse>Noun - Genitive Feminine Singular</parse>
@@ -3434,7 +3434,7 @@
 				<chinese unaudited="unaudited">的智慧了</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v21-w15">
 				<strongs>3588</strongs>
 				<pos>Art-AMS</pos>
 				<parse>Article - Accusative Masculine Singular</parse>
@@ -3444,7 +3444,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v21-w16">
 				<strongs>2316</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -3454,7 +3454,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v21-w17">
 				<strongs>2106</strongs>
 				<pos>V-AIA-3S</pos>
 				<parse>Verb - Aorist Indicative Active - 3rd Person Singular</parse>
@@ -3464,7 +3464,7 @@
 				<chinese unaudited="unaudited">就樂意</chinese>
 				<chinese-definition>喜悅、選擇、滿意</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v21-w18">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -3474,7 +3474,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v21-w19">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -3484,7 +3484,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v21-w20">
 				<strongs>1223</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3494,7 +3494,7 @@
 				<chinese unaudited="unaudited">用</chinese>
 				<chinese-definition>後接所有格時意思是「藉著」</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v21-w21">
 				<strongs>3588</strongs>
 				<pos>Art-GFS</pos>
 				<parse>Article - Genitive Feminine Singular</parse>
@@ -3504,7 +3504,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v21-w22">
 				<strongs>3472</strongs>
 				<pos>N-GFS</pos>
 				<parse>Noun - Genitive Feminine Singular</parse>
@@ -3514,7 +3514,7 @@
 				<chinese unaudited="unaudited">人所當作愚拙</chinese>
 				<chinese-definition>愚昧</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v21-w23">
 				<strongs>3588</strongs>
 				<pos>Art-GNS</pos>
 				<parse>Article - Genitive Neuter Singular</parse>
@@ -3524,7 +3524,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v21-w24">
 				<strongs>2782</strongs>
 				<pos>N-GNS</pos>
 				<parse>Noun - Genitive Neuter Singular</parse>
@@ -3534,7 +3534,7 @@
 				<chinese unaudited="unaudited">的道理</chinese>
 				<chinese-definition>所傳的道</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v21-w25">
 				<strongs>4982</strongs>
 				<pos>V-ANA</pos>
 				<parse>Verb - Aorist Infinitive Active</parse>
@@ -3544,7 +3544,7 @@
 				<chinese unaudited="unaudited">拯救</chinese>
 				<chinese-definition>醫治、拯救</chinese-definition>
 			</word>
-			<word num="26">
+			<word num="26" id="v21-w26">
 				<strongs>3588</strongs>
 				<pos>Art-AMP</pos>
 				<parse>Article - Accusative Masculine Plural</parse>
@@ -3554,7 +3554,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="27">
+			<word num="27" id="v21-w27">
 				<strongs>4100</strongs>
 				<pos>V-PPA-AMP</pos>
 				<parse>Verb - Present Participle Active - Accusative Masculine Plural</parse>
@@ -3565,8 +3565,8 @@
 				<chinese-definition>相信、有信心、信託</chinese-definition>
 			</word>
 		</verse>
-		<verse num="22">
-			<word num="1">
+		<verse num="22" id="v22">
+			<word num="1" id="v22-w1">
 				<strongs>1894</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3576,7 +3576,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>因為、在...之後</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v22-w2">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3586,7 +3586,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v22-w3">
 				<strongs>2453</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -3596,7 +3596,7 @@
 				<chinese unaudited="unaudited">猶太人</chinese>
 				<chinese-definition>猶太人的</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v22-w4">
 				<strongs>4592</strongs>
 				<pos>N-ANP</pos>
 				<parse>Noun - Accusative Neuter Plural</parse>
@@ -3606,7 +3606,7 @@
 				<chinese unaudited="unaudited">神蹟</chinese>
 				<chinese-definition>表徵、神蹟</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v22-w5">
 				<strongs>154</strongs>
 				<pos>V-PIA-3P</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Plural</parse>
@@ -3616,7 +3616,7 @@
 				<chinese unaudited="unaudited">是要</chinese>
 				<chinese-definition>要求、需求</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v22-w6">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3626,7 +3626,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v22-w7">
 				<strongs>1672</strongs>
 				<pos>N-NMP</pos>
 				<parse>Noun - Nominative Masculine Plural</parse>
@@ -3636,7 +3636,7 @@
 				<chinese unaudited="unaudited">希臘人</chinese>
 				<chinese-definition>專有名詞，族名：希臘人</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v22-w8">
 				<strongs>4678</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3646,7 +3646,7 @@
 				<chinese unaudited="unaudited">智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v22-w9">
 				<strongs>2212</strongs>
 				<pos>V-PIA-3P</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Plural</parse>
@@ -3657,8 +3657,8 @@
 				<chinese-definition>想要、嘗試、尋找</chinese-definition>
 			</word>
 		</verse>
-		<verse num="23">
-			<word num="1">
+		<verse num="23" id="v23">
+			<word num="1" id="v23-w1">
 				<strongs>1473</strongs>
 				<pos>PPro-N1P</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 1st Person Plural</parse>
@@ -3668,7 +3668,7 @@
 				<chinese unaudited="unaudited">我們</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v23-w2">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3678,7 +3678,7 @@
 				<chinese unaudited="unaudited">卻</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v23-w3">
 				<strongs>2784</strongs>
 				<pos>V-PIA-1P</pos>
 				<parse>Verb - Present Indicative Active - 1st Person Plural</parse>
@@ -3688,7 +3688,7 @@
 				<chinese unaudited="unaudited">是傳</chinese>
 				<chinese-definition>宣傳、傳道</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v23-w4">
 				<strongs>5547</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -3698,7 +3698,7 @@
 				<chinese unaudited="unaudited">的基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v23-w5">
 				<strongs>4717</strongs>
 				<pos>V-RPM/P-AMS</pos>
 				<parse>Verb - Perfect Participle Middle or Passive - Accusative Masculine Singular</parse>
@@ -3708,7 +3708,7 @@
 				<chinese unaudited="unaudited">釘十字架</chinese>
 				<chinese-definition>釘十字架</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v23-w6">
 				<strongs>2453</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -3718,7 +3718,7 @@
 				<chinese unaudited="unaudited">在猶太人</chinese>
 				<chinese-definition>猶太人的</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v23-w7">
 				<strongs>3303</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3728,7 +3728,7 @@
 				<chinese unaudited="unaudited">為</chinese>
 				<chinese-definition>不必翻譯，表示對比</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v23-w8">
 				<strongs>4625</strongs>
 				<pos>N-ANS</pos>
 				<parse>Noun - Accusative Neuter Singular</parse>
@@ -3738,7 +3738,7 @@
 				<chinese unaudited="unaudited">絆腳石</chinese>
 				<chinese-definition>絆倒、犯罪之事物</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v23-w9">
 				<strongs>1484</strongs>
 				<pos>N-DNP</pos>
 				<parse>Noun - Dative Neuter Plural</parse>
@@ -3748,7 +3748,7 @@
 				<chinese unaudited="unaudited">在外邦人</chinese>
 				<chinese-definition>國家、人民、民族、外國人</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v23-w10">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3758,7 +3758,7 @@
 				<chinese unaudited="unaudited">卻</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v23-w11">
 				<strongs>3472</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3769,8 +3769,8 @@
 				<chinese-definition>愚昧</chinese-definition>
 			</word>
 		</verse>
-		<verse num="24">
-			<word num="1">
+		<verse num="24" id="v24">
+			<word num="1" id="v24-w1">
 				<strongs>846</strongs>
 				<pos>PPro-DM3P</pos>
 				<parse>Personal / Possessive Pronoun - Dative Masculine 3rd Person Plural</parse>
@@ -3780,7 +3780,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>他</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v24-w2">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3790,7 +3790,7 @@
 				<chinese unaudited="unaudited">但</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v24-w3">
 				<strongs>3588</strongs>
 				<pos>Art-DMP</pos>
 				<parse>Article - Dative Masculine Plural</parse>
@@ -3800,7 +3800,7 @@
 				<chinese unaudited="unaudited">在那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v24-w4">
 				<strongs>2822</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -3810,7 +3810,7 @@
 				<chinese unaudited="unaudited">蒙召</chinese>
 				<chinese-definition>蒙召的</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v24-w5">
 				<strongs>2453</strongs>
 				<pos>Adj-DMP</pos>
 				<parse>Adjective - Dative Masculine Plural</parse>
@@ -3820,7 +3820,7 @@
 				<chinese unaudited="unaudited">的無論是猶太人</chinese>
 				<chinese-definition>猶太人的</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v24-w6">
 				<strongs>5037</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3830,7 +3830,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>且</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v24-w7">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3840,7 +3840,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v24-w8">
 				<strongs>1672</strongs>
 				<pos>N-DMP</pos>
 				<parse>Noun - Dative Masculine Plural</parse>
@@ -3850,7 +3850,7 @@
 				<chinese unaudited="unaudited">希臘人</chinese>
 				<chinese-definition>專有名詞，族名：希臘人</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v24-w9">
 				<strongs>5547</strongs>
 				<pos>N-AMS</pos>
 				<parse>Noun - Accusative Masculine Singular</parse>
@@ -3860,7 +3860,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v24-w10">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3870,7 +3870,7 @@
 				<chinese unaudited="unaudited">總為神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v24-w11">
 				<strongs>1411</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3880,7 +3880,7 @@
 				<chinese unaudited="unaudited">的能力</chinese>
 				<chinese-definition>能力、力量</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v24-w12">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3890,7 +3890,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v24-w13">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3900,7 +3900,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v24-w14">
 				<strongs>4678</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -3911,8 +3911,8 @@
 				<chinese-definition>智慧</chinese-definition>
 			</word>
 		</verse>
-		<verse num="25">
-			<word num="1">
+		<verse num="25" id="v25">
+			<word num="1" id="v25-w1">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -3922,7 +3922,7 @@
 				<chinese unaudited="unaudited">因</chinese>
 				<chinese-definition>不必翻譯帶出子句、因為</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v25-w2">
 				<strongs>3588</strongs>
 				<pos>Art-NNS</pos>
 				<parse>Article - Nominative Neuter Singular</parse>
@@ -3932,7 +3932,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v25-w3">
 				<strongs>3474</strongs>
 				<pos>Adj-NNS</pos>
 				<parse>Adjective - Nominative Neuter Singular</parse>
@@ -3942,7 +3942,7 @@
 				<chinese unaudited="unaudited">的愚拙</chinese>
 				<chinese-definition>愚笨的</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v25-w4">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -3952,7 +3952,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v25-w5">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -3962,7 +3962,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v25-w6">
 				<strongs>4680</strongs>
 				<pos>Adj-NNS-C</pos>
 				<parse>Adjective - Nominative Neuter Singular - Comparative</parse>
@@ -3972,7 +3972,7 @@
 				<chinese unaudited="unaudited">智慧</chinese>
 				<chinese-definition>聰明的、有經驗的</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v25-w7">
 				<strongs>3588</strongs>
 				<pos>Art-GMP</pos>
 				<parse>Article - Genitive Masculine Plural</parse>
@@ -3982,7 +3982,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v25-w8">
 				<strongs>444</strongs>
 				<pos>N-GMP</pos>
 				<parse>Noun - Genitive Masculine Plural</parse>
@@ -3992,7 +3992,7 @@
 				<chinese unaudited="unaudited">比人</chinese>
 				<chinese-definition>人、人類</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v25-w9">
 				<strongs>1510</strongs>
 				<pos>V-PIA-3S</pos>
 				<parse>Verb - Present Indicative Active - 3rd Person Singular</parse>
@@ -4002,7 +4002,7 @@
 				<chinese unaudited="unaudited">總</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v25-w10">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4012,7 +4012,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v25-w11">
 				<strongs>3588</strongs>
 				<pos>Art-NNS</pos>
 				<parse>Article - Nominative Neuter Singular</parse>
@@ -4022,7 +4022,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v25-w12">
 				<strongs>772</strongs>
 				<pos>Adj-NNS</pos>
 				<parse>Adjective - Nominative Neuter Singular</parse>
@@ -4032,7 +4032,7 @@
 				<chinese unaudited="unaudited">的軟弱</chinese>
 				<chinese-definition>生病的、纖弱的</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v25-w13">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -4042,7 +4042,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v25-w14">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4052,7 +4052,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v25-w15">
 				<strongs>2478</strongs>
 				<pos>Adj-NNS-C</pos>
 				<parse>Adjective - Nominative Neuter Singular - Comparative</parse>
@@ -4062,7 +4062,7 @@
 				<chinese unaudited="unaudited">強壯</chinese>
 				<chinese-definition>偉大的、有能力的</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v25-w16">
 				<strongs>3588</strongs>
 				<pos>Art-GMP</pos>
 				<parse>Article - Genitive Masculine Plural</parse>
@@ -4072,7 +4072,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v25-w17">
 				<strongs>444</strongs>
 				<pos>N-GMP</pos>
 				<parse>Noun - Genitive Masculine Plural</parse>
@@ -4083,8 +4083,8 @@
 				<chinese-definition>人、人類</chinese-definition>
 			</word>
 		</verse>
-		<verse num="26">
-			<word num="1">
+		<verse num="26" id="v26">
+			<word num="1" id="v26-w1">
 				<strongs>991</strongs>
 				<pos>V-PIA-2P</pos>
 				<parse>Verb - Present Indicative Active - 2nd Person Plural</parse>
@@ -4094,7 +4094,7 @@
 				<chinese unaudited="unaudited">見</chinese>
 				<chinese-definition>看、凝視、能看見、得到視力、留心</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v26-w2">
 				<strongs>1063</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4104,7 +4104,7 @@
 				<chinese unaudited="unaudited">哪可</chinese>
 				<chinese-definition>因為、然後、的確是</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v26-w3">
 				<strongs>3588</strongs>
 				<pos>Art-AFS</pos>
 				<parse>Article - Accusative Feminine Singular</parse>
@@ -4114,7 +4114,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v26-w4">
 				<strongs>2821</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -4124,7 +4124,7 @@
 				<chinese unaudited="unaudited">蒙召</chinese>
 				<chinese-definition>呼召</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v26-w5">
 				<strongs>4771</strongs>
 				<pos>PPro-G2P</pos>
 				<parse>Personal / Possessive Pronoun - Genitive 2nd Person Plural</parse>
@@ -4134,7 +4134,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v26-w6">
 				<strongs>80</strongs>
 				<pos>N-VMP</pos>
 				<parse>Noun - Vocative Masculine Plural</parse>
@@ -4144,7 +4144,7 @@
 				<chinese unaudited="unaudited">弟兄們</chinese>
 				<chinese-definition>弟兄、兄弟</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v26-w7">
 				<strongs>3754</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4154,7 +4154,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯帶出子句、因為</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v26-w8">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4164,7 +4164,7 @@
 				<chinese unaudited="unaudited">的不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v26-w9">
 				<strongs>4183</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4174,7 +4174,7 @@
 				<chinese unaudited="unaudited">多</chinese>
 				<chinese-definition>許多、嚴厲地、時常、懇切地、大的</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v26-w10">
 				<strongs>4680</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4184,7 +4184,7 @@
 				<chinese unaudited="unaudited">有智慧</chinese>
 				<chinese-definition>聰明的、有經驗的</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v26-w11">
 				<strongs>2596</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4194,7 +4194,7 @@
 				<chinese unaudited="unaudited">的按著</chinese>
 				<chinese-definition>後接直接受格時意思是「依據、表示敬意、遍及」</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v26-w12">
 				<strongs>4561</strongs>
 				<pos>N-AFS</pos>
 				<parse>Noun - Accusative Feminine Singular</parse>
@@ -4204,7 +4204,7 @@
 				<chinese unaudited="unaudited">肉體</chinese>
 				<chinese-definition>肉體、有血肉的人、人性</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v26-w13">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4214,7 +4214,7 @@
 				<chinese unaudited="unaudited">的不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v26-w14">
 				<strongs>4183</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4224,7 +4224,7 @@
 				<chinese unaudited="unaudited">多</chinese>
 				<chinese-definition>許多、嚴厲地、時常、懇切地、大的</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v26-w15">
 				<strongs>1415</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4234,7 +4234,7 @@
 				<chinese unaudited="unaudited">有能力</chinese>
 				<chinese-definition>可能的、有能力的</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v26-w16">
 				<strongs>3756</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4244,7 +4244,7 @@
 				<chinese unaudited="unaudited">的也不</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v26-w17">
 				<strongs>4183</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4254,7 +4254,7 @@
 				<chinese unaudited="unaudited">多</chinese>
 				<chinese-definition>許多、嚴厲地、時常、懇切地、大的</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v26-w18">
 				<strongs>2104</strongs>
 				<pos>Adj-NMP</pos>
 				<parse>Adjective - Nominative Masculine Plural</parse>
@@ -4265,8 +4265,8 @@
 				<chinese-definition>有貴族血統、社會地位高的</chinese-definition>
 			</word>
 		</verse>
-		<verse num="27">
-			<word num="1">
+		<verse num="27" id="v27">
+			<word num="1" id="v27-w1">
 				<strongs>235</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4276,7 +4276,7 @@
 				<chinese unaudited="unaudited">卻</chinese>
 				<chinese-definition>而是、相反地</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v27-w2">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4286,7 +4286,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v27-w3">
 				<strongs>3474</strongs>
 				<pos>Adj-ANP</pos>
 				<parse>Adjective - Accusative Neuter Plural</parse>
@@ -4296,7 +4296,7 @@
 				<chinese unaudited="unaudited">上愚拙</chinese>
 				<chinese-definition>愚笨的</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v27-w4">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -4306,7 +4306,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v27-w5">
 				<strongs>2889</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4316,7 +4316,7 @@
 				<chinese unaudited="unaudited">世</chinese>
 				<chinese-definition>世界、宇宙、世人</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v27-w6">
 				<strongs>1586</strongs>
 				<pos>V-AIM-3S</pos>
 				<parse>Verb - Aorist Indicative Middle - 3rd Person Singular</parse>
@@ -4326,7 +4326,7 @@
 				<chinese unaudited="unaudited">揀選了</chinese>
 				<chinese-definition>選擇</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v27-w7">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -4336,7 +4336,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v27-w8">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -4346,7 +4346,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v27-w9">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4356,7 +4356,7 @@
 				<chinese unaudited="unaudited">的叫</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v27-w10">
 				<strongs>2617</strongs>
 				<pos>V-PSA-3S</pos>
 				<parse>Verb - Present Subjunctive Active - 3rd Person Singular</parse>
@@ -4366,7 +4366,7 @@
 				<chinese unaudited="unaudited">的羞愧</chinese>
 				<chinese-definition>使羞愧、羞辱</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v27-w11">
 				<strongs>3588</strongs>
 				<pos>Art-AMP</pos>
 				<parse>Article - Accusative Masculine Plural</parse>
@@ -4376,7 +4376,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v27-w12">
 				<strongs>4680</strongs>
 				<pos>Adj-AMP</pos>
 				<parse>Adjective - Accusative Masculine Plural</parse>
@@ -4386,7 +4386,7 @@
 				<chinese unaudited="unaudited">有智慧</chinese>
 				<chinese-definition>聰明的、有經驗的</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v27-w13">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4396,7 +4396,7 @@
 				<chinese unaudited="unaudited">又</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v27-w14">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4406,7 +4406,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v27-w15">
 				<strongs>772</strongs>
 				<pos>Adj-ANP</pos>
 				<parse>Adjective - Accusative Neuter Plural</parse>
@@ -4416,7 +4416,7 @@
 				<chinese unaudited="unaudited">上軟弱</chinese>
 				<chinese-definition>生病的、纖弱的</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v27-w16">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -4426,7 +4426,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v27-w17">
 				<strongs>2889</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4436,7 +4436,7 @@
 				<chinese unaudited="unaudited">世</chinese>
 				<chinese-definition>世界、宇宙、世人</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v27-w18">
 				<strongs>1586</strongs>
 				<pos>V-AIM-3S</pos>
 				<parse>Verb - Aorist Indicative Middle - 3rd Person Singular</parse>
@@ -4446,7 +4446,7 @@
 				<chinese unaudited="unaudited">揀選了</chinese>
 				<chinese-definition>選擇</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v27-w19">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -4456,7 +4456,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v27-w20">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -4466,7 +4466,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v27-w21">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4476,7 +4476,7 @@
 				<chinese unaudited="unaudited">的叫</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v27-w22">
 				<strongs>2617</strongs>
 				<pos>V-PSA-3S</pos>
 				<parse>Verb - Present Subjunctive Active - 3rd Person Singular</parse>
@@ -4486,7 +4486,7 @@
 				<chinese unaudited="unaudited">的羞愧</chinese>
 				<chinese-definition>使羞愧、羞辱</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v27-w23">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4496,7 +4496,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v27-w24">
 				<strongs>2478</strongs>
 				<pos>Adj-ANP</pos>
 				<parse>Adjective - Accusative Neuter Plural</parse>
@@ -4507,8 +4507,8 @@
 				<chinese-definition>偉大的、有能力的</chinese-definition>
 			</word>
 		</verse>
-		<verse num="28">
-			<word num="1">
+		<verse num="28" id="v28">
+			<word num="1" id="v28-w1">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4518,7 +4518,7 @@
 				<chinese unaudited="unaudited">也</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v28-w2">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4528,7 +4528,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v28-w3">
 				<strongs>36</strongs>
 				<pos>Adj-ANP</pos>
 				<parse>Adjective - Accusative Neuter Plural</parse>
@@ -4538,7 +4538,7 @@
 				<chinese unaudited="unaudited">上卑賤</chinese>
 				<chinese-definition>不重要的、卑微的</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v28-w4">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -4548,7 +4548,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v28-w5">
 				<strongs>2889</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4558,7 +4558,7 @@
 				<chinese unaudited="unaudited">世</chinese>
 				<chinese-definition>世界、宇宙、世人</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v28-w6">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4568,7 +4568,7 @@
 				<chinese unaudited="unaudited">的以及</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v28-w7">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4578,7 +4578,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v28-w8">
 				<strongs>1848</strongs>
 				<pos>V-RPM/P-ANP</pos>
 				<parse>Verb - Perfect Participle Middle or Passive - Accusative Neuter Plural</parse>
@@ -4588,7 +4588,7 @@
 				<chinese unaudited="unaudited">的被人厭惡</chinese>
 				<chinese-definition>輕視、拒絕</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v28-w9">
 				<strongs>1586</strongs>
 				<pos>V-AIM-3S</pos>
 				<parse>Verb - Aorist Indicative Middle - 3rd Person Singular</parse>
@@ -4598,7 +4598,7 @@
 				<chinese unaudited="unaudited">揀選了</chinese>
 				<chinese-definition>選擇、選出</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v28-w10">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -4608,7 +4608,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v28-w11">
 				<strongs>2316</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -4618,7 +4618,7 @@
 				<chinese unaudited="unaudited">神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v28-w12">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4628,7 +4628,7 @@
 				<chinese unaudited="unaudited">的以及</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v28-w13">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4638,7 +4638,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v28-w14">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4648,7 +4648,7 @@
 				<chinese unaudited="unaudited">無</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v28-w15">
 				<strongs>1510</strongs>
 				<pos>V-PPA-ANP</pos>
 				<parse>Verb - Present Participle Active - Accusative Neuter Plural</parse>
@@ -4658,7 +4658,7 @@
 				<chinese unaudited="unaudited">有的</chinese>
 				<chinese-definition>是、在、有</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v28-w16">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4668,7 +4668,7 @@
 				<chinese unaudited="unaudited">為</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v28-w17">
 				<strongs>3588</strongs>
 				<pos>Art-ANP</pos>
 				<parse>Article - Accusative Neuter Plural</parse>
@@ -4678,7 +4678,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v28-w18">
 				<strongs>1510</strongs>
 				<pos>V-PPA-ANP</pos>
 				<parse>Verb - Present Participle Active - Accusative Neuter Plural</parse>
@@ -4688,7 +4688,7 @@
 				<chinese unaudited="unaudited">那有的</chinese>
 				<chinese-definition>是、在、有</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v28-w19">
 				<strongs>2673</strongs>
 				<pos>V-ASA-3S</pos>
 				<parse>Verb - Aorist Subjunctive Active - 3rd Person Singular</parse>
@@ -4699,8 +4699,8 @@
 				<chinese-definition>廢除、取消、毀滅</chinese-definition>
 			</word>
 		</verse>
-		<verse num="29">
-			<word num="1">
+		<verse num="29" id="v29">
+			<word num="1" id="v29-w1">
 				<strongs>3704</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4710,7 +4710,7 @@
 				<chinese unaudited="unaudited">使</chinese>
 				<chinese-definition>常接假設語氣，意思是「以致於、為要」</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v29-w2">
 				<strongs>3361</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4720,7 +4720,7 @@
 				<chinese unaudited="unaudited">一個也不</chinese>
 				<chinese-definition>否定副詞</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v29-w3">
 				<strongs>2744</strongs>
 				<pos>V-ASM-3S</pos>
 				<parse>Verb - Aorist Subjunctive Middle - 3rd Person Singular</parse>
@@ -4730,7 +4730,7 @@
 				<chinese unaudited="unaudited">能自誇</chinese>
 				<chinese-definition>誇耀</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v29-w4">
 				<strongs>3956</strongs>
 				<pos>Adj-NFS</pos>
 				<parse>Adjective - Nominative Feminine Singular</parse>
@@ -4740,7 +4740,7 @@
 				<chinese unaudited="unaudited">一切</chinese>
 				<chinese-definition>每一個</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v29-w5">
 				<strongs>4561</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -4750,7 +4750,7 @@
 				<chinese unaudited="unaudited">有血氣</chinese>
 				<chinese-definition>肉體、有血肉的人、人性</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v29-w6">
 				<strongs>1799</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4760,7 +4760,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>後接所有格，意思是「在...之前」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v29-w7">
 				<strongs>3588</strongs>
 				<pos>Art-GMS</pos>
 				<parse>Article - Genitive Masculine Singular</parse>
@@ -4770,7 +4770,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v29-w8">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4781,8 +4781,8 @@
 				<chinese-definition>上帝</chinese-definition>
 			</word>
 		</verse>
-		<verse num="30">
-			<word num="1">
+		<verse num="30" id="v30">
+			<word num="1" id="v30-w1">
 				<strongs>1537</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4792,7 +4792,7 @@
 				<chinese unaudited="unaudited">是本乎</chinese>
 				<chinese-definition>後接所有格，意思是「從...」</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v30-w2">
 				<strongs>846</strongs>
 				<pos>PPro-GM3S</pos>
 				<parse>Personal / Possessive Pronoun - Genitive Masculine 3rd Person Singular</parse>
@@ -4802,7 +4802,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>他</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v30-w3">
 				<strongs>1161</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4812,7 +4812,7 @@
 				<chinese unaudited="unaudited">但</chinese>
 				<chinese-definition>然後、但是、而</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v30-w4">
 				<strongs>4771</strongs>
 				<pos>PPro-N2P</pos>
 				<parse>Personal / Possessive Pronoun - Nominative 2nd Person Plural</parse>
@@ -4822,7 +4822,7 @@
 				<chinese unaudited="unaudited">你們</chinese>
 				<chinese-definition>你</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v30-w5">
 				<strongs>1510</strongs>
 				<pos>V-PIA-2P</pos>
 				<parse>Verb - Present Indicative Active - 2nd Person Plural</parse>
@@ -4832,7 +4832,7 @@
 				<chinese unaudited="unaudited">得在</chinese>
 				<chinese-definition>是、有</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v30-w6">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4842,7 +4842,7 @@
 				<chinese unaudited="unaudited">裡</chinese>
 				<chinese-definition>後接間接受格，意思是「在...裡面、藉著」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v30-w7">
 				<strongs>5547</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -4852,7 +4852,7 @@
 				<chinese unaudited="unaudited">基督</chinese>
 				<chinese-definition>基督（音譯）、承受膏油的、受膏者</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v30-w8">
 				<strongs>2424</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -4862,7 +4862,7 @@
 				<chinese unaudited="unaudited">耶穌</chinese>
 				<chinese-definition>專有名詞，人名：耶穌</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v30-w9">
 				<strongs>3739</strongs>
 				<pos>RelPro-NMS</pos>
 				<parse>Personal / Relative Pronoun - Nominative Masculine Singular</parse>
@@ -4872,7 +4872,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>帶出關係子句修飾先行詞</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v30-w10">
 				<strongs>1096</strongs>
 				<pos>V-AIP-3S</pos>
 				<parse>Verb - Aorist Indicative Passive - 3rd Person Singular</parse>
@@ -4882,7 +4882,7 @@
 				<chinese unaudited="unaudited">他成為</chinese>
 				<chinese-definition>成為、發生、來</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v30-w11">
 				<strongs>4678</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -4892,7 +4892,7 @@
 				<chinese unaudited="unaudited">智慧</chinese>
 				<chinese-definition>智慧</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v30-w12">
 				<strongs>1473</strongs>
 				<pos>PPro-D1P</pos>
 				<parse>Personal / Possessive Pronoun - Dative 1st Person Plural</parse>
@@ -4902,7 +4902,7 @@
 				<chinese unaudited="unaudited">我們的</chinese>
 				<chinese-definition>我</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v30-w13">
 				<strongs>575</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4912,7 +4912,7 @@
 				<chinese unaudited="unaudited">又使</chinese>
 				<chinese-definition>後接所有格，意思是「從... 」</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v30-w14">
 				<strongs>2316</strongs>
 				<pos>N-GMS</pos>
 				<parse>Noun - Genitive Masculine Singular</parse>
@@ -4922,7 +4922,7 @@
 				<chinese unaudited="unaudited">神神</chinese>
 				<chinese-definition>上帝</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v30-w15">
 				<strongs>1343</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -4932,7 +4932,7 @@
 				<chinese unaudited="unaudited">公義</chinese>
 				<chinese-definition>公義，合乎上帝的旨意、性格、標準</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v30-w16">
 				<strongs>5037</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4942,7 +4942,7 @@
 				<chinese unaudited="unaudited">我們的</chinese>
 				<chinese-definition>且</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v30-w17">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4952,7 +4952,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v30-w18">
 				<strongs>38</strongs>
 				<pos>N-NMS</pos>
 				<parse>Noun - Nominative Masculine Singular</parse>
@@ -4962,7 +4962,7 @@
 				<chinese unaudited="unaudited">聖潔</chinese>
 				<chinese-definition>聖潔、成聖</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v30-w19">
 				<strongs>2532</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4972,7 +4972,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>並且、然後、和</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v30-w20">
 				<strongs>629</strongs>
 				<pos>N-NFS</pos>
 				<parse>Noun - Nominative Feminine Singular</parse>
@@ -4983,8 +4983,8 @@
 				<chinese-definition>救贖、解放</chinese-definition>
 			</word>
 		</verse>
-		<verse num="31">
-			<word num="1">
+		<verse num="31" id="v31">
+			<word num="1" id="v31-w1">
 				<strongs>2443</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4994,7 +4994,7 @@
 				<chinese unaudited="unaudited">當</chinese>
 				<chinese-definition>使得、為了、帶出說明的子句不必翻譯</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v31-w2">
 				<strongs>2531</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -5004,7 +5004,7 @@
 				<chinese unaudited="unaudited">如</chinese>
 				<chinese-definition>正如、照著</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v31-w3">
 				<strongs>1125</strongs>
 				<pos>V-RIM/P-3S</pos>
 				<parse>Verb - Perfect Indicative Middle or Passive - 3rd Person Singular</parse>
@@ -5014,7 +5014,7 @@
 				<chinese unaudited="unaudited">經上所記</chinese>
 				<chinese-definition>寫信、寫</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v31-w4">
 				<strongs>3588</strongs>
 				<pos>Art-NMS</pos>
 				<parse>Article - Nominative Masculine Singular</parse>
@@ -5024,7 +5024,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>視情況翻譯，有時可譯成「這個」、「那個」等</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v31-w5">
 				<strongs>2744</strongs>
 				<pos>V-PPM/P-NMS</pos>
 				<parse>Verb - Present Participle Middle or Passive - Nominative Masculine Singular</parse>
@@ -5034,7 +5034,7 @@
 				<chinese unaudited="unaudited">誇口的</chinese>
 				<chinese-definition>誇耀</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v31-w6">
 				<strongs>1722</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -5044,7 +5044,7 @@
 				<chinese unaudited="unaudited">指著</chinese>
 				<chinese-definition>後接間接受格，意思是「因著、在...之內」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v31-w7">
 				<strongs>2962</strongs>
 				<pos>N-DMS</pos>
 				<parse>Noun - Dative Masculine Singular</parse>
@@ -5054,7 +5054,7 @@
 				<chinese unaudited="unaudited">主</chinese>
 				<chinese-definition>主、先生</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v31-w8">
 				<strongs>2744</strongs>
 				<pos>V-PMM/P-3S</pos>
 				<parse>Verb - Present Imperative Middle or Passive - 3rd Person Singular</parse>

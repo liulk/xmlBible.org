@@ -2,9 +2,9 @@
 <?xml-stylesheet href="../../Styles/Interlinear/Main.css"?>
 <book name="Leviticus" id="3" testament="old">
 	<script xmlns="http://www.w3.org/1999/xhtml" src="../../Styles/Interlinear/Main.js"></script>
-	<chapter num="16">
-		<verse num="1">
-			<word num="1">
+	<chapter num="16" id="c16">
+		<verse num="1" id="v1">
+			<word num="1" id="v1-w1">
 				<strongs>1696</strongs>
 				<pos>Conj‑w | V‑Piel‑ConsecImperf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Consecutive imperfect - third person masculine singular</parse>
@@ -14,7 +14,7 @@
 				<chinese unaudited="unaudited">曉諭</chinese>
 				<chinese-definition>Pi'el 講、說、指揮</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v1-w2">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -24,7 +24,7 @@
 				<chinese unaudited="unaudited">耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v1-w3">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -34,7 +34,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v1-w4">
 				<strongs>4872</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -44,7 +44,7 @@
 				<chinese unaudited="unaudited">摩西說</chinese>
 				<chinese-definition>摩西</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v1-w5">
 				<strongs>310</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -54,7 +54,7 @@
 				<chinese unaudited="unaudited">之後</chinese>
 				<chinese-definition>後面</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v1-w6">
 				<strongs>4194</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -64,7 +64,7 @@
 				<chinese unaudited="unaudited">死了</chinese>
 				<chinese-definition>死</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v1-w7">
 				<strongs>8147</strongs>
 				<pos>Number‑mdc</pos>
 				<parse>Number - mdc</parse>
@@ -74,7 +74,7 @@
 				<chinese unaudited="unaudited">的兩個</chinese>
 				<chinese-definition>數目的「二」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v1-w8">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -84,7 +84,7 @@
 				<chinese unaudited="unaudited">兒子</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v1-w9">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -94,7 +94,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v1-w10">
 				<strongs>7126</strongs>
 				<pos>Prep‑b | V‑Qal‑Inf | 3mp</pos>
 				<parse>Preposition-b :: Verb - Qal - Infinitive construct :: third person masculine plural</parse>
@@ -104,7 +104,7 @@
 				<chinese unaudited="unaudited">近到</chinese>
 				<chinese-definition>臨近、靠近、帶近、呈獻</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v1-w11">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑mpc</pos>
 				<parse>Preposition-l :: Noun - masculine plural construct</parse>
@@ -114,7 +114,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v1-w12">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -124,7 +124,7 @@
 				<chinese unaudited="unaudited">耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v1-w13">
 				<strongs>4191</strongs>
 				<pos>Conj‑w | V‑Qal‑ConsecImperf‑3mp</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Consecutive imperfect - third person masculine plural</parse>
@@ -135,8 +135,8 @@
 				<chinese-definition>死</chinese-definition>
 			</word>
 		</verse>
-		<verse num="2">
-			<word num="1">
+		<verse num="2" id="v2">
+			<word num="1" id="v2-w1">
 				<strongs>559</strongs>
 				<pos>Conj‑w | V‑Qal‑ConsecImperf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Consecutive imperfect - third person masculine singular</parse>
@@ -146,7 +146,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>說</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v2-w2">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -156,7 +156,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v2-w3">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -166,7 +166,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v2-w4">
 				<strongs>4872</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -176,7 +176,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>摩西</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v2-w5">
 				<strongs>1696</strongs>
 				<pos>V‑Piel‑Imp‑ms</pos>
 				<parse>Verb - Piel - Imperative - masculine singular</parse>
@@ -186,7 +186,7 @@
 				<chinese unaudited="unaudited">要告訴</chinese>
 				<chinese-definition>Pi'el 講、說、指揮</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v2-w6">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -196,7 +196,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v2-w7">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -206,7 +206,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v2-w8">
 				<strongs>251</strongs>
 				<pos>N‑msc | 2ms</pos>
 				<parse>Noun - masculine singular construct :: second person masculine singular</parse>
@@ -216,7 +216,7 @@
 				<chinese unaudited="unaudited">你哥哥</chinese>
 				<chinese-definition>兄弟</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v2-w9">
 				<strongs>408</strongs>
 				<pos>Conj‑w | Adv</pos>
 				<parse>Conjunctive waw :: Adverb</parse>
@@ -226,7 +226,7 @@
 				<chinese unaudited="unaudited">不可</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v2-w10">
 				<strongs>935</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -236,7 +236,7 @@
 				<chinese unaudited="unaudited">進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v2-w11">
 				<strongs>3605</strongs>
 				<pos>Prep‑b | N‑msc</pos>
 				<parse>Preposition-b :: Noun - masculine singular construct</parse>
@@ -246,7 +246,7 @@
 				<chinese unaudited="unaudited">隨</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v2-w12">
 				<strongs>6256</strongs>
 				<pos>N‑cs</pos>
 				<parse>Noun - common singular</parse>
@@ -256,7 +256,7 @@
 				<chinese unaudited="unaudited">時</chinese>
 				<chinese-definition>時候</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v2-w13">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -266,7 +266,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v2-w14">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -276,7 +276,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v2-w15">
 				<strongs>1004</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -286,7 +286,7 @@
 				<chinese unaudited="unaudited">內</chinese>
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v2-w16">
 				<strongs>6532</strongs>
 				<pos>Prep‑l, Art | N‑fs</pos>
 				<parse>Preposition-l, Article :: Noun - feminine singular</parse>
@@ -296,7 +296,7 @@
 				<chinese unaudited="unaudited">的幔子</chinese>
 				<chinese-definition>布幕、罩紗</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v2-w17">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -306,7 +306,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v2-w18">
 				<strongs>6440</strongs>
 				<pos>N‑cpc</pos>
 				<parse>Noun - common plural construct</parse>
@@ -316,7 +316,7 @@
 				<chinese unaudited="unaudited">前</chinese>
 				<chinese-definition>面、表面 (土地的)</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v2-w19">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -326,7 +326,7 @@
 				<chinese unaudited="unaudited">施恩座</chinese>
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v2-w20">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -336,7 +336,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v2-w21">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -346,7 +346,7 @@
 				<chinese unaudited="unaudited">櫃上</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v2-w22">
 				<strongs>727</strongs>
 				<pos>Art | N‑cs</pos>
 				<parse>Article :: Noun - common singular</parse>
@@ -356,7 +356,7 @@
 				<chinese unaudited="unaudited">櫃上</chinese>
 				<chinese-definition>約櫃、盒子</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v2-w23">
 				<strongs>3808</strongs>
 				<pos>Conj‑w | Adv‑NegPrt</pos>
 				<parse>Conjunctive waw :: Adverb - Negative particle</parse>
@@ -366,7 +366,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v2-w24">
 				<strongs>4191</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -376,7 +376,7 @@
 				<chinese unaudited="unaudited">他死亡</chinese>
 				<chinese-definition>死</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v2-w25">
 				<strongs>3588</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -386,7 +386,7 @@
 				<chinese unaudited="unaudited">因為</chinese>
 				<chinese-definition>因為、不必翻譯</chinese-definition>
 			</word>
-			<word num="26">
+			<word num="26" id="v2-w26">
 				<strongs>6051</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -396,7 +396,7 @@
 				<chinese unaudited="unaudited">我要從雲中</chinese>
 				<chinese-definition>雲</chinese-definition>
 			</word>
-			<word num="27">
+			<word num="27" id="v2-w27">
 				<strongs>7200</strongs>
 				<pos>V‑Nifal‑Imperf‑1cs</pos>
 				<parse>Verb - Nifal - Imperfect - first person common singular</parse>
@@ -406,7 +406,7 @@
 				<chinese unaudited="unaudited">顯現</chinese>
 				<chinese-definition>Qal 看見、看顧、察覺，Nif'al 顯現，Hif'il 顯明</chinese-definition>
 			</word>
-			<word num="28">
+			<word num="28" id="v2-w28">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -416,7 +416,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="29">
+			<word num="29" id="v2-w29">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -427,8 +427,8 @@
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
 		</verse>
-		<verse num="3">
-			<word num="1">
+		<verse num="3" id="v3">
+			<word num="1" id="v3-w1">
 				<strongs>2063</strongs>
 				<pos>Prep‑b | Pro‑fs</pos>
 				<parse>Preposition-b :: Pronoun - feminine singular</parse>
@@ -438,7 +438,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>這個</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v3-w2">
 				<strongs>935</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -448,7 +448,7 @@
 				<chinese unaudited="unaudited">進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v3-w3">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -458,7 +458,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v3-w4">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -468,7 +468,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v3-w5">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -478,7 +478,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v3-w6">
 				<strongs>6499</strongs>
 				<pos>Prep‑b | N‑ms</pos>
 				<parse>Preposition-b :: Noun - masculine singular</parse>
@@ -488,7 +488,7 @@
 				<chinese unaudited="unaudited">要帶一隻公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v3-w7">
 				<strongs>1121</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -498,7 +498,7 @@
 				<chinese unaudited="unaudited">犢</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v3-w8">
 				<strongs>1241</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -508,7 +508,7 @@
 				<chinese unaudited="unaudited">犢</chinese>
 				<chinese-definition>牛</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v3-w9">
 				<strongs>2403</strongs>
 				<pos>Prep‑l | N‑fs</pos>
 				<parse>Preposition-l :: Noun - feminine singular</parse>
@@ -518,7 +518,7 @@
 				<chinese unaudited="unaudited">為贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v3-w10">
 				<strongs>352</strongs>
 				<pos>Conj‑w | N‑ms</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular</parse>
@@ -528,7 +528,7 @@
 				<chinese unaudited="unaudited">一隻公綿羊</chinese>
 				<chinese-definition>公綿羊、高大的樹、門框、柱子、強壯的人</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v3-w11">
 				<strongs>5930</strongs>
 				<pos>Prep‑l | N‑fs</pos>
 				<parse>Preposition-l :: Noun - feminine singular</parse>
@@ -539,8 +539,8 @@
 				<chinese-definition>燔祭、階梯</chinese-definition>
 			</word>
 		</verse>
-		<verse num="4">
-			<word num="1">
+		<verse num="4" id="v4">
+			<word num="1" id="v4-w1">
 				<strongs>3801</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -550,7 +550,7 @@
 				<chinese unaudited="unaudited">內袍</chinese>
 				<chinese-definition>短袖束腰外衣</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v4-w2">
 				<strongs>906</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -560,7 +560,7 @@
 				<chinese unaudited="unaudited">細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v4-w3">
 				<strongs>6944</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -570,7 +570,7 @@
 				<chinese unaudited="unaudited">聖</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v4-w4">
 				<strongs>3847</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -580,7 +580,7 @@
 				<chinese unaudited="unaudited">要穿上</chinese>
 				<chinese-definition>穿</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v4-w5">
 				<strongs>4370</strongs>
 				<pos>Conj‑w | N‑mdc</pos>
 				<parse>Conjunctive waw :: Noun - mdc</parse>
@@ -590,7 +590,7 @@
 				<chinese unaudited="unaudited">褲子</chinese>
 				<chinese-definition>褲子</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v4-w6">
 				<strongs>906</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -600,7 +600,7 @@
 				<chinese unaudited="unaudited">把細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v4-w7">
 				<strongs>1961</strongs>
 				<pos>V‑Qal‑Imperf‑3mp</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine plural</parse>
@@ -610,7 +610,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>是、成為、臨到</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v4-w8">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -620,7 +620,7 @@
 				<chinese unaudited="unaudited">穿在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v4-w9">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -630,7 +630,7 @@
 				<chinese unaudited="unaudited">身上</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v4-w10">
 				<strongs>73</strongs>
 				<pos>Conj‑w, Prep‑b | N‑msc</pos>
 				<parse>Conjunctive waw, Preposition-b :: Noun - masculine singular construct</parse>
@@ -640,7 +640,7 @@
 				<chinese unaudited="unaudited">帶子</chinese>
 				<chinese-definition>腰帶</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v4-w11">
 				<strongs>906</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -650,7 +650,7 @@
 				<chinese unaudited="unaudited">細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v4-w12">
 				<strongs>2296</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -660,7 +660,7 @@
 				<chinese unaudited="unaudited">腰束</chinese>
 				<chinese-definition>束腰</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v4-w13">
 				<strongs>4701</strongs>
 				<pos>Conj‑w, Prep‑b | N‑fsc</pos>
 				<parse>Conjunctive waw, Preposition-b :: Noun - feminine singular construct</parse>
@@ -670,7 +670,7 @@
 				<chinese unaudited="unaudited">冠冕</chinese>
 				<chinese-definition>(大祭司的) 包頭巾</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v4-w14">
 				<strongs>906</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -680,7 +680,7 @@
 				<chinese unaudited="unaudited">細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v4-w15">
 				<strongs>6801</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -690,7 +690,7 @@
 				<chinese unaudited="unaudited">頭戴</chinese>
 				<chinese-definition>捲成球、纏裹</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v4-w16">
 				<strongs>899</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -700,7 +700,7 @@
 				<chinese unaudited="unaudited">服</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v4-w17">
 				<strongs>6944</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -710,7 +710,7 @@
 				<chinese unaudited="unaudited">聖</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v4-w18">
 				<strongs>1992</strongs>
 				<pos>Pro‑3mp</pos>
 				<parse>Pronoun - third person masculine plural</parse>
@@ -720,7 +720,7 @@
 				<chinese unaudited="unaudited">這都是</chinese>
 				<chinese-definition>他們</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v4-w19">
 				<strongs>7364</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -730,7 +730,7 @@
 				<chinese unaudited="unaudited">洗</chinese>
 				<chinese-definition>洗</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v4-w20">
 				<strongs>4325</strongs>
 				<pos>Prep‑b, Art | N‑mp</pos>
 				<parse>Preposition-b, Article :: Noun - masculine plural</parse>
@@ -740,7 +740,7 @@
 				<chinese unaudited="unaudited">他要用水</chinese>
 				<chinese-definition>水</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v4-w21">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -750,7 +750,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v4-w22">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -760,7 +760,7 @@
 				<chinese unaudited="unaudited">身</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v4-w23">
 				<strongs>3847</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms | 3mp</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular :: third person masculine plural</parse>
@@ -771,8 +771,8 @@
 				<chinese-definition>穿</chinese-definition>
 			</word>
 		</verse>
-		<verse num="5">
-			<word num="1">
+		<verse num="5" id="v5">
+			<word num="1" id="v5-w1">
 				<strongs>853</strongs>
 				<pos>Conj‑w, Prep‑m | DirObjM</pos>
 				<parse>Conjunctive waw, Preposition-m :: Direct object marker</parse>
@@ -782,7 +782,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>與、跟</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v5-w2">
 				<strongs>5712</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -792,7 +792,7 @@
 				<chinese unaudited="unaudited">會眾</chinese>
 				<chinese-definition>會眾</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v5-w3">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -802,7 +802,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v5-w4">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -812,7 +812,7 @@
 				<chinese unaudited="unaudited">以色列</chinese>
 				<chinese-definition>以色列</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v5-w5">
 				<strongs>3947</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -822,7 +822,7 @@
 				<chinese unaudited="unaudited">取</chinese>
 				<chinese-definition>拿、取</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v5-w6">
 				<strongs>8147</strongs>
 				<pos>Number‑mdc</pos>
 				<parse>Number - mdc</parse>
@@ -832,7 +832,7 @@
 				<chinese unaudited="unaudited">兩隻</chinese>
 				<chinese-definition>數目的「二」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v5-w7">
 				<strongs>8163</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -842,7 +842,7 @@
 				<chinese unaudited="unaudited">公</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v5-w8">
 				<strongs>5795</strongs>
 				<pos>N‑fp</pos>
 				<parse>Noun - feminine plural</parse>
@@ -852,7 +852,7 @@
 				<chinese unaudited="unaudited">山羊</chinese>
 				<chinese-definition>山羊、母山羊</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v5-w9">
 				<strongs>2403</strongs>
 				<pos>Prep‑l | N‑fs</pos>
 				<parse>Preposition-l :: Noun - feminine singular</parse>
@@ -862,7 +862,7 @@
 				<chinese unaudited="unaudited">為贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v5-w10">
 				<strongs>352</strongs>
 				<pos>Conj‑w | N‑ms</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular</parse>
@@ -872,7 +872,7 @@
 				<chinese unaudited="unaudited">公綿羊</chinese>
 				<chinese-definition>公綿羊、高大的樹、門框、柱子、強壯的人</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v5-w11">
 				<strongs>259</strongs>
 				<pos>Number‑ms</pos>
 				<parse>Number - masculine singular</parse>
@@ -882,7 +882,7 @@
 				<chinese unaudited="unaudited">一隻</chinese>
 				<chinese-definition>數目的「一」</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v5-w12">
 				<strongs>5930</strongs>
 				<pos>Prep‑l | N‑fs</pos>
 				<parse>Preposition-l :: Noun - feminine singular</parse>
@@ -893,8 +893,8 @@
 				<chinese-definition>燔祭、階梯</chinese-definition>
 			</word>
 		</verse>
-		<verse num="6">
-			<word num="1">
+		<verse num="6" id="v6">
+			<word num="1" id="v6-w1">
 				<strongs>7126</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -904,7 +904,7 @@
 				<chinese unaudited="unaudited">奉上</chinese>
 				<chinese-definition>臨近、靠近、帶近、呈獻</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v6-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -914,7 +914,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v6-w3">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -924,7 +924,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v6-w4">
 				<strongs>6499</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -934,7 +934,7 @@
 				<chinese unaudited="unaudited">公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v6-w5">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -944,7 +944,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v6-w6">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -954,7 +954,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v6-w7">
 				<strongs>0</strongs>
 				<pos></pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -964,7 +964,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v6-w8">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -974,7 +974,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v6-w9">
 				<strongs>1157</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -984,7 +984,7 @@
 				<chinese unaudited="unaudited">為自己</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v6-w10">
 				<strongs>1157</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -994,7 +994,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v6-w11">
 				<strongs>1004</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -1005,8 +1005,8 @@
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
 		</verse>
-		<verse num="7">
-			<word num="1">
+		<verse num="7" id="v7">
+			<word num="1" id="v7-w1">
 				<strongs>3947</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -1016,7 +1016,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>拿、取</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v7-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1026,7 +1026,7 @@
 				<chinese unaudited="unaudited">也要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v7-w3">
 				<strongs>8147</strongs>
 				<pos>Number‑mdc</pos>
 				<parse>Number - mdc</parse>
@@ -1036,7 +1036,7 @@
 				<chinese unaudited="unaudited">兩隻</chinese>
 				<chinese-definition>數目的「二」</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v7-w4">
 				<strongs>8163</strongs>
 				<pos>Art | N‑mp</pos>
 				<parse>Article :: Noun - masculine plural</parse>
@@ -1046,7 +1046,7 @@
 				<chinese unaudited="unaudited">公山羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v7-w5">
 				<strongs>5975</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -1056,7 +1056,7 @@
 				<chinese unaudited="unaudited">安置</chinese>
 				<chinese-definition>Qal 站立、侍立、停留，Hif'il 設立、使堅定</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v7-w6">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3mp</pos>
 				<parse>Direct object marker :: third person masculine plural</parse>
@@ -1066,7 +1066,7 @@
 				<chinese unaudited="unaudited">也要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v7-w7">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑cpc</pos>
 				<parse>Preposition-l :: Noun - common plural construct</parse>
@@ -1076,7 +1076,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v7-w8">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1086,7 +1086,7 @@
 				<chinese unaudited="unaudited">耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v7-w9">
 				<strongs>6607</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1096,7 +1096,7 @@
 				<chinese unaudited="unaudited">門口</chinese>
 				<chinese-definition>通道、入口</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v7-w10">
 				<strongs>168</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1106,7 +1106,7 @@
 				<chinese unaudited="unaudited">幕</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v7-w11">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -1117,8 +1117,8 @@
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
 		</verse>
-		<verse num="8">
-			<word num="1">
+		<verse num="8" id="v8">
+			<word num="1" id="v8-w1">
 				<strongs>5414</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -1128,7 +1128,7 @@
 				<chinese unaudited="unaudited">拈</chinese>
 				<chinese-definition>給</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v8-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1138,7 +1138,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v8-w3">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1148,7 +1148,7 @@
 				<chinese unaudited="unaudited">為</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v8-w4">
 				<strongs>8147</strongs>
 				<pos>Number‑mdc</pos>
 				<parse>Number - mdc</parse>
@@ -1158,7 +1158,7 @@
 				<chinese unaudited="unaudited">那兩隻</chinese>
 				<chinese-definition>數目的「二」</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v8-w5">
 				<strongs>8163</strongs>
 				<pos>Art | N‑mp</pos>
 				<parse>Article :: Noun - masculine plural</parse>
@@ -1168,7 +1168,7 @@
 				<chinese unaudited="unaudited">羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v8-w6">
 				<strongs>1486</strongs>
 				<pos>N‑mp</pos>
 				<parse>Noun - masculine plural</parse>
@@ -1178,7 +1178,7 @@
 				<chinese unaudited="unaudited">鬮</chinese>
 				<chinese-definition>份、籤</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v8-w7">
 				<strongs>1486</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -1188,7 +1188,7 @@
 				<chinese unaudited="unaudited">鬮</chinese>
 				<chinese-definition>份、籤</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v8-w8">
 				<strongs>259</strongs>
 				<pos>Number‑ms</pos>
 				<parse>Number - masculine singular</parse>
@@ -1198,7 +1198,7 @@
 				<chinese unaudited="unaudited">一</chinese>
 				<chinese-definition>數目的「一」</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v8-w9">
 				<strongs>3068</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -1208,7 +1208,7 @@
 				<chinese unaudited="unaudited">歸與耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v8-w10">
 				<strongs>1486</strongs>
 				<pos>Conj‑w | N‑ms</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular</parse>
@@ -1218,7 +1218,7 @@
 				<chinese unaudited="unaudited">鬮</chinese>
 				<chinese-definition>份、籤</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v8-w11">
 				<strongs>259</strongs>
 				<pos>Number‑ms</pos>
 				<parse>Number - masculine singular</parse>
@@ -1228,7 +1228,7 @@
 				<chinese unaudited="unaudited">一</chinese>
 				<chinese-definition>數目的「一」</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v8-w12">
 				<strongs>5799</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -1239,8 +1239,8 @@
 				<chinese-definition>阿撒瀉勒、代罪羔羊</chinese-definition>
 			</word>
 		</verse>
-		<verse num="9">
-			<word num="1">
+		<verse num="9" id="v9">
+			<word num="1" id="v9-w1">
 				<strongs>7126</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -1250,7 +1250,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>臨近、靠近、帶近、呈獻</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v9-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1260,7 +1260,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v9-w3">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1270,7 +1270,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v9-w4">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -1280,7 +1280,7 @@
 				<chinese unaudited="unaudited">的羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v9-w5">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -1290,7 +1290,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v9-w6">
 				<strongs>5927</strongs>
 				<pos>V‑Qal‑Perf‑3ms</pos>
 				<parse>Verb - Qal - Perfect - third person masculine singular</parse>
@@ -1300,7 +1300,7 @@
 				<chinese unaudited="unaudited">歸</chinese>
 				<chinese-definition>上去、升高、生長、獻上</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v9-w7">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1310,7 +1310,7 @@
 				<chinese unaudited="unaudited">拈</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v9-w8">
 				<strongs>1486</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -1320,7 +1320,7 @@
 				<chinese unaudited="unaudited">鬮</chinese>
 				<chinese-definition>份、籤</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v9-w9">
 				<strongs>3068</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -1330,7 +1330,7 @@
 				<chinese unaudited="unaudited">與耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v9-w10">
 				<strongs>6213</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms | 3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular :: third person masculine singular</parse>
@@ -1340,7 +1340,7 @@
 				<chinese unaudited="unaudited">獻</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v9-w11">
 				<strongs>2403</strongs>
 				<pos>N‑fs</pos>
 				<parse>Noun - feminine singular</parse>
@@ -1351,8 +1351,8 @@
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
 		</verse>
-		<verse num="10">
-			<word num="1">
+		<verse num="10" id="v10">
+			<word num="1" id="v10-w1">
 				<strongs>8163</strongs>
 				<pos>Conj‑w, Art | N‑ms</pos>
 				<parse>Conjunctive waw, Article :: Noun - masculine singular</parse>
@@ -1362,7 +1362,7 @@
 				<chinese unaudited="unaudited">的羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v10-w2">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -1372,7 +1372,7 @@
 				<chinese unaudited="unaudited">但那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v10-w3">
 				<strongs>5927</strongs>
 				<pos>V‑Qal‑Perf‑3ms</pos>
 				<parse>Verb - Qal - Perfect - third person masculine singular</parse>
@@ -1382,7 +1382,7 @@
 				<chinese unaudited="unaudited">歸</chinese>
 				<chinese-definition>上去、升高、生長、獻上</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v10-w4">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1392,7 +1392,7 @@
 				<chinese unaudited="unaudited">拈</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v10-w5">
 				<strongs>1486</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -1402,7 +1402,7 @@
 				<chinese unaudited="unaudited">鬮</chinese>
 				<chinese-definition>份、籤</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v10-w6">
 				<strongs>5799</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -1412,7 +1412,7 @@
 				<chinese unaudited="unaudited">與阿撒瀉勒</chinese>
 				<chinese-definition>阿撒瀉勒、代罪羔羊</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v10-w7">
 				<strongs>5975</strongs>
 				<pos>V‑Hofal‑Imperf‑3ms</pos>
 				<parse>Verb - Hofal - Imperfect - third person masculine singular</parse>
@@ -1422,7 +1422,7 @@
 				<chinese unaudited="unaudited">安置</chinese>
 				<chinese-definition>Qal 站立、侍立、停留，Hif'il 設立、使堅定</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v10-w8">
 				<strongs>2416</strongs>
 				<pos>Adj‑ms</pos>
 				<parse>Adjective - masculine singular</parse>
@@ -1432,7 +1432,7 @@
 				<chinese unaudited="unaudited">要活著</chinese>
 				<chinese-definition>活的</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v10-w9">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑cpc</pos>
 				<parse>Preposition-l :: Noun - common plural construct</parse>
@@ -1442,7 +1442,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v10-w10">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1452,7 +1452,7 @@
 				<chinese unaudited="unaudited">在耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v10-w11">
 				<strongs>3722</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -1462,7 +1462,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v10-w12">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1472,7 +1472,7 @@
 				<chinese unaudited="unaudited">用以</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v10-w13">
 				<strongs>7971</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -1482,7 +1482,7 @@
 				<chinese unaudited="unaudited">打發人送</chinese>
 				<chinese-definition>差遣、釋放、送走、伸出、伸展</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v10-w14">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3ms</pos>
 				<parse>Direct object marker :: third person masculine singular</parse>
@@ -1492,7 +1492,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v10-w15">
 				<strongs>5799</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -1502,7 +1502,7 @@
 				<chinese unaudited="unaudited">去歸與阿撒瀉勒</chinese>
 				<chinese-definition>阿撒瀉勒、代罪羔羊</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v10-w16">
 				<strongs>4057</strongs>
 				<pos>Art | N‑ms | 3fs</pos>
 				<parse>Article :: Noun - masculine singular :: third person feminine singular</parse>
@@ -1513,8 +1513,8 @@
 				<chinese-definition>曠野</chinese-definition>
 			</word>
 		</verse>
-		<verse num="11">
-			<word num="1">
+		<verse num="11" id="v11">
+			<word num="1" id="v11-w1">
 				<strongs>7126</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -1524,7 +1524,7 @@
 				<chinese unaudited="unaudited">牽來</chinese>
 				<chinese-definition>臨近、靠近、帶近、呈獻</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v11-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1534,7 +1534,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v11-w3">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1544,7 +1544,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v11-w4">
 				<strongs>6499</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1554,7 +1554,7 @@
 				<chinese unaudited="unaudited">公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v11-w5">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1564,7 +1564,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v11-w6">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -1574,7 +1574,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v11-w7">
 				<strongs>0</strongs>
 				<pos></pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1584,7 +1584,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v11-w8">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -1594,7 +1594,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v11-w9">
 				<strongs>1157</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1604,7 +1604,7 @@
 				<chinese unaudited="unaudited">為自己</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v11-w10">
 				<strongs>1157</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -1614,7 +1614,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v11-w11">
 				<strongs>1004</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -1624,7 +1624,7 @@
 				<chinese unaudited="unaudited">本家</chinese>
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v11-w12">
 				<strongs>7819</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -1634,7 +1634,7 @@
 				<chinese unaudited="unaudited">宰了</chinese>
 				<chinese-definition>殺</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v11-w13">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1644,7 +1644,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v11-w14">
 				<strongs>6499</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1654,7 +1654,7 @@
 				<chinese unaudited="unaudited">公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v11-w15">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1664,7 +1664,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v11-w16">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -1674,7 +1674,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v11-w17">
 				<strongs>0</strongs>
 				<pos></pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -1685,8 +1685,8 @@
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
 		</verse>
-		<verse num="12">
-			<word num="1">
+		<verse num="12" id="v12">
+			<word num="1" id="v12-w1">
 				<strongs>3947</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -1696,7 +1696,7 @@
 				<chinese unaudited="unaudited">拿</chinese>
 				<chinese-definition>拿、取</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v12-w2">
 				<strongs>4393</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1706,7 +1706,7 @@
 				<chinese unaudited="unaudited">盛滿</chinese>
 				<chinese-definition>很多、充滿</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v12-w3">
 				<strongs>4289</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1716,7 +1716,7 @@
 				<chinese unaudited="unaudited">香爐</chinese>
 				<chinese-definition>火鼎、香爐</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v12-w4">
 				<strongs>1513</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -1726,7 +1726,7 @@
 				<chinese unaudited="unaudited">炭</chinese>
 				<chinese-definition>炭</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v12-w5">
 				<strongs>784</strongs>
 				<pos>N‑cs</pos>
 				<parse>Noun - common singular</parse>
@@ -1736,7 +1736,7 @@
 				<chinese unaudited="unaudited">火</chinese>
 				<chinese-definition>火</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v12-w6">
 				<strongs>5921</strongs>
 				<pos>Prep‑m</pos>
 				<parse>Preposition-m</parse>
@@ -1746,7 +1746,7 @@
 				<chinese unaudited="unaudited">上</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v12-w7">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -1756,7 +1756,7 @@
 				<chinese unaudited="unaudited">的壇</chinese>
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v12-w8">
 				<strongs>6440</strongs>
 				<pos>Prep‑m, Prep‑l | N‑cpc</pos>
 				<parse>Preposition-m, Preposition-l :: Noun - common plural construct</parse>
@@ -1766,7 +1766,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v12-w9">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1776,7 +1776,7 @@
 				<chinese unaudited="unaudited">從耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v12-w10">
 				<strongs>4393</strongs>
 				<pos>Conj‑w | N‑msc</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular construct</parse>
@@ -1786,7 +1786,7 @@
 				<chinese unaudited="unaudited">又拿一</chinese>
 				<chinese-definition>很多、充滿</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v12-w11">
 				<strongs>2651</strongs>
 				<pos>N‑mdc | 3ms</pos>
 				<parse>Noun - mdc :: third person masculine singular</parse>
@@ -1796,7 +1796,7 @@
 				<chinese unaudited="unaudited">捧</chinese>
 				<chinese-definition>一把、手心</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v12-w12">
 				<strongs>7004</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -1806,7 +1806,7 @@
 				<chinese unaudited="unaudited">香料</chinese>
 				<chinese-definition>香品、香味、煙</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v12-w13">
 				<strongs>5561</strongs>
 				<pos>N‑mp</pos>
 				<parse>Noun - masculine plural</parse>
@@ -1816,7 +1816,7 @@
 				<chinese unaudited="unaudited">香料</chinese>
 				<chinese-definition>香料</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v12-w14">
 				<strongs>1851</strongs>
 				<pos>Adj‑fs</pos>
 				<parse>Adjective - feminine singular</parse>
@@ -1826,7 +1826,7 @@
 				<chinese unaudited="unaudited">搗細的</chinese>
 				<chinese-definition>薄的、小的</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v12-w15">
 				<strongs>935</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -1836,7 +1836,7 @@
 				<chinese unaudited="unaudited">都帶入</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v12-w16">
 				<strongs>1004</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -1846,7 +1846,7 @@
 				<chinese unaudited="unaudited">內</chinese>
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v12-w17">
 				<strongs>6532</strongs>
 				<pos>Prep‑l, Art | N‑fs</pos>
 				<parse>Preposition-l, Article :: Noun - feminine singular</parse>
@@ -1857,8 +1857,8 @@
 				<chinese-definition>布幕、罩紗</chinese-definition>
 			</word>
 		</verse>
-		<verse num="13">
-			<word num="1">
+		<verse num="13" id="v13">
+			<word num="1" id="v13-w1">
 				<strongs>5414</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -1868,7 +1868,7 @@
 				<chinese unaudited="unaudited">放</chinese>
 				<chinese-definition>給</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v13-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1878,7 +1878,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v13-w3">
 				<strongs>7004</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1888,7 +1888,7 @@
 				<chinese unaudited="unaudited">香</chinese>
 				<chinese-definition>香品、香味、煙</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v13-w4">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1898,7 +1898,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v13-w5">
 				<strongs>784</strongs>
 				<pos>Art | N‑cs</pos>
 				<parse>Article :: Noun - common singular</parse>
@@ -1908,7 +1908,7 @@
 				<chinese unaudited="unaudited">火上</chinese>
 				<chinese-definition>火</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v13-w6">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑cpc</pos>
 				<parse>Preposition-l :: Noun - common plural construct</parse>
@@ -1918,7 +1918,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v13-w7">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -1928,7 +1928,7 @@
 				<chinese unaudited="unaudited">在耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v13-w8">
 				<strongs>3680</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -1938,7 +1938,7 @@
 				<chinese unaudited="unaudited">遮掩</chinese>
 				<chinese-definition>遮蓋、隱藏</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v13-w9">
 				<strongs>6051</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -1948,7 +1948,7 @@
 				<chinese unaudited="unaudited">的煙雲</chinese>
 				<chinese-definition>雲</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v13-w10">
 				<strongs>7004</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1958,7 +1958,7 @@
 				<chinese unaudited="unaudited">使香</chinese>
 				<chinese-definition>香品、香味、煙</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v13-w11">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -1968,7 +1968,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v13-w12">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -1978,7 +1978,7 @@
 				<chinese unaudited="unaudited">施恩座</chinese>
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v13-w13">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -1988,7 +1988,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v13-w14">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -1998,7 +1998,7 @@
 				<chinese unaudited="unaudited">上</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v13-w15">
 				<strongs>5715</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2008,7 +2008,7 @@
 				<chinese unaudited="unaudited">法櫃</chinese>
 				<chinese-definition>見證、證言</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v13-w16">
 				<strongs>3808</strongs>
 				<pos>Conj‑w | Adv‑NegPrt</pos>
 				<parse>Conjunctive waw :: Adverb - Negative particle</parse>
@@ -2018,7 +2018,7 @@
 				<chinese unaudited="unaudited">免得</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v13-w17">
 				<strongs>4191</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -2029,8 +2029,8 @@
 				<chinese-definition>死</chinese-definition>
 			</word>
 		</verse>
-		<verse num="14">
-			<word num="1">
+		<verse num="14" id="v14">
+			<word num="1" id="v14-w1">
 				<strongs>3947</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2040,7 +2040,7 @@
 				<chinese unaudited="unaudited">也要取</chinese>
 				<chinese-definition>拿、取</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v14-w2">
 				<strongs>1818</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -2050,7 +2050,7 @@
 				<chinese unaudited="unaudited">的血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v14-w3">
 				<strongs>6499</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2060,7 +2060,7 @@
 				<chinese unaudited="unaudited">些公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v14-w4">
 				<strongs>5137</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -2070,7 +2070,7 @@
 				<chinese unaudited="unaudited">彈</chinese>
 				<chinese-definition>噴射、噴灑</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v14-w5">
 				<strongs>676</strongs>
 				<pos>Prep‑b | N‑fsc | 3ms</pos>
 				<parse>Preposition-b :: Noun - feminine singular construct :: third person masculine singular</parse>
@@ -2080,7 +2080,7 @@
 				<chinese unaudited="unaudited">用指頭</chinese>
 				<chinese-definition>指頭</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v14-w6">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2090,7 +2090,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v14-w7">
 				<strongs>6440</strongs>
 				<pos>N‑cpc</pos>
 				<parse>Noun - common plural construct</parse>
@@ -2100,7 +2100,7 @@
 				<chinese unaudited="unaudited">面</chinese>
 				<chinese-definition>臉、面、表面</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v14-w8">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2110,7 +2110,7 @@
 				<chinese unaudited="unaudited">施恩座</chinese>
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v14-w9">
 				<strongs>6924</strongs>
 				<pos>Adv | 3fs</pos>
 				<parse>Adverb :: third person feminine singular</parse>
@@ -2120,7 +2120,7 @@
 				<chinese unaudited="unaudited">的東</chinese>
 				<chinese-definition>前面、東方</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v14-w10">
 				<strongs>6440</strongs>
 				<pos>Conj‑w, Prep‑l | N‑cpc</pos>
 				<parse>Conjunctive waw, Preposition-l :: Noun - common plural construct</parse>
@@ -2130,7 +2130,7 @@
 				<chinese unaudited="unaudited">的前面</chinese>
 				<chinese-definition>臉、面、表面</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v14-w11">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2140,7 +2140,7 @@
 				<chinese unaudited="unaudited">又在施恩座</chinese>
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v14-w12">
 				<strongs>5137</strongs>
 				<pos>V‑Hifil‑Imperf‑3ms</pos>
 				<parse>Verb - Hifil - Imperfect - third person masculine singular</parse>
@@ -2150,7 +2150,7 @@
 				<chinese unaudited="unaudited">彈</chinese>
 				<chinese-definition>噴射、噴灑</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v14-w13">
 				<strongs>7651</strongs>
 				<pos>Number‑fs</pos>
 				<parse>Number - feminine singular</parse>
@@ -2160,7 +2160,7 @@
 				<chinese unaudited="unaudited">七</chinese>
 				<chinese-definition>數目的「七」</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v14-w14">
 				<strongs>6471</strongs>
 				<pos>N‑fp</pos>
 				<parse>Noun - feminine plural</parse>
@@ -2170,7 +2170,7 @@
 				<chinese unaudited="unaudited">次</chinese>
 				<chinese-definition>現在終於、腳步、這一次、次數</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v14-w15">
 				<strongs>4480</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2180,7 +2180,7 @@
 				<chinese unaudited="unaudited">的血</chinese>
 				<chinese-definition>從、出、離</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v14-w16">
 				<strongs>1818</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2190,7 +2190,7 @@
 				<chinese unaudited="unaudited">血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v14-w17">
 				<strongs>676</strongs>
 				<pos>Prep‑b | N‑fsc | 3ms</pos>
 				<parse>Preposition-b :: Noun - feminine singular construct :: third person masculine singular</parse>
@@ -2201,8 +2201,8 @@
 				<chinese-definition>指頭</chinese-definition>
 			</word>
 		</verse>
-		<verse num="15">
-			<word num="1">
+		<verse num="15" id="v15">
+			<word num="1" id="v15-w1">
 				<strongs>7819</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2212,7 +2212,7 @@
 				<chinese unaudited="unaudited">隨後他要宰</chinese>
 				<chinese-definition>殺</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v15-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -2222,7 +2222,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v15-w3">
 				<strongs>8163</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -2232,7 +2232,7 @@
 				<chinese unaudited="unaudited">的公山羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v15-w4">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2242,7 +2242,7 @@
 				<chinese unaudited="unaudited">作贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v15-w5">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -2252,7 +2252,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v15-w6">
 				<strongs>5971</strongs>
 				<pos>Prep‑l, Art | N‑ms</pos>
 				<parse>Preposition-l, Article :: Noun - masculine singular</parse>
@@ -2262,7 +2262,7 @@
 				<chinese unaudited="unaudited">為百姓</chinese>
 				<chinese-definition>百姓、國民</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v15-w7">
 				<strongs>935</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -2272,7 +2272,7 @@
 				<chinese unaudited="unaudited">帶</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v15-w8">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -2282,7 +2282,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v15-w9">
 				<strongs>1818</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -2292,7 +2292,7 @@
 				<chinese unaudited="unaudited">羊的血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v15-w10">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2302,7 +2302,7 @@
 				<chinese unaudited="unaudited">入</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v15-w11">
 				<strongs>1004</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -2312,7 +2312,7 @@
 				<chinese unaudited="unaudited">內</chinese>
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v15-w12">
 				<strongs>6532</strongs>
 				<pos>Prep‑l, Art | N‑fs</pos>
 				<parse>Preposition-l, Article :: Noun - feminine singular</parse>
@@ -2322,7 +2322,7 @@
 				<chinese unaudited="unaudited">幔子</chinese>
 				<chinese-definition>布幕、罩紗</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v15-w13">
 				<strongs>6213</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2332,7 +2332,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v15-w14">
 				<strongs>854</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2342,7 +2342,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v15-w15">
 				<strongs>1818</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -2352,7 +2352,7 @@
 				<chinese unaudited="unaudited">的血一樣</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v15-w16">
 				<strongs>834</strongs>
 				<pos>Prep‑k | Pro‑r</pos>
 				<parse>Preposition-k :: Pronoun - relative</parse>
@@ -2362,7 +2362,7 @@
 				<chinese unaudited="unaudited">好像</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v15-w17">
 				<strongs>6213</strongs>
 				<pos>V‑Qal‑Perf‑3ms</pos>
 				<parse>Verb - Qal - Perfect - third person masculine singular</parse>
@@ -2372,7 +2372,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v15-w18">
 				<strongs>1818</strongs>
 				<pos>Prep‑l | N‑msc</pos>
 				<parse>Preposition-l :: Noun - masculine singular construct</parse>
@@ -2382,7 +2382,7 @@
 				<chinese unaudited="unaudited">的血一樣</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v15-w19">
 				<strongs>6499</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2392,7 +2392,7 @@
 				<chinese unaudited="unaudited">彈公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v15-w20">
 				<strongs>5137</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -2402,7 +2402,7 @@
 				<chinese unaudited="unaudited">彈</chinese>
 				<chinese-definition>噴射、噴灑</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v15-w21">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3ms</pos>
 				<parse>Direct object marker :: third person masculine singular</parse>
@@ -2412,7 +2412,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v15-w22">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2422,7 +2422,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v15-w23">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2432,7 +2432,7 @@
 				<chinese unaudited="unaudited">施恩座</chinese>
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v15-w24">
 				<strongs>6440</strongs>
 				<pos>Conj‑w, Prep‑l | N‑cpc</pos>
 				<parse>Conjunctive waw, Preposition-l :: Noun - common plural construct</parse>
@@ -2442,7 +2442,7 @@
 				<chinese unaudited="unaudited">的上面和前面</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v15-w25">
 				<strongs>3727</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -2453,8 +2453,8 @@
 				<chinese-definition>櫃蓋</chinese-definition>
 			</word>
 		</verse>
-		<verse num="16">
-			<word num="1">
+		<verse num="16" id="v16">
+			<word num="1" id="v16-w1">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -2464,7 +2464,7 @@
 				<chinese unaudited="unaudited">行贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v16-w2">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2474,7 +2474,7 @@
 				<chinese unaudited="unaudited">當這樣在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v16-w3">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2484,7 +2484,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v16-w4">
 				<strongs>2932</strongs>
 				<pos>Prep‑m | N‑fpc</pos>
 				<parse>Preposition-m :: Noun - feminine plural construct</parse>
@@ -2494,7 +2494,7 @@
 				<chinese unaudited="unaudited">諸般的污穢</chinese>
 				<chinese-definition>污穢、不潔淨</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v16-w5">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -2504,7 +2504,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v16-w6">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -2514,7 +2514,7 @@
 				<chinese unaudited="unaudited">他因以色列</chinese>
 				<chinese-definition>以色列</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v16-w7">
 				<strongs>6588</strongs>
 				<pos>Conj‑w, Prep‑m | N‑mpc | 3mp</pos>
 				<parse>Conjunctive waw, Preposition-m :: Noun - masculine plural construct :: third person masculine plural</parse>
@@ -2524,7 +2524,7 @@
 				<chinese unaudited="unaudited">過犯</chinese>
 				<chinese-definition>背叛、叛逆</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v16-w8">
 				<strongs>3605</strongs>
 				<pos>Prep‑l | N‑msc</pos>
 				<parse>Preposition-l :: Noun - masculine singular construct</parse>
@@ -2534,7 +2534,7 @@
 				<chinese unaudited="unaudited">就是他們一切的</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v16-w9">
 				<strongs>2403</strongs>
 				<pos>N‑fpc | 3mp</pos>
 				<parse>Noun - feminine plural construct :: third person masculine plural</parse>
@@ -2544,7 +2544,7 @@
 				<chinese unaudited="unaudited">罪愆</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v16-w10">
 				<strongs>3651</strongs>
 				<pos>Conj‑w | Adv</pos>
 				<parse>Conjunctive waw :: Adverb</parse>
@@ -2554,7 +2554,7 @@
 				<chinese unaudited="unaudited">也要照樣</chinese>
 				<chinese-definition>副詞：因此、如此、這樣；形容詞：對、真的、公平、誠實</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v16-w11">
 				<strongs>6213</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -2564,7 +2564,7 @@
 				<chinese unaudited="unaudited">而行</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v16-w12">
 				<strongs>168</strongs>
 				<pos>Prep‑l | N‑msc</pos>
 				<parse>Preposition-l :: Noun - masculine singular construct</parse>
@@ -2574,7 +2574,7 @@
 				<chinese unaudited="unaudited">幕</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v16-w13">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -2584,7 +2584,7 @@
 				<chinese unaudited="unaudited">之禮並因會</chinese>
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v16-w14">
 				<strongs>7931</strongs>
 				<pos>Art | V‑Qal‑Prtcpl‑ms</pos>
 				<parse>Article :: Verb - Qal - Participle - masculine singular</parse>
@@ -2594,7 +2594,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>居住</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v16-w15">
 				<strongs>854</strongs>
 				<pos>Prep | 3mp</pos>
 				<parse>Preposition :: third person masculine plural</parse>
@@ -2604,7 +2604,7 @@
 				<chinese unaudited="unaudited">他們</chinese>
 				<chinese-definition>與、跟</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v16-w16">
 				<strongs>8432</strongs>
 				<pos>Prep‑b | N‑msc</pos>
 				<parse>Preposition-b :: Noun - masculine singular construct</parse>
@@ -2614,7 +2614,7 @@
 				<chinese unaudited="unaudited">之中</chinese>
 				<chinese-definition>中間</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v16-w17">
 				<strongs>2932</strongs>
 				<pos>N‑fpc | 3mp</pos>
 				<parse>Noun - feminine plural construct :: third person masculine plural</parse>
@@ -2625,8 +2625,8 @@
 				<chinese-definition>污穢、不潔淨</chinese-definition>
 			</word>
 		</verse>
-		<verse num="17">
-			<word num="1">
+		<verse num="17" id="v17">
+			<word num="1" id="v17-w1">
 				<strongs>3605</strongs>
 				<pos>Conj‑w | N‑msc</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular construct</parse>
@@ -2636,7 +2636,7 @@
 				<chinese unaudited="unaudited">全</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v17-w2">
 				<strongs>120</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -2646,7 +2646,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>人</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v17-w3">
 				<strongs>3808</strongs>
 				<pos>Adv‑NegPrt</pos>
 				<parse>Adverb - Negative particle</parse>
@@ -2656,7 +2656,7 @@
 				<chinese unaudited="unaudited">不可</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v17-w4">
 				<strongs>1961</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -2666,7 +2666,7 @@
 				<chinese unaudited="unaudited">有</chinese>
 				<chinese-definition>是、成為、臨到</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v17-w5">
 				<strongs>168</strongs>
 				<pos>Prep‑b | N‑msc</pos>
 				<parse>Preposition-b :: Noun - masculine singular construct</parse>
@@ -2676,7 +2676,7 @@
 				<chinese unaudited="unaudited">幕裡</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v17-w6">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -2686,7 +2686,7 @@
 				<chinese unaudited="unaudited">的時候會</chinese>
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v17-w7">
 				<strongs>935</strongs>
 				<pos>Prep‑b | V‑Qal‑Inf | 3ms</pos>
 				<parse>Preposition-b :: Verb - Qal - Infinitive construct :: third person masculine singular</parse>
@@ -2696,7 +2696,7 @@
 				<chinese unaudited="unaudited">他進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v17-w8">
 				<strongs>3722</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -2706,7 +2706,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v17-w9">
 				<strongs>6944</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -2716,7 +2716,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v17-w10">
 				<strongs>5704</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2726,7 +2726,7 @@
 				<chinese unaudited="unaudited">直等到</chinese>
 				<chinese-definition>直到</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v17-w11">
 				<strongs>3318</strongs>
 				<pos>V‑Qal‑Inf | 3ms</pos>
 				<parse>Verb - Qal - Infinitive construct :: third person masculine singular</parse>
@@ -2736,7 +2736,7 @@
 				<chinese unaudited="unaudited">出來</chinese>
 				<chinese-definition>出去</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v17-w12">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -2746,7 +2746,7 @@
 				<chinese unaudited="unaudited">贖了罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v17-w13">
 				<strongs>1157</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -2756,7 +2756,7 @@
 				<chinese unaudited="unaudited">他為自己</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v17-w14">
 				<strongs>1157</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -2766,7 +2766,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v17-w15">
 				<strongs>1004</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -2776,7 +2776,7 @@
 				<chinese unaudited="unaudited">本家</chinese>
 				<chinese-definition>殿、房子、家</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v17-w16">
 				<strongs>1157</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -2786,7 +2786,7 @@
 				<chinese unaudited="unaudited">並</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v17-w17">
 				<strongs>3605</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -2796,7 +2796,7 @@
 				<chinese unaudited="unaudited">全</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v17-w18">
 				<strongs>6951</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -2806,7 +2806,7 @@
 				<chinese unaudited="unaudited">會眾</chinese>
 				<chinese-definition>集會</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v17-w19">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -2817,8 +2817,8 @@
 				<chinese-definition>以色列</chinese-definition>
 			</word>
 		</verse>
-		<verse num="18">
-			<word num="1">
+		<verse num="18" id="v18">
+			<word num="1" id="v18-w1">
 				<strongs>3318</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2828,7 +2828,7 @@
 				<chinese unaudited="unaudited">他出來</chinese>
 				<chinese-definition>出去</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v18-w2">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2838,7 +2838,7 @@
 				<chinese unaudited="unaudited">要到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v18-w3">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2848,7 +2848,7 @@
 				<chinese unaudited="unaudited">壇</chinese>
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v18-w4">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -2858,7 +2858,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v18-w5">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑mpc</pos>
 				<parse>Preposition-l :: Noun - masculine plural construct</parse>
@@ -2868,7 +2868,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…之前</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v18-w6">
 				<strongs>3069</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -2878,7 +2878,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v18-w7">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -2888,7 +2888,7 @@
 				<chinese unaudited="unaudited">壇上行贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v18-w8">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -2898,7 +2898,7 @@
 				<chinese unaudited="unaudited">那裡在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v18-w9">
 				<strongs>3947</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2908,7 +2908,7 @@
 				<chinese unaudited="unaudited">之禮又要取些</chinese>
 				<chinese-definition>拿、取</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v18-w10">
 				<strongs>1818</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -2918,7 +2918,7 @@
 				<chinese unaudited="unaudited">的血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v18-w11">
 				<strongs>6499</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2928,7 +2928,7 @@
 				<chinese unaudited="unaudited">公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v18-w12">
 				<strongs>1818</strongs>
 				<pos>Conj‑w, Prep‑m | N‑msc</pos>
 				<parse>Conjunctive waw, Preposition-m :: Noun - masculine singular construct</parse>
@@ -2938,7 +2938,7 @@
 				<chinese unaudited="unaudited">的血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v18-w13">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2948,7 +2948,7 @@
 				<chinese unaudited="unaudited">和公山羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v18-w14">
 				<strongs>5414</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -2958,7 +2958,7 @@
 				<chinese unaudited="unaudited">抹</chinese>
 				<chinese-definition>給</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v18-w15">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -2968,7 +2968,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v18-w16">
 				<strongs>7161</strongs>
 				<pos>N‑fpc</pos>
 				<parse>Noun - feminine plural construct</parse>
@@ -2978,7 +2978,7 @@
 				<chinese unaudited="unaudited">四角</chinese>
 				<chinese-definition>角</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v18-w17">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -2988,7 +2988,7 @@
 				<chinese unaudited="unaudited">壇上</chinese>
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v18-w18">
 				<strongs>5439</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -2999,8 +2999,8 @@
 				<chinese-definition>四圍、環繞</chinese-definition>
 			</word>
 		</verse>
-		<verse num="19">
-			<word num="1">
+		<verse num="19" id="v19">
+			<word num="1" id="v19-w1">
 				<strongs>5137</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -3010,7 +3010,7 @@
 				<chinese unaudited="unaudited">彈</chinese>
 				<chinese-definition>噴射、噴灑</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v19-w2">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -3020,7 +3020,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v19-w3">
 				<strongs>4480</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3030,7 +3030,7 @@
 				<chinese unaudited="unaudited">把血</chinese>
 				<chinese-definition>從、出、離</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v19-w4">
 				<strongs>1818</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3040,7 +3040,7 @@
 				<chinese unaudited="unaudited">把血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v19-w5">
 				<strongs>676</strongs>
 				<pos>Prep‑b | N‑fsc | 3ms</pos>
 				<parse>Preposition-b :: Noun - feminine singular construct :: third person masculine singular</parse>
@@ -3050,7 +3050,7 @@
 				<chinese unaudited="unaudited">也要用指頭</chinese>
 				<chinese-definition>指頭</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v19-w6">
 				<strongs>7651</strongs>
 				<pos>Number‑fs</pos>
 				<parse>Number - feminine singular</parse>
@@ -3060,7 +3060,7 @@
 				<chinese unaudited="unaudited">壇上七</chinese>
 				<chinese-definition>數目的「七」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v19-w7">
 				<strongs>6471</strongs>
 				<pos>N‑fp</pos>
 				<parse>Noun - feminine plural</parse>
@@ -3070,7 +3070,7 @@
 				<chinese unaudited="unaudited">次</chinese>
 				<chinese-definition>現在終於、腳步、這一次、次數</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v19-w8">
 				<strongs>2891</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms | 3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular :: third person masculine singular</parse>
@@ -3080,7 +3080,7 @@
 				<chinese unaudited="unaudited">潔淨了</chinese>
 				<chinese-definition>潔淨</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v19-w9">
 				<strongs>6942</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms | 3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular :: third person masculine singular</parse>
@@ -3090,7 +3090,7 @@
 				<chinese unaudited="unaudited">使壇成聖</chinese>
 				<chinese-definition>分別為聖、把…奉獻給上帝</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v19-w10">
 				<strongs>2932</strongs>
 				<pos>Prep‑m | N‑fpc</pos>
 				<parse>Preposition-m :: Noun - feminine plural construct</parse>
@@ -3100,7 +3100,7 @@
 				<chinese unaudited="unaudited">諸般的污穢</chinese>
 				<chinese-definition>污穢、不潔淨</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v19-w11">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -3110,7 +3110,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v19-w12">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -3121,8 +3121,8 @@
 				<chinese-definition>以色列</chinese-definition>
 			</word>
 		</verse>
-		<verse num="20">
-			<word num="1">
+		<verse num="20" id="v20">
+			<word num="1" id="v20-w1">
 				<strongs>3615</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -3132,7 +3132,7 @@
 				<chinese unaudited="unaudited">獻完了</chinese>
 				<chinese-definition>Qal 完成、結束、停止，Pi'el 完成、毀壞、根除</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v20-w2">
 				<strongs>3722</strongs>
 				<pos>Prep‑m | V‑Piel‑Inf</pos>
 				<parse>Preposition-m :: Verb - Piel - Infinitive construct</parse>
@@ -3142,7 +3142,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v20-w3">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3152,7 +3152,7 @@
 				<chinese unaudited="unaudited">亞倫為</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v20-w4">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3162,7 +3162,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v20-w5">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -3172,7 +3172,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v20-w6">
 				<strongs>168</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3182,7 +3182,7 @@
 				<chinese unaudited="unaudited">幕</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v20-w7">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -3192,7 +3192,7 @@
 				<chinese unaudited="unaudited">會</chinese>
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v20-w8">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -3202,7 +3202,7 @@
 				<chinese unaudited="unaudited">並</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v20-w9">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3212,7 +3212,7 @@
 				<chinese unaudited="unaudited">壇</chinese>
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v20-w10">
 				<strongs>7126</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular</parse>
@@ -3222,7 +3222,7 @@
 				<chinese unaudited="unaudited">奉上</chinese>
 				<chinese-definition>臨近、靠近、帶近、呈獻</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v20-w11">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3232,7 +3232,7 @@
 				<chinese unaudited="unaudited">就要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v20-w12">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3242,7 +3242,7 @@
 				<chinese unaudited="unaudited">公山羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v20-w13">
 				<strongs>2416</strongs>
 				<pos>Art | Adj‑ms</pos>
 				<parse>Article :: Adjective - masculine singular</parse>
@@ -3253,8 +3253,8 @@
 				<chinese-definition>活的</chinese-definition>
 			</word>
 		</verse>
-		<verse num="21">
-			<word num="1">
+		<verse num="21" id="v21">
+			<word num="1" id="v21-w1">
 				<strongs>5564</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3264,7 +3264,7 @@
 				<chinese unaudited="unaudited">按</chinese>
 				<chinese-definition>增補、支持、支撐、承擔</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v21-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -3274,7 +3274,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v21-w3">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3284,7 +3284,7 @@
 				<chinese unaudited="unaudited">把這罪</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v21-w4">
 				<strongs>8147</strongs>
 				<pos>Number‑fdc</pos>
 				<parse>Number - fdc</parse>
@@ -3294,7 +3294,7 @@
 				<chinese unaudited="unaudited">兩</chinese>
 				<chinese-definition>數目的「二」</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v21-w5">
 				<strongs></strongs>
 				<pos>N‑fsc | 3ms</pos>
 				<parse>Noun - feminine singular construct :: third person masculine singular</parse>
@@ -3304,7 +3304,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>手、邊、力量、權勢</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v21-w6">
 				<strongs>3027</strongs>
 				<pos>N‑fdc | 3ms</pos>
 				<parse>Noun - fdc :: third person masculine singular</parse>
@@ -3314,7 +3314,7 @@
 				<chinese unaudited="unaudited">手</chinese>
 				<chinese-definition>手、邊、力量、權勢</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v21-w7">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3324,7 +3324,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v21-w8">
 				<strongs>7218</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3334,7 +3334,7 @@
 				<chinese unaudited="unaudited">頭上</chinese>
 				<chinese-definition>頭、起頭、山頂、領袖</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v21-w9">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3344,7 +3344,7 @@
 				<chinese unaudited="unaudited">羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v21-w10">
 				<strongs>2416</strongs>
 				<pos>Art | Adj‑ms</pos>
 				<parse>Article :: Adjective - masculine singular</parse>
@@ -3354,7 +3354,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>活的</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v21-w11">
 				<strongs>3034</strongs>
 				<pos>Conj‑w | V‑Hitpael‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Hitpael - Conjunctive perfect - third person masculine singular</parse>
@@ -3364,7 +3364,7 @@
 				<chinese unaudited="unaudited">承認</chinese>
 				<chinese-definition>Qal 射，Pi'el 投擲，Hif'il 稱謝、讚美，Hitpa'el 認罪、感恩</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v21-w12">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -3374,7 +3374,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v21-w13">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3384,7 +3384,7 @@
 				<chinese unaudited="unaudited">把這罪</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v21-w14">
 				<strongs>3605</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3394,7 +3394,7 @@
 				<chinese unaudited="unaudited">諸般的</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v21-w15">
 				<strongs>5771</strongs>
 				<pos>N‑cpc</pos>
 				<parse>Noun - common plural construct</parse>
@@ -3404,7 +3404,7 @@
 				<chinese unaudited="unaudited">罪孽</chinese>
 				<chinese-definition>罪孽</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v21-w16">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -3414,7 +3414,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v21-w17">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -3424,7 +3424,7 @@
 				<chinese unaudited="unaudited">以色列</chinese>
 				<chinese-definition>以色列</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v21-w18">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -3434,7 +3434,7 @@
 				<chinese unaudited="unaudited">把這罪</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v21-w19">
 				<strongs>3605</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3444,7 +3444,7 @@
 				<chinese unaudited="unaudited">就是他們一切的</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v21-w20">
 				<strongs>6588</strongs>
 				<pos>N‑mpc | 3mp</pos>
 				<parse>Noun - masculine plural construct :: third person masculine plural</parse>
@@ -3454,7 +3454,7 @@
 				<chinese unaudited="unaudited">過犯</chinese>
 				<chinese-definition>背叛、叛逆</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v21-w21">
 				<strongs>3605</strongs>
 				<pos>Prep‑l | N‑msc</pos>
 				<parse>Preposition-l :: Noun - masculine singular construct</parse>
@@ -3464,7 +3464,7 @@
 				<chinese unaudited="unaudited">就是他們一切的</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v21-w22">
 				<strongs>2403</strongs>
 				<pos>N‑fpc | 3mp</pos>
 				<parse>Noun - feminine plural construct :: third person masculine plural</parse>
@@ -3474,7 +3474,7 @@
 				<chinese unaudited="unaudited">罪愆</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v21-w23">
 				<strongs>5414</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3484,7 +3484,7 @@
 				<chinese unaudited="unaudited">都歸</chinese>
 				<chinese-definition>給</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v21-w24">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3mp</pos>
 				<parse>Direct object marker :: third person masculine plural</parse>
@@ -3494,7 +3494,7 @@
 				<chinese unaudited="unaudited">把這罪</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="25">
+			<word num="25" id="v21-w25">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3504,7 +3504,7 @@
 				<chinese unaudited="unaudited">在</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="26">
+			<word num="26" id="v21-w26">
 				<strongs>7218</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3514,7 +3514,7 @@
 				<chinese unaudited="unaudited">的頭上</chinese>
 				<chinese-definition>頭、起頭、山頂、領袖</chinese-definition>
 			</word>
-			<word num="27">
+			<word num="27" id="v21-w27">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3524,7 +3524,7 @@
 				<chinese unaudited="unaudited">羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="28">
+			<word num="28" id="v21-w28">
 				<strongs>7971</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -3534,7 +3534,7 @@
 				<chinese unaudited="unaudited">送到</chinese>
 				<chinese-definition>差遣、釋放、送走、伸出、伸展</chinese-definition>
 			</word>
-			<word num="29">
+			<word num="29" id="v21-w29">
 				<strongs>3027</strongs>
 				<pos>Prep‑b | N‑fsc</pos>
 				<parse>Preposition-b :: Noun - feminine singular construct</parse>
@@ -3544,7 +3544,7 @@
 				<chinese unaudited="unaudited">的手</chinese>
 				<chinese-definition>手、邊、力量、權勢</chinese-definition>
 			</word>
-			<word num="30">
+			<word num="30" id="v21-w30">
 				<strongs>376</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -3554,7 +3554,7 @@
 				<chinese unaudited="unaudited">之人</chinese>
 				<chinese-definition>各人、人、男人、丈夫</chinese-definition>
 			</word>
-			<word num="31">
+			<word num="31" id="v21-w31">
 				<strongs>6261</strongs>
 				<pos>Adj‑ms</pos>
 				<parse>Adjective - masculine singular</parse>
@@ -3564,7 +3564,7 @@
 				<chinese unaudited="unaudited">藉著所派</chinese>
 				<chinese-definition>適時的</chinese-definition>
 			</word>
-			<word num="32">
+			<word num="32" id="v21-w32">
 				<strongs>4057</strongs>
 				<pos>Art | N‑ms | 3fs</pos>
 				<parse>Article :: Noun - masculine singular :: third person feminine singular</parse>
@@ -3575,8 +3575,8 @@
 				<chinese-definition>曠野</chinese-definition>
 			</word>
 		</verse>
-		<verse num="22">
-			<word num="1">
+		<verse num="22" id="v22">
+			<word num="1" id="v22-w1">
 				<strongs>5375</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3586,7 +3586,7 @@
 				<chinese unaudited="unaudited">要擔當</chinese>
 				<chinese-definition>高舉、舉起、背負、承擔</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v22-w2">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3596,7 +3596,7 @@
 				<chinese unaudited="unaudited">這羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v22-w3">
 				<strongs>5921</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -3606,7 +3606,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v22-w4">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3616,7 +3616,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v22-w5">
 				<strongs>3605</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3626,7 +3626,7 @@
 				<chinese unaudited="unaudited">他們一切的</chinese>
 				<chinese-definition>全部、整個、各</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v22-w6">
 				<strongs>5771</strongs>
 				<pos>N‑cpc | 3mp</pos>
 				<parse>Noun - common plural construct :: third person masculine plural</parse>
@@ -3636,7 +3636,7 @@
 				<chinese unaudited="unaudited">罪孽</chinese>
 				<chinese-definition>罪孽</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v22-w7">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3646,7 +3646,7 @@
 				<chinese unaudited="unaudited">帶到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v22-w8">
 				<strongs>776</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -3656,7 +3656,7 @@
 				<chinese unaudited="unaudited">之地</chinese>
 				<chinese-definition>地、邦國、疆界</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v22-w9">
 				<strongs>1509</strongs>
 				<pos>N‑fs</pos>
 				<parse>Noun - feminine singular</parse>
@@ -3666,7 +3666,7 @@
 				<chinese unaudited="unaudited">無人</chinese>
 				<chinese-definition>隔離、隔離處</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v22-w10">
 				<strongs>7971</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -3676,7 +3676,7 @@
 				<chinese unaudited="unaudited">放</chinese>
 				<chinese-definition>差遣、釋放、送走、伸出、伸展</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v22-w11">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3686,7 +3686,7 @@
 				<chinese unaudited="unaudited">要把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v22-w12">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3696,7 +3696,7 @@
 				<chinese unaudited="unaudited">這羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v22-w13">
 				<strongs>4057</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -3707,8 +3707,8 @@
 				<chinese-definition>曠野</chinese-definition>
 			</word>
 		</verse>
-		<verse num="23">
-			<word num="1">
+		<verse num="23" id="v23">
+			<word num="1" id="v23-w1">
 				<strongs>935</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3718,7 +3718,7 @@
 				<chinese unaudited="unaudited">要進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v23-w2">
 				<strongs>175</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -3728,7 +3728,7 @@
 				<chinese unaudited="unaudited">亞倫</chinese>
 				<chinese-definition>亞倫</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v23-w3">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3738,7 +3738,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v23-w4">
 				<strongs>168</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -3748,7 +3748,7 @@
 				<chinese unaudited="unaudited">幕</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v23-w5">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -3758,7 +3758,7 @@
 				<chinese unaudited="unaudited">會</chinese>
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v23-w6">
 				<strongs>6584</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3768,7 +3768,7 @@
 				<chinese unaudited="unaudited">脫下</chinese>
 				<chinese-definition>脫</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v23-w7">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3778,7 +3778,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v23-w8">
 				<strongs>899</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -3788,7 +3788,7 @@
 				<chinese unaudited="unaudited">衣服</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v23-w9">
 				<strongs>906</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3798,7 +3798,7 @@
 				<chinese unaudited="unaudited">細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v23-w10">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -3808,7 +3808,7 @@
 				<chinese unaudited="unaudited">時所</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v23-w11">
 				<strongs>3847</strongs>
 				<pos>V‑Qal‑Perf‑3ms</pos>
 				<parse>Verb - Qal - Perfect - third person masculine singular</parse>
@@ -3818,7 +3818,7 @@
 				<chinese unaudited="unaudited">穿的</chinese>
 				<chinese-definition>穿</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v23-w12">
 				<strongs>935</strongs>
 				<pos>Prep‑b | V‑Qal‑Inf | 3ms</pos>
 				<parse>Preposition-b :: Verb - Qal - Infinitive construct :: third person masculine singular</parse>
@@ -3828,7 +3828,7 @@
 				<chinese unaudited="unaudited">他進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v23-w13">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -3838,7 +3838,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v23-w14">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -3848,7 +3848,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v23-w15">
 				<strongs>3240</strongs>
 				<pos>Conj‑w | V‑Hifil‑ConjPerf‑3ms | 3mp</pos>
 				<parse>Conjunctive waw :: Verb - Hifil - Conjunctive perfect - third person masculine singular :: third person masculine plural</parse>
@@ -3858,7 +3858,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>安頓、休息</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v23-w16">
 				<strongs>8033</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -3869,8 +3869,8 @@
 				<chinese-definition>那裡</chinese-definition>
 			</word>
 		</verse>
-		<verse num="24">
-			<word num="1">
+		<verse num="24" id="v24">
+			<word num="1" id="v24-w1">
 				<strongs>7364</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3880,7 +3880,7 @@
 				<chinese unaudited="unaudited">洗</chinese>
 				<chinese-definition>洗</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v24-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3890,7 +3890,7 @@
 				<chinese unaudited="unaudited">把</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v24-w3">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -3900,7 +3900,7 @@
 				<chinese unaudited="unaudited">身</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v24-w4">
 				<strongs>4325</strongs>
 				<pos>Prep‑b, Art | N‑mp</pos>
 				<parse>Preposition-b, Article :: Noun - masculine plural</parse>
@@ -3910,7 +3910,7 @@
 				<chinese unaudited="unaudited">用水</chinese>
 				<chinese-definition>水</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v24-w5">
 				<strongs>4725</strongs>
 				<pos>Prep‑b | N‑ms</pos>
 				<parse>Preposition-b :: Noun - masculine singular</parse>
@@ -3920,7 +3920,7 @@
 				<chinese unaudited="unaudited">處</chinese>
 				<chinese-definition>地方</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v24-w6">
 				<strongs>6918</strongs>
 				<pos>Adj‑ms</pos>
 				<parse>Adjective - masculine singular</parse>
@@ -3930,7 +3930,7 @@
 				<chinese unaudited="unaudited">又要在聖</chinese>
 				<chinese-definition>聖的、神聖的</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v24-w7">
 				<strongs>3847</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3940,7 +3940,7 @@
 				<chinese unaudited="unaudited">穿上</chinese>
 				<chinese-definition>穿</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v24-w8">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3950,7 +3950,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v24-w9">
 				<strongs>899</strongs>
 				<pos>N‑mpc | 3ms</pos>
 				<parse>Noun - masculine plural construct :: third person masculine singular</parse>
@@ -3960,7 +3960,7 @@
 				<chinese unaudited="unaudited">衣服</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v24-w10">
 				<strongs>3318</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3970,7 +3970,7 @@
 				<chinese unaudited="unaudited">出來</chinese>
 				<chinese-definition>出去</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v24-w11">
 				<strongs>6213</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -3980,7 +3980,7 @@
 				<chinese unaudited="unaudited">獻上</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v24-w12">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -3990,7 +3990,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v24-w13">
 				<strongs>5930</strongs>
 				<pos>N‑fsc | 3ms</pos>
 				<parse>Noun - feminine singular construct :: third person masculine singular</parse>
@@ -4000,7 +4000,7 @@
 				<chinese unaudited="unaudited">自己的燔祭</chinese>
 				<chinese-definition>燔祭、階梯</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v24-w14">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4010,7 +4010,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v24-w15">
 				<strongs>5930</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -4020,7 +4020,7 @@
 				<chinese unaudited="unaudited">燔祭</chinese>
 				<chinese-definition>燔祭、階梯</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v24-w16">
 				<strongs>5971</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -4030,7 +4030,7 @@
 				<chinese unaudited="unaudited">百姓的</chinese>
 				<chinese-definition>百姓、國民</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v24-w17">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -4040,7 +4040,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v24-w18">
 				<strongs>1157</strongs>
 				<pos>Prep | 3ms</pos>
 				<parse>Preposition :: third person masculine singular</parse>
@@ -4050,7 +4050,7 @@
 				<chinese unaudited="unaudited">為自己</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v24-w19">
 				<strongs>1157</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -4060,7 +4060,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>為了、背後、穿過、圍繞</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v24-w20">
 				<strongs>5971</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -4071,8 +4071,8 @@
 				<chinese-definition>百姓、國民</chinese-definition>
 			</word>
 		</verse>
-		<verse num="25">
-			<word num="1">
+		<verse num="25" id="v25">
+			<word num="1" id="v25-w1">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4082,7 +4082,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v25-w2">
 				<strongs>2459</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -4092,7 +4092,7 @@
 				<chinese unaudited="unaudited">牲的脂油</chinese>
 				<chinese-definition>上選、最好的部分、油脂</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v25-w3">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -4102,7 +4102,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v25-w4">
 				<strongs>6999</strongs>
 				<pos>V‑Hifil‑Imperf‑3ms</pos>
 				<parse>Verb - Hifil - Imperfect - third person masculine singular</parse>
@@ -4112,7 +4112,7 @@
 				<chinese unaudited="unaudited">焚燒</chinese>
 				<chinese-definition>燒香、使祭物冒煙</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v25-w5">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms | 3fs</pos>
 				<parse>Article :: Noun - masculine singular :: third person feminine singular</parse>
@@ -4123,8 +4123,8 @@
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
 		</verse>
-		<verse num="26">
-			<word num="1">
+		<verse num="26" id="v26">
+			<word num="1" id="v26-w1">
 				<strongs>7971</strongs>
 				<pos>Conj‑w, Art | V‑Piel‑Prtcpl‑ms</pos>
 				<parse>Conjunctive waw, Article :: Verb - Piel - Participle - masculine singular</parse>
@@ -4134,7 +4134,7 @@
 				<chinese unaudited="unaudited">那放</chinese>
 				<chinese-definition>差遣、釋放、送走、伸出、伸展</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v26-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4144,7 +4144,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v26-w3">
 				<strongs>8163</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -4154,7 +4154,7 @@
 				<chinese unaudited="unaudited">羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v26-w4">
 				<strongs>5799</strongs>
 				<pos>Prep‑l | N‑proper‑ms</pos>
 				<parse>Preposition-l :: Noun - proper - masculine singular</parse>
@@ -4164,7 +4164,7 @@
 				<chinese unaudited="unaudited">歸與阿撒瀉勒</chinese>
 				<chinese-definition>阿撒瀉勒、代罪羔羊</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v26-w5">
 				<strongs>3526</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -4174,7 +4174,7 @@
 				<chinese unaudited="unaudited">的人要洗</chinese>
 				<chinese-definition>洗滌、漂洗</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v26-w6">
 				<strongs>899</strongs>
 				<pos>N‑mpc | 3ms</pos>
 				<parse>Noun - masculine plural construct :: third person masculine singular</parse>
@@ -4184,7 +4184,7 @@
 				<chinese unaudited="unaudited">衣服</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v26-w7">
 				<strongs>7364</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -4194,7 +4194,7 @@
 				<chinese unaudited="unaudited">洗</chinese>
 				<chinese-definition>洗</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v26-w8">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4204,7 +4204,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v26-w9">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -4214,7 +4214,7 @@
 				<chinese unaudited="unaudited">身</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v26-w10">
 				<strongs>4325</strongs>
 				<pos>Prep‑b, Art | N‑mp</pos>
 				<parse>Preposition-b, Article :: Noun - masculine plural</parse>
@@ -4224,7 +4224,7 @@
 				<chinese unaudited="unaudited">用水</chinese>
 				<chinese-definition>水</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v26-w11">
 				<strongs>310</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -4234,7 +4234,7 @@
 				<chinese unaudited="unaudited">然後</chinese>
 				<chinese-definition>後面</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v26-w12">
 				<strongs>3651</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4244,7 +4244,7 @@
 				<chinese unaudited="unaudited">然後</chinese>
 				<chinese-definition>副詞：因此、如此、這樣；形容詞：對、真的、公平、誠實</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v26-w13">
 				<strongs>935</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -4254,7 +4254,7 @@
 				<chinese unaudited="unaudited">進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v26-w14">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4264,7 +4264,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v26-w15">
 				<strongs>4264</strongs>
 				<pos>Art | N‑cs</pos>
 				<parse>Article :: Noun - common singular</parse>
@@ -4275,8 +4275,8 @@
 				<chinese-definition>軍旅、軍營</chinese-definition>
 			</word>
 		</verse>
-		<verse num="27">
-			<word num="1">
+		<verse num="27" id="v27">
+			<word num="1" id="v27-w1">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4286,7 +4286,7 @@
 				<chinese unaudited="unaudited">作</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v27-w2">
 				<strongs>6499</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -4296,7 +4296,7 @@
 				<chinese unaudited="unaudited">的公牛</chinese>
 				<chinese-definition>小公牛</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v27-w3">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -4306,7 +4306,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v27-w4">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4316,7 +4316,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v27-w5">
 				<strongs>8163</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -4326,7 +4326,7 @@
 				<chinese unaudited="unaudited">公山羊</chinese>
 				<chinese-definition>公山羊</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v27-w6">
 				<strongs>2403</strongs>
 				<pos>Art | N‑fs</pos>
 				<parse>Article :: Noun - feminine singular</parse>
@@ -4336,7 +4336,7 @@
 				<chinese unaudited="unaudited">贖罪祭</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v27-w7">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -4346,7 +4346,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v27-w8">
 				<strongs>935</strongs>
 				<pos>V‑Hofal‑Perf‑3ms</pos>
 				<parse>Verb - Hofal - Perfect - third person masculine singular</parse>
@@ -4356,7 +4356,7 @@
 				<chinese unaudited="unaudited">既帶入</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v27-w9">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4366,7 +4366,7 @@
 				<chinese unaudited="unaudited">將</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v27-w10">
 				<strongs>1818</strongs>
 				<pos>N‑msc | 3mp</pos>
 				<parse>Noun - masculine singular construct :: third person masculine plural</parse>
@@ -4376,7 +4376,7 @@
 				<chinese unaudited="unaudited">血</chinese>
 				<chinese-definition>血</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v27-w11">
 				<strongs>3722</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -4386,7 +4386,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v27-w12">
 				<strongs>6944</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -4396,7 +4396,7 @@
 				<chinese unaudited="unaudited">聖所</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v27-w13">
 				<strongs>3318</strongs>
 				<pos>V‑Hifil‑Imperf‑3ms</pos>
 				<parse>Verb - Hifil - Imperfect - third person masculine singular</parse>
@@ -4406,7 +4406,7 @@
 				<chinese unaudited="unaudited">這牛羊就要搬</chinese>
 				<chinese-definition>Qal 出去，Hif'il 領出、從....帶出來</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v27-w14">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4416,7 +4416,7 @@
 				<chinese unaudited="unaudited">到</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v27-w15">
 				<strongs>2351</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -4426,7 +4426,7 @@
 				<chinese unaudited="unaudited">外</chinese>
 				<chinese-definition>街上、外頭</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v27-w16">
 				<strongs>4264</strongs>
 				<pos>Prep‑l, Art | N‑cs</pos>
 				<parse>Preposition-l, Article :: Noun - common singular</parse>
@@ -4436,7 +4436,7 @@
 				<chinese unaudited="unaudited">營</chinese>
 				<chinese-definition>軍旅、軍營</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v27-w17">
 				<strongs>8313</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3cp</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person common plural</parse>
@@ -4446,7 +4446,7 @@
 				<chinese unaudited="unaudited">焚燒</chinese>
 				<chinese-definition>燃燒</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v27-w18">
 				<strongs>784</strongs>
 				<pos>Prep‑b, Art | N‑cs</pos>
 				<parse>Preposition-b, Article :: Noun - common singular</parse>
@@ -4456,7 +4456,7 @@
 				<chinese unaudited="unaudited">用火</chinese>
 				<chinese-definition>火</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v27-w19">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4466,7 +4466,7 @@
 				<chinese unaudited="unaudited">將</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v27-w20">
 				<strongs>5785</strongs>
 				<pos>N‑mpc | 3mp</pos>
 				<parse>Noun - masculine plural construct :: third person masculine plural</parse>
@@ -4476,7 +4476,7 @@
 				<chinese unaudited="unaudited">皮</chinese>
 				<chinese-definition>皮</chinese-definition>
 			</word>
-			<word num="21">
+			<word num="21" id="v27-w21">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4486,7 +4486,7 @@
 				<chinese unaudited="unaudited">將</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="22">
+			<word num="22" id="v27-w22">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3mp</pos>
 				<parse>Noun - masculine singular construct :: third person masculine plural</parse>
@@ -4496,7 +4496,7 @@
 				<chinese unaudited="unaudited">肉</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="23">
+			<word num="23" id="v27-w23">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -4506,7 +4506,7 @@
 				<chinese unaudited="unaudited">將</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="24">
+			<word num="24" id="v27-w24">
 				<strongs>6569</strongs>
 				<pos>N‑msc | 3mp</pos>
 				<parse>Noun - masculine singular construct :: third person masculine plural</parse>
@@ -4517,8 +4517,8 @@
 				<chinese-definition>糞</chinese-definition>
 			</word>
 		</verse>
-		<verse num="28">
-			<word num="1">
+		<verse num="28" id="v28">
+			<word num="1" id="v28-w1">
 				<strongs>8313</strongs>
 				<pos>Conj‑w, Art | V‑Qal‑Prtcpl‑ms</pos>
 				<parse>Conjunctive waw, Article :: Verb - Qal - Participle - masculine singular</parse>
@@ -4528,7 +4528,7 @@
 				<chinese unaudited="unaudited">焚燒的</chinese>
 				<chinese-definition>燃燒</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v28-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3mp</pos>
 				<parse>Direct object marker :: third person masculine plural</parse>
@@ -4538,7 +4538,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v28-w3">
 				<strongs>3526</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -4548,7 +4548,7 @@
 				<chinese unaudited="unaudited">人要洗</chinese>
 				<chinese-definition>洗滌、漂洗</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v28-w4">
 				<strongs>899</strongs>
 				<pos>N‑mpc | 3ms</pos>
 				<parse>Noun - masculine plural construct :: third person masculine singular</parse>
@@ -4558,7 +4558,7 @@
 				<chinese unaudited="unaudited">衣服</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v28-w5">
 				<strongs>7364</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -4568,7 +4568,7 @@
 				<chinese unaudited="unaudited">洗</chinese>
 				<chinese-definition>洗</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v28-w6">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4578,7 +4578,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v28-w7">
 				<strongs>1320</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -4588,7 +4588,7 @@
 				<chinese unaudited="unaudited">身</chinese>
 				<chinese-definition>肉、身體</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v28-w8">
 				<strongs>4325</strongs>
 				<pos>Prep‑b, Art | N‑mp</pos>
 				<parse>Preposition-b, Article :: Noun - masculine plural</parse>
@@ -4598,7 +4598,7 @@
 				<chinese unaudited="unaudited">用水</chinese>
 				<chinese-definition>水</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v28-w9">
 				<strongs>310</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -4608,7 +4608,7 @@
 				<chinese unaudited="unaudited">然後</chinese>
 				<chinese-definition>後面</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v28-w10">
 				<strongs>3651</strongs>
 				<pos>Adv</pos>
 				<parse>Adverb</parse>
@@ -4618,7 +4618,7 @@
 				<chinese unaudited="unaudited">然後</chinese>
 				<chinese-definition>副詞：因此、如此、這樣；形容詞：對、真的、公平、誠實</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v28-w11">
 				<strongs>935</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -4628,7 +4628,7 @@
 				<chinese unaudited="unaudited">進</chinese>
 				<chinese-definition>來、進入、臨到、發生</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v28-w12">
 				<strongs>413</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -4638,7 +4638,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>向、往</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v28-w13">
 				<strongs>4264</strongs>
 				<pos>Art | N‑cs</pos>
 				<parse>Article :: Noun - common singular</parse>
@@ -4649,8 +4649,8 @@
 				<chinese-definition>軍旅、軍營</chinese-definition>
 			</word>
 		</verse>
-		<verse num="29">
-			<word num="1">
+		<verse num="29" id="v29">
+			<word num="1" id="v29-w1">
 				<strongs>1961</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3fs</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person feminine singular</parse>
@@ -4660,7 +4660,7 @@
 				<chinese unaudited="unaudited">這要作</chinese>
 				<chinese-definition>是、成為、臨到</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v29-w2">
 				<strongs></strongs>
 				<pos>Prep | 2mp</pos>
 				<parse>Preposition :: second person masculine plural</parse>
@@ -4670,7 +4670,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v29-w3">
 				<strongs>2708</strongs>
 				<pos>Prep‑l | N‑fsc</pos>
 				<parse>Preposition-l :: Noun - feminine singular construct</parse>
@@ -4680,7 +4680,7 @@
 				<chinese unaudited="unaudited">的定例</chinese>
 				<chinese-definition>律例</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v29-w4">
 				<strongs>5769</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -4690,7 +4690,7 @@
 				<chinese unaudited="unaudited">永遠</chinese>
 				<chinese-definition>永遠</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v29-w5">
 				<strongs>2320</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -4700,7 +4700,7 @@
 				<chinese unaudited="unaudited">月</chinese>
 				<chinese-definition>月朔、新月</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v29-w6">
 				<strongs>7637</strongs>
 				<pos>Art | Number‑oms</pos>
 				<parse>Article :: Number - ordinal masculine singular</parse>
@@ -4710,7 +4710,7 @@
 				<chinese unaudited="unaudited">每逢七</chinese>
 				<chinese-definition>序數的「第七」</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v29-w7">
 				<strongs>6218</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -4720,7 +4720,7 @@
 				<chinese unaudited="unaudited">十</chinese>
 				<chinese-definition>數目的「十」</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v29-w8">
 				<strongs>2320</strongs>
 				<pos>Prep‑l, Art | N‑ms</pos>
 				<parse>Preposition-l, Article :: Noun - masculine singular</parse>
@@ -4730,7 +4730,7 @@
 				<chinese unaudited="unaudited">初</chinese>
 				<chinese-definition>月朔、新月</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v29-w9">
 				<strongs>6031</strongs>
 				<pos>V‑Piel‑Imperf‑2mp</pos>
 				<parse>Verb - Piel - Imperfect - second person masculine plural</parse>
@@ -4740,7 +4740,7 @@
 				<chinese unaudited="unaudited">日你們要刻苦</chinese>
 				<chinese-definition>I. 回答，II. 忙，III. 使受苦、使低微，IV. 唱歌 (I, IV 的 SN 為 6030. II, III 的 SN 為 6031)</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v29-w10">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -4750,7 +4750,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v29-w11">
 				<strongs>5315</strongs>
 				<pos>N‑fpc | 2mp</pos>
 				<parse>Noun - feminine plural construct :: second person masculine plural</parse>
@@ -4760,7 +4760,7 @@
 				<chinese unaudited="unaudited">己心</chinese>
 				<chinese-definition>生命、活著的人</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v29-w12">
 				<strongs>3605</strongs>
 				<pos>Conj‑w | N‑msc</pos>
 				<parse>Conjunctive waw :: Noun - masculine singular construct</parse>
@@ -4770,7 +4770,7 @@
 				<chinese unaudited="unaudited">甚麼</chinese>
 				<chinese-definition>所有、全部、整個、各</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v29-w13">
 				<strongs>4399</strongs>
 				<pos>N‑fs</pos>
 				<parse>Noun - feminine singular</parse>
@@ -4780,7 +4780,7 @@
 				<chinese unaudited="unaudited">工</chinese>
 				<chinese-definition>工作、財產</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v29-w14">
 				<strongs>3808</strongs>
 				<pos>Adv‑NegPrt</pos>
 				<parse>Adverb - Negative particle</parse>
@@ -4790,7 +4790,7 @@
 				<chinese unaudited="unaudited">都不可</chinese>
 				<chinese-definition>不</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v29-w15">
 				<strongs>6213</strongs>
 				<pos>V‑Qal‑Imperf‑2mp</pos>
 				<parse>Verb - Qal - Imperfect - second person masculine plural</parse>
@@ -4800,7 +4800,7 @@
 				<chinese unaudited="unaudited">做</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v29-w16">
 				<strongs>249</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -4810,7 +4810,7 @@
 				<chinese unaudited="unaudited">無論是本地人</chinese>
 				<chinese-definition>本地的樹、當地人</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v29-w17">
 				<strongs>1616</strongs>
 				<pos>Conj‑w, Art | N‑ms</pos>
 				<parse>Conjunctive waw, Article :: Noun - masculine singular</parse>
@@ -4820,7 +4820,7 @@
 				<chinese unaudited="unaudited">的外人</chinese>
 				<chinese-definition>寄居者</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v29-w18">
 				<strongs>1481</strongs>
 				<pos>Art | V‑Qal‑Prtcpl‑ms</pos>
 				<parse>Article :: Verb - Qal - Participle - masculine singular</parse>
@@ -4830,7 +4830,7 @@
 				<chinese unaudited="unaudited">是寄居</chinese>
 				<chinese-definition>I. Qal 居住、寄居，Hitpo'lel 聚集，II. 爭論，III. 害怕</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v29-w19">
 				<strongs>8432</strongs>
 				<pos>Prep‑b | N‑msc | 2mp</pos>
 				<parse>Preposition-b :: Noun - masculine singular construct :: second person masculine plural</parse>
@@ -4841,8 +4841,8 @@
 				<chinese-definition>中間</chinese-definition>
 			</word>
 		</verse>
-		<verse num="30">
-			<word num="1">
+		<verse num="30" id="v30">
+			<word num="1" id="v30-w1">
 				<strongs>3588</strongs>
 				<pos>Conj</pos>
 				<parse>Conjunction</parse>
@@ -4852,7 +4852,7 @@
 				<chinese unaudited="unaudited">因</chinese>
 				<chinese-definition>因為、不必翻譯</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v30-w2">
 				<strongs>3117</strongs>
 				<pos>Prep‑b, Art | N‑ms</pos>
 				<parse>Preposition-b, Article :: Noun - masculine singular</parse>
@@ -4862,7 +4862,7 @@
 				<chinese unaudited="unaudited">日</chinese>
 				<chinese-definition>日子、時候</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v30-w3">
 				<strongs>2088</strongs>
 				<pos>Art | Pro‑ms</pos>
 				<parse>Article :: Pronoun - masculine singular</parse>
@@ -4872,7 +4872,7 @@
 				<chinese unaudited="unaudited">在這</chinese>
 				<chinese-definition>這個</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v30-w4">
 				<strongs>3722</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -4882,7 +4882,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v30-w5">
 				<strongs>5921</strongs>
 				<pos>Prep | 2mp</pos>
 				<parse>Preposition :: second person masculine plural</parse>
@@ -4892,7 +4892,7 @@
 				<chinese unaudited="unaudited">要為你們</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v30-w6">
 				<strongs>2891</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -4902,7 +4902,7 @@
 				<chinese unaudited="unaudited">潔淨</chinese>
 				<chinese-definition>潔淨</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v30-w7">
 				<strongs>853</strongs>
 				<pos>DirObjM | 2mp</pos>
 				<parse>Direct object marker :: second person masculine plural</parse>
@@ -4912,7 +4912,7 @@
 				<chinese unaudited="unaudited">使你們</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v30-w8">
 				<strongs>3605</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -4922,7 +4922,7 @@
 				<chinese unaudited="unaudited">脫盡一切的</chinese>
 				<chinese-definition>所有、全部、整個、各</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v30-w9">
 				<strongs>2403</strongs>
 				<pos>N‑fpc | 2mp</pos>
 				<parse>Noun - feminine plural construct :: second person masculine plural</parse>
@@ -4932,7 +4932,7 @@
 				<chinese unaudited="unaudited">罪愆</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v30-w10">
 				<strongs>6440</strongs>
 				<pos>Prep‑l | N‑cpc</pos>
 				<parse>Preposition-l :: Noun - common plural construct</parse>
@@ -4942,7 +4942,7 @@
 				<chinese unaudited="unaudited">面前</chinese>
 				<chinese-definition>在…面前</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v30-w11">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -4952,7 +4952,7 @@
 				<chinese unaudited="unaudited">你們要在耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v30-w12">
 				<strongs>2891</strongs>
 				<pos>V‑Qal‑Imperf‑2mp</pos>
 				<parse>Verb - Qal - Imperfect - second person masculine plural</parse>
@@ -4963,8 +4963,8 @@
 				<chinese-definition>潔淨</chinese-definition>
 			</word>
 		</verse>
-		<verse num="31">
-			<word num="1">
+		<verse num="31" id="v31">
+			<word num="1" id="v31-w1">
 				<strongs>7676</strongs>
 				<pos>N‑csc</pos>
 				<parse>Noun - common singular construct</parse>
@@ -4974,7 +4974,7 @@
 				<chinese unaudited="unaudited">日</chinese>
 				<chinese-definition>安息日</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v31-w2">
 				<strongs>7677</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -4984,7 +4984,7 @@
 				<chinese unaudited="unaudited">要守為聖安息</chinese>
 				<chinese-definition>守安息日、安息禮儀</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v31-w3">
 				<strongs>1931</strongs>
 				<pos>Pro‑3fs</pos>
 				<parse>Pronoun - third person feminine singular</parse>
@@ -4994,7 +4994,7 @@
 				<chinese unaudited="unaudited">這日</chinese>
 				<chinese-definition>他、她</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v31-w4">
 				<strongs>0</strongs>
 				<pos></pos>
 				<parse>Preposition :: second person masculine plural</parse>
@@ -5004,7 +5004,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v31-w5">
 				<strongs>6031</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑2mp</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - second person masculine plural</parse>
@@ -5014,7 +5014,7 @@
 				<chinese unaudited="unaudited">要刻苦</chinese>
 				<chinese-definition>I. 回答，II. 忙，III. 使受苦、使低微，IV. 唱歌 (I, IV 的 SN 為 6030. II, III 的 SN 為 6031)</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v31-w6">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -5024,7 +5024,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v31-w7">
 				<strongs>5315</strongs>
 				<pos>N‑fpc | 2mp</pos>
 				<parse>Noun - feminine plural construct :: second person masculine plural</parse>
@@ -5034,7 +5034,7 @@
 				<chinese unaudited="unaudited">己心</chinese>
 				<chinese-definition>生命、活著的人</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v31-w8">
 				<strongs>2708</strongs>
 				<pos>N‑fsc</pos>
 				<parse>Noun - feminine singular construct</parse>
@@ -5044,7 +5044,7 @@
 				<chinese unaudited="unaudited">的定例</chinese>
 				<chinese-definition>律例</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v31-w9">
 				<strongs>5769</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -5055,8 +5055,8 @@
 				<chinese-definition>永遠</chinese-definition>
 			</word>
 		</verse>
-		<verse num="32">
-			<word num="1">
+		<verse num="32" id="v32">
+			<word num="1" id="v32-w1">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -5066,7 +5066,7 @@
 				<chinese unaudited="unaudited">行贖罪之禮</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v32-w2">
 				<strongs>3548</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5076,7 +5076,7 @@
 				<chinese unaudited="unaudited">祭司</chinese>
 				<chinese-definition>祭司</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v32-w3">
 				<strongs>834</strongs>
 				<pos>Pro‑r</pos>
 				<parse>Pronoun - relative</parse>
@@ -5086,7 +5086,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v32-w4">
 				<strongs>4886</strongs>
 				<pos>V‑Qal‑Imperf‑3ms</pos>
 				<parse>Verb - Qal - Imperfect - third person masculine singular</parse>
@@ -5096,7 +5096,7 @@
 				<chinese unaudited="unaudited">受膏</chinese>
 				<chinese-definition>膏抹、塗抹</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v32-w5">
 				<strongs>853</strongs>
 				<pos>DirObjM | 3ms</pos>
 				<parse>Direct object marker :: third person masculine singular</parse>
@@ -5106,7 +5106,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v32-w6">
 				<strongs>834</strongs>
 				<pos>Conj‑w | Pro‑r</pos>
 				<parse>Conjunctive waw :: Pronoun - relative</parse>
@@ -5116,7 +5116,7 @@
 				<chinese unaudited="unaudited">的</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v32-w7">
 				<strongs>4390</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -5126,7 +5126,7 @@
 				<chinese unaudited="unaudited">承</chinese>
 				<chinese-definition>充滿</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v32-w8">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -5136,7 +5136,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v32-w9">
 				<strongs>3027</strongs>
 				<pos>N‑fsc | 3ms</pos>
 				<parse>Noun - feminine singular construct :: third person masculine singular</parse>
@@ -5146,7 +5146,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>手、邊、力量、權勢</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v32-w10">
 				<strongs>3547</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -5156,7 +5156,7 @@
 				<chinese unaudited="unaudited">接聖職</chinese>
 				<chinese-definition>裝扮、做祭司</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v32-w11">
 				<strongs>8478</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -5166,7 +5166,7 @@
 				<chinese unaudited="unaudited">接續</chinese>
 				<chinese-definition>1. 名詞：位置、地方；2. 介系詞：在…之下；3. 介系詞：代替、因為</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v32-w12">
 				<strongs>1</strongs>
 				<pos>N‑msc | 3ms</pos>
 				<parse>Noun - masculine singular construct :: third person masculine singular</parse>
@@ -5176,7 +5176,7 @@
 				<chinese unaudited="unaudited">他父親</chinese>
 				<chinese-definition>父親、祖先</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v32-w13">
 				<strongs>3847</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person masculine singular</parse>
@@ -5186,7 +5186,7 @@
 				<chinese unaudited="unaudited">要穿上</chinese>
 				<chinese-definition>穿</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v32-w14">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -5196,7 +5196,7 @@
 				<chinese unaudited="unaudited">那</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v32-w15">
 				<strongs>899</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -5206,7 +5206,7 @@
 				<chinese unaudited="unaudited">衣</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v32-w16">
 				<strongs>906</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5216,7 +5216,7 @@
 				<chinese unaudited="unaudited">細麻布</chinese>
 				<chinese-definition>亞麻布</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v32-w17">
 				<strongs>899</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -5226,7 +5226,7 @@
 				<chinese unaudited="unaudited">衣</chinese>
 				<chinese-definition>衣服</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v32-w18">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5237,8 +5237,8 @@
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
 		</verse>
-		<verse num="33">
-			<word num="1">
+		<verse num="33" id="v33">
+			<word num="1" id="v33-w1">
 				<strongs>3722</strongs>
 				<pos>Conj‑w | V‑Piel‑ConjPerf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Piel - Conjunctive perfect - third person masculine singular</parse>
@@ -5248,7 +5248,7 @@
 				<chinese unaudited="unaudited">行贖罪之禮</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v33-w2">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -5258,7 +5258,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v33-w3">
 				<strongs>4720</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -5268,7 +5268,7 @@
 				<chinese unaudited="unaudited">所</chinese>
 				<chinese-definition>聖所、神聖地方</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v33-w4">
 				<strongs>6944</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5278,7 +5278,7 @@
 				<chinese unaudited="unaudited">他要在至聖</chinese>
 				<chinese-definition>聖所、聖物、神聖</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v33-w5">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -5288,7 +5288,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v33-w6">
 				<strongs>168</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -5298,7 +5298,7 @@
 				<chinese unaudited="unaudited">幕</chinese>
 				<chinese-definition>帳棚、帳蓬</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v33-w7">
 				<strongs>4150</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -5308,7 +5308,7 @@
 				<chinese unaudited="unaudited">和會</chinese>
 				<chinese-definition>集會、節慶、定點、定時</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v33-w8">
 				<strongs>853</strongs>
 				<pos>Conj‑w | DirObjM</pos>
 				<parse>Conjunctive waw :: Direct object marker</parse>
@@ -5318,7 +5318,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v33-w9">
 				<strongs>4196</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5328,7 +5328,7 @@
 				<chinese unaudited="unaudited">與壇</chinese>
 				<chinese-definition>祭壇</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v33-w10">
 				<strongs>3722</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -5338,7 +5338,7 @@
 				<chinese unaudited="unaudited">贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v33-w11">
 				<strongs>5921</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -5348,7 +5348,7 @@
 				<chinese unaudited="unaudited">並要為</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v33-w12">
 				<strongs>3548</strongs>
 				<pos>Art | N‑mp</pos>
 				<parse>Article :: Noun - masculine plural</parse>
@@ -5358,7 +5358,7 @@
 				<chinese unaudited="unaudited">眾祭司</chinese>
 				<chinese-definition>祭司</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v33-w13">
 				<strongs>5921</strongs>
 				<pos>Conj‑w | Prep</pos>
 				<parse>Conjunctive waw :: Preposition</parse>
@@ -5368,7 +5368,7 @@
 				<chinese unaudited="unaudited">和</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v33-w14">
 				<strongs>3605</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -5378,7 +5378,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>所有、全部、整個、各</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v33-w15">
 				<strongs>5971</strongs>
 				<pos>N‑msc</pos>
 				<parse>Noun - masculine singular construct</parse>
@@ -5388,7 +5388,7 @@
 				<chinese unaudited="unaudited">的百姓</chinese>
 				<chinese-definition>百姓、國民</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v33-w16">
 				<strongs>6951</strongs>
 				<pos>Art | N‑ms</pos>
 				<parse>Article :: Noun - masculine singular</parse>
@@ -5398,7 +5398,7 @@
 				<chinese unaudited="unaudited">會眾</chinese>
 				<chinese-definition>集會</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v33-w17">
 				<strongs>3722</strongs>
 				<pos>V‑Piel‑Imperf‑3ms</pos>
 				<parse>Verb - Piel - Imperfect - third person masculine singular</parse>
@@ -5409,8 +5409,8 @@
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
 		</verse>
-		<verse num="34">
-			<word num="1">
+		<verse num="34" id="v34">
+			<word num="1" id="v34-w1">
 				<strongs>1961</strongs>
 				<pos>Conj‑w | V‑Qal‑ConjPerf‑3fs</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Conjunctive perfect - third person feminine singular</parse>
@@ -5420,7 +5420,7 @@
 				<chinese unaudited="unaudited">要作</chinese>
 				<chinese-definition>是、成為、臨到</chinese-definition>
 			</word>
-			<word num="2">
+			<word num="2" id="v34-w2">
 				<strongs>2063</strongs>
 				<pos>Pro‑fs</pos>
 				<parse>Pronoun - feminine singular</parse>
@@ -5430,7 +5430,7 @@
 				<chinese unaudited="unaudited">這</chinese>
 				<chinese-definition>這個</chinese-definition>
 			</word>
-			<word num="3">
+			<word num="3" id="v34-w3">
 				<strongs></strongs>
 				<pos>Prep | 2mp</pos>
 				<parse>Preposition :: second person masculine plural</parse>
@@ -5440,7 +5440,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>給、往、向、到、歸屬於</chinese-definition>
 			</word>
-			<word num="4">
+			<word num="4" id="v34-w4">
 				<strongs>2708</strongs>
 				<pos>Prep‑l | N‑fsc</pos>
 				<parse>Preposition-l :: Noun - feminine singular construct</parse>
@@ -5450,7 +5450,7 @@
 				<chinese unaudited="unaudited">的定例</chinese>
 				<chinese-definition>律例</chinese-definition>
 			</word>
-			<word num="5">
+			<word num="5" id="v34-w5">
 				<strongs>5769</strongs>
 				<pos>N‑ms</pos>
 				<parse>Noun - masculine singular</parse>
@@ -5460,7 +5460,7 @@
 				<chinese unaudited="unaudited">永遠</chinese>
 				<chinese-definition>永遠</chinese-definition>
 			</word>
-			<word num="6">
+			<word num="6" id="v34-w6">
 				<strongs>3722</strongs>
 				<pos>Prep‑l | V‑Piel‑Inf</pos>
 				<parse>Preposition-l :: Verb - Piel - Infinitive construct</parse>
@@ -5470,7 +5470,7 @@
 				<chinese unaudited="unaudited">為他們贖罪</chinese>
 				<chinese-definition>贖罪、為了...贖罪、潔淨</chinese-definition>
 			</word>
-			<word num="7">
+			<word num="7" id="v34-w7">
 				<strongs>5921</strongs>
 				<pos>Prep</pos>
 				<parse>Preposition</parse>
@@ -5480,7 +5480,7 @@
 				<chinese unaudited="unaudited">就是因</chinese>
 				<chinese-definition>在…上面</chinese-definition>
 			</word>
-			<word num="8">
+			<word num="8" id="v34-w8">
 				<strongs>1121</strongs>
 				<pos>N‑mpc</pos>
 				<parse>Noun - masculine plural construct</parse>
@@ -5490,7 +5490,7 @@
 				<chinese unaudited="unaudited">人</chinese>
 				<chinese-definition>兒子、孫子、後裔、成員</chinese-definition>
 			</word>
-			<word num="9">
+			<word num="9" id="v34-w9">
 				<strongs>3478</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -5500,7 +5500,7 @@
 				<chinese unaudited="unaudited">以色列</chinese>
 				<chinese-definition>以色列</chinese-definition>
 			</word>
-			<word num="10">
+			<word num="10" id="v34-w10">
 				<strongs>3605</strongs>
 				<pos>Prep‑m | N‑msc</pos>
 				<parse>Preposition-m :: Noun - masculine singular construct</parse>
@@ -5510,7 +5510,7 @@
 				<chinese unaudited="unaudited">一切的</chinese>
 				<chinese-definition>所有、全部、整個、各</chinese-definition>
 			</word>
-			<word num="11">
+			<word num="11" id="v34-w11">
 				<strongs>2403</strongs>
 				<pos>N‑fpc | 3mp</pos>
 				<parse>Noun - feminine plural construct :: third person masculine plural</parse>
@@ -5520,7 +5520,7 @@
 				<chinese unaudited="unaudited">罪</chinese>
 				<chinese-definition>罪、贖罪祭</chinese-definition>
 			</word>
-			<word num="12">
+			<word num="12" id="v34-w12">
 				<strongs>259</strongs>
 				<pos>Number‑fs</pos>
 				<parse>Number - feminine singular</parse>
@@ -5530,7 +5530,7 @@
 				<chinese unaudited="unaudited">一次</chinese>
 				<chinese-definition>數目的「一」</chinese-definition>
 			</word>
-			<word num="13">
+			<word num="13" id="v34-w13">
 				<strongs>8141</strongs>
 				<pos>Prep‑b, Art | N‑fs</pos>
 				<parse>Preposition-b, Article :: Noun - feminine singular</parse>
@@ -5540,7 +5540,7 @@
 				<chinese unaudited="unaudited">要一年</chinese>
 				<chinese-definition>年</chinese-definition>
 			</word>
-			<word num="14">
+			<word num="14" id="v34-w14">
 				<strongs>6213</strongs>
 				<pos>Conj‑w | V‑Qal‑ConsecImperf‑3ms</pos>
 				<parse>Conjunctive waw :: Verb - Qal - Consecutive imperfect - third person masculine singular</parse>
@@ -5550,7 +5550,7 @@
 				<chinese unaudited="unaudited">的行了</chinese>
 				<chinese-definition>做</chinese-definition>
 			</word>
-			<word num="15">
+			<word num="15" id="v34-w15">
 				<strongs>834</strongs>
 				<pos>Prep‑k | Pro‑r</pos>
 				<parse>Preposition-k :: Pronoun - relative</parse>
@@ -5560,7 +5560,7 @@
 				<chinese unaudited="unaudited">於是亞倫照</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="16">
+			<word num="16" id="v34-w16">
 				<strongs>6680</strongs>
 				<pos>V‑Piel‑Perf‑3ms</pos>
 				<parse>Verb - Piel - Perfect - third person masculine singular</parse>
@@ -5570,7 +5570,7 @@
 				<chinese unaudited="unaudited">所吩咐</chinese>
 				<chinese-definition>Pi'el 命令、吩咐</chinese-definition>
 			</word>
-			<word num="17">
+			<word num="17" id="v34-w17">
 				<strongs>3068</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -5580,7 +5580,7 @@
 				<chinese unaudited="unaudited">耶和華</chinese>
 				<chinese-definition>上帝的名字「雅威」，猶太人尊稱為「上主」</chinese-definition>
 			</word>
-			<word num="18">
+			<word num="18" id="v34-w18">
 				<strongs>853</strongs>
 				<pos>DirObjM</pos>
 				<parse>Direct object marker</parse>
@@ -5590,7 +5590,7 @@
 				<chinese unaudited="unaudited">－</chinese>
 				<chinese-definition>不必翻譯</chinese-definition>
 			</word>
-			<word num="19">
+			<word num="19" id="v34-w19">
 				<strongs>4872</strongs>
 				<pos>N‑proper‑ms</pos>
 				<parse>Noun - proper - masculine singular</parse>
@@ -5600,7 +5600,7 @@
 				<chinese unaudited="unaudited">摩西</chinese>
 				<chinese-definition>摩西</chinese-definition>
 			</word>
-			<word num="20">
+			<word num="20" id="v34-w20">
 				<strongs></strongs>
 				<pos>Punc</pos>
 				<parse>Punctuation</parse>
