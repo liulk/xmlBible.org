@@ -197,7 +197,7 @@ nav {
     margin: 0 -10vw;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(4px);
-    padding: 0.5lh 10vw;
+    padding: 0.3lh 10vw;
 
     border: 1px solid lightgrey;
 }
@@ -220,11 +220,11 @@ nav form {
 nav a {
     display: inline-block;
 
-    width: 1.5lh;
-    height: 1.5lh;
+    width: 1lh;
+    height: 1lh;
     text-align: center;
 
-    font-size: 200%;
+    font-size: 150%;
     vertical-align: middle;
     background: white;
 
@@ -242,8 +242,16 @@ nav a:not([href]) {
         transparent 52.25%);
 }
 
-nav a:link, nav a:visited {
-    color: lightblue;
+nav a:not([href]) svg {
+    filter: opacity(30%);
+}
+
+nav a[href] svg path {
+    fill: grey;
+}
+
+nav a:not([href]) svg path {
+    fill: lightgrey;
 }
 
 nav a[href]:hover {
@@ -251,13 +259,17 @@ nav a[href]:hover {
     box-shadow: 0 0 2px 2px lightblue;
 }
 
+nav a[href]:hover svg path {
+    fill: lightblue;
+}
+
 nav .home {
     border: 2px solid lightgrey;
     margin-right: 1ex;
+    padding: 0 0.25ex 0.5ex 0.25ex;
 }
 
 nav > a {
-    padding: 0.25ex 0.125ex 0 0.125ex;
     border: 2px solid lightgrey;
     border-radius: 2ex;
 }

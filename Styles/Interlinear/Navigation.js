@@ -115,6 +115,10 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   };
 };
 
+// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
+const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
+const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
+
 const initializeNavigation = () => {
   const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
@@ -143,7 +147,7 @@ const initializeNavigation = () => {
   const aPrev = document.createElementNS(XHTML_NS, 'a');
   aPrev.id = 'prev';
   aPrev.title = 'Previous';
-  aPrev.textContent = '🡄 ';
+  aPrev.innerHTML = leftArrow;
   if (currPos > 0) {
     aPrev.href = xmls[currPos - 1];
   }
@@ -155,7 +159,7 @@ const initializeNavigation = () => {
   const aNext = document.createElementNS(XHTML_NS, 'a');
   aNext.id = 'next';
   aNext.title = 'Next';
-  aNext.textContent = ' 🡆';
+  aNext.innerHTML = rightArrow;
   if (currPos < xmls.length - 1) {
     aNext.href = xmls[currPos + 1];
   }
