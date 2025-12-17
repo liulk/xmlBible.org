@@ -115,6 +115,10 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   };
 };
 
+const toggleUpper = (rule, enabled) => {
+  rule.style.fontVariant = enabled ? 'small-caps' : '';
+}
+
 // Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
 const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
 const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
@@ -164,6 +168,23 @@ const initializeNavigation = () => {
     aNext.href = xmls[currPos + 1];
   }
   nav.appendChild(aNext);
+
+  const labelUpper = document.createElementNS(XHTML_NS, "label");
+  labelUpper.textContent = '⍺➜Α';
+  const checkUpper = document.createElementNS(XHTML_NS, "input");
+  checkUpper.type = "checkbox";
+  labelUpper.appendChild(checkUpper);
+  nav.appendChild(labelUpper);
+
+  const sheet = document.styleSheets[0];
+  if (sheet) {
+    const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
+    const rule = sheet.cssRules[ruleIndex];
+    console.log(rule);
+    checkUpper.addEventListener('change', function(ev) {
+      toggleUpper(rule, this.checked);
+    })
+  }
 
   if (window.location.hostname !== "") {
     navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';

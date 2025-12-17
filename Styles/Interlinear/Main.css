@@ -273,3 +273,12 @@ nav > a {
     border: 2px solid lightgrey;
     border-radius: 2ex;
 }
+
+nav label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2ex;
+    padding: 0 0.5ex;
+    border: 2px solid lightgrey;
+    background: white;
+}
