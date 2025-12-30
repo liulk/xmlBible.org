@@ -21,7 +21,7 @@ const bookChapters = {
   '19-Psalms': 150,
   '20-Proverbs': 31,
   '21-Ecclesiastes': 12,
-  '22-Ruth': 8,
+  '22-Song of Solomon': 8,
   '23-Isaiah': 66,
   '24-Jeremiah': 52,
   '25-Lamentations': 5,
