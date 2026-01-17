@@ -54,8 +54,9 @@ function addStrongsLinksAndDefinitions(words) {
     }
 
     const sd = document.createElement('strongs-definition');
-    sd.innerHTML = `[${snLinkHTML}] `;
-    sd.appendChild(document.createTextNode(entry?.strongs_def || ''));
+    const snDef = entry?.strongs_def || '';
+    sd.innerHTML =
+      `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${snDef}</a>`;
     w.insertBefore(sd, strongs.nextSibling);
 
     const ed = document.createElement('english-definition');

@@ -135,6 +135,11 @@ strongs-definition {
     margin-top: -2.5lh;
 }
 
+strongs-definition a {
+    text-decoration: none;
+    color: black;
+}
+
 strongs:hover + strongs-definition, strongs-definition:hover {
     visibility: visible;
 }
