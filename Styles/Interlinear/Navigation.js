@@ -176,15 +176,13 @@ const initializeNavigation = () => {
   labelUpper.appendChild(checkUpper);
   nav.appendChild(labelUpper);
 
-  const sheet = document.styleSheets[0];
-  if (sheet) {
-    const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
-    const rule = sheet.cssRules[ruleIndex];
-    console.log(rule);
-    checkUpper.addEventListener('change', function(ev) {
-      toggleUpper(rule, this.checked);
-    })
-  }
+  const sheet = new CSSStyleSheet();
+  const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
+  const rule = sheet.cssRules[ruleIndex];
+  checkUpper.addEventListener('change', function(ev) {
+    toggleUpper(rule, this.checked);
+  })
+  document.adoptedStyleSheets.push(sheet);
 
   if (window.location.hostname !== "") {
     navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';

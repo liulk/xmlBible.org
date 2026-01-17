@@ -135,6 +135,11 @@ strongs-definition {
     margin-top: -2.5lh;
 }
 
+strongs-definition a {
+    text-decoration: none;
+    color: black;
+}
+
 strongs:hover + strongs-definition, strongs-definition:hover {
     visibility: visible;
 }
@@ -281,4 +286,37 @@ nav label {
     padding: 0 0.5ex;
     border: 2px solid lightgrey;
     background: white;
+}
+
+label[dictionary] menu {
+    display: inline-block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+
+    background: white;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 50%;
+}
+
+label[dictionary]:hover menu {
+    visibility: visible;
+}
+
+label[dictionary] menu li {
+    display: inline-block;
+    line-height: 1;
+    margin: 0.25ex;
+    padding: 0;
+
+    border: 2px solid lightgrey;
+    background: white;
+}
+
+a[popup] img {
+    width: 1em;
+    height: 1em;
 }
