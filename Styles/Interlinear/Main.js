@@ -13,6 +13,57 @@ function getLangTags(words) {
   return count;
 }
 
+// Builds dictionary menu of the form:
+//
+// <label dictionary="dictionary">
+//   ${text}
+//   <menu>
+//     <li><a popup="popup" href="${links[i].url + text}">${links[i].html}</a></li>
+//     <li>...</li>
+//   </menu>
+// </label>
+function dictionaryLinks(text, links) {
+  const menu = document.createElementNS(XHTML_NS, 'menu');
+  for (const link of links) {
+    const li = document.createElementNS(XHTML_NS, 'li');
+    li.innerHTML =
+      `<a popup="popup" href="${link.url + text}">${link.html}</a>`;
+    menu.appendChild(li);
+  }
+
+  const label = document.createElementNS(XHTML_NS, 'label');
+  label.setAttribute('dictionary', 'dictionary');
+  label.innerHTML = text;
+  label.appendChild(menu);
+  return label;
+}
+
+function annotateLangLinks(word, tagName, links) {
+  const langTags = word.getElementsByTagName(tagName);
+  if (!langTags.length) {
+    return false;
+  }
+  const langTag = langTags[0];
+  const label = dictionaryLinks(langTag.textContent, links);
+  langTag.innerHTML = '';
+  langTag.appendChild(label);
+  return true;
+}
+
+const HEBREW_DICT_LINKS = [
+  {
+    'url': 'https://www.pealim.com/search/?q=',
+    'html': '<img src="../../Styles/Interlinear/Assets/pealim.png"></img>',
+  }
+];
+
+const GREEK_DICT_LINKS = [
+  {
+    'url': 'https://logeion.uchicago.edu/',
+    'html': '<img src="../../Styles/Interlinear/Assets/logeion.ico"></img>',
+  }
+];
+
 function addStrongsLinksAndDefinitions(words) {
   // Check if the dictionaries have been loaded sucessfully.
   const hasDict = (typeof strongsGreekDictionary === 'object' &&
@@ -26,8 +77,8 @@ function addStrongsLinksAndDefinitions(words) {
       continue;
     }
 
-    const isHebrew = w.getElementsByTagName('hebrew').length > 0;
-    const isGreek = w.getElementsByTagName('greek').length > 0;
+    const isHebrew = annotateLangLinks(w, 'hebrew', HEBREW_DICT_LINKS);
+    const isGreek = annotateLangLinks(w, 'greek', GREEK_DICT_LINKS);
     if (!isHebrew && !isGreek) {
       continue;
     }
