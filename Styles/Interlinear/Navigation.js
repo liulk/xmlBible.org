@@ -1,3 +1,5 @@
+// XHTML_NS should already be defined in Main.js
+
 // The file paths are relative to the other Interlinear XML files.
 const BOOK_CHAPTERS = {
   '01-Genesis': 50,
@@ -83,35 +85,45 @@ const CURR = getCurr();
 
 // Greek Uppercase.
 
-// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
-const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
-const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
-
 const createNavigationGreekUppercase = () => {
   const sheet = new CSSStyleSheet();
   const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
   const rule = sheet.cssRules[ruleIndex];
   document.adoptedStyleSheets.push(sheet);
 
-  const labelUpper = document.createElementNS(XHTML_NS, "label");
-  labelUpper.textContent = '⍺➜Α';
-  labelUpper.title = 'Show Greek in Uppercase.';
-  labelUpper.setAttribute('testament', 'new');
+  const label = document.createElementNS(XHTML_NS, "label");
+  label.id = 'optionGreekUpper';
+  label.textContent = '⍺➜Α';
+  label.title = 'Show Greek in Uppercase.';
+  label.setAttribute('testament', 'new');
 
-  const checkUpper = document.createElementNS(XHTML_NS, "input");
-  checkUpper.id = 'optionUpper';
-  checkUpper.type = "checkbox";
-  checkUpper.addEventListener('change', function(ev) {
+  const check = document.createElementNS(XHTML_NS, "input");
+  check.type = "checkbox";
+  check.addEventListener('change', function(ev) {
     rule.style.fontVariant = this.checked ? 'small-caps' : '';
   })
 
-  labelUpper.appendChild(checkUpper);
-  return labelUpper;
+  label.appendChild(check);
+  return label;
+}
+
+// Link Denormalization (default is to normalize dictionary links).
+
+const createNavigationLinkDenorm = () => {
+  const label = document.createElementNS(XHTML_NS, "label");
+  label.id = 'optionLinkDenorm';
+  label.innerHTML = '<s>(:</s>🔗<s>ולְ)</s>';
+  label.title = 'Do not normalize dictionary links.';
+  label.setAttribute('testament', 'old');
+
+  const check = document.createElementNS(XHTML_NS, "input");
+  check.type = "checkbox";
+
+  label.appendChild(check);
+  return label;
 }
 
 const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
-  const XHTML_NS = 'http://www.w3.org/1999/xhtml';
-
   return (e) => {
     // Remove all chapters.
     chapterSelect.textContent = '';
@@ -186,9 +198,11 @@ const populateNavigationForm = (hierarchy, navForm) => {
   bookSelect.dispatchEvent(new Event('change'));
 }
 
-const initializeNavigation = () => {
-  const XHTML_NS = 'http://www.w3.org/1999/xhtml';
+// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
+const LEFT_ARROW = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
+const RIGHT_ARROW = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
 
+const initializeNavigation = () => {
   // First convert the interlinearXMLs to a hierarchy.
   let hierarchy = {};  // Maps from directory name to a list of files there.
   let xmls = [];
@@ -211,7 +225,7 @@ const initializeNavigation = () => {
   const aPrev = document.createElementNS(XHTML_NS, 'a');
   aPrev.id = 'prev';
   aPrev.title = 'Previous';
-  aPrev.innerHTML = leftArrow;
+  aPrev.innerHTML = LEFT_ARROW;
   if (currPos > 0) {
     aPrev.href = xmls[currPos - 1];
   }
@@ -223,13 +237,14 @@ const initializeNavigation = () => {
   const aNext = document.createElementNS(XHTML_NS, 'a');
   aNext.id = 'next';
   aNext.title = 'Next';
-  aNext.innerHTML = rightArrow;
+  aNext.innerHTML = RIGHT_ARROW;
   if (currPos < xmls.length - 1) {
     aNext.href = xmls[currPos + 1];
   }
   nav.appendChild(aNext);
 
   nav.appendChild(createNavigationGreekUppercase());
+  nav.appendChild(createNavigationLinkDenorm());
 
   populateNavigationForm(hierarchy, navForm);
 

@@ -296,6 +296,10 @@ book[testament="new"] nav label[testament="old"] {
     display: none;
 }
 
+label#optionLinkDenorm:has(input:checked) s {
+    text-decoration: none;
+}
+
 label[dictionary] menu {
     display: inline-block;
     visibility: hidden;
