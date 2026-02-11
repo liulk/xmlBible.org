@@ -1,5 +1,5 @@
 // The file paths are relative to the other Interlinear XML files.
-const bookChapters = {
+const BOOK_CHAPTERS = {
   '01-Genesis': 50,
   '02-Exodus': 40,
   '03-Leviticus': 27,
@@ -74,12 +74,43 @@ const xmlPath = (book, chapterNum) => {
   return `../${book}/chapter-${nnn}.xml`;
 }
 
+const getCurr = () => {
+  const parts = decodeURI(window.location.pathname).split('/').slice(-2);
+  return {'book': parts[0], 'chapter': parts[1]};
+}
+
+const CURR = getCurr();
+
+// Greek Uppercase.
+
+// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
+const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
+const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
+
+const createNavigationGreekUppercase = () => {
+  const sheet = new CSSStyleSheet();
+  const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
+  const rule = sheet.cssRules[ruleIndex];
+  document.adoptedStyleSheets.push(sheet);
+
+  const labelUpper = document.createElementNS(XHTML_NS, "label");
+  labelUpper.textContent = '⍺➜Α';
+  labelUpper.title = 'Show Greek in Uppercase.';
+  labelUpper.setAttribute('testament', 'new');
+
+  const checkUpper = document.createElementNS(XHTML_NS, "input");
+  checkUpper.id = 'optionUpper';
+  checkUpper.type = "checkbox";
+  checkUpper.addEventListener('change', function(ev) {
+    rule.style.fontVariant = this.checked ? 'small-caps' : '';
+  })
+
+  labelUpper.appendChild(checkUpper);
+  return labelUpper;
+}
+
 const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   const XHTML_NS = 'http://www.w3.org/1999/xhtml';
-
-  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
-  const currBook = currParts[0];
-  const currChapter = currParts[1];
 
   return (e) => {
     // Remove all chapters.
@@ -96,7 +127,7 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
       const parts = xml.split('/').slice(-2);
       const chapter = parts[1];
       let text = num;
-      if (book === currBook && chapter === currChapter) {
+      if (book === CURR.book && chapter === CURR.chapter) {
         text = text + ' •';
         currXML = xml;
       }
@@ -115,13 +146,45 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   };
 };
 
-const toggleUpper = (rule, enabled) => {
-  rule.style.fontVariant = enabled ? 'small-caps' : '';
-}
+const populateNavigationForm = (hierarchy, navForm) => {
+  if (window.location.hostname !== "") {
+    navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';
+  }
 
-// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
-const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
-const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
+  const bookSelect = document.createElementNS(XHTML_NS, 'select');
+  navForm.appendChild(bookSelect);
+
+  navForm.appendChild(document.createTextNode(' ❯ '));
+
+  const chapterSelect = document.createElementNS(XHTML_NS, 'select');
+  navForm.appendChild(chapterSelect);
+
+  navForm.appendChild(document.createTextNode(' ❯ '));
+
+  const goSubmit = document.createElementNS(XHTML_NS, 'input');
+  goSubmit.setAttribute('type', 'submit');
+  goSubmit.setAttribute('value', '🔎');
+  navForm.appendChild(goSubmit);
+
+  for (const book in BOOK_CHAPTERS) {
+    const parts = book.split('-');
+    let text = parts[1];
+
+    const option = document.createElementNS(XHTML_NS, 'option');
+    option.setAttribute('value', book);
+    if (CURR.book === book) {
+      text += ' •';
+    }
+    option.appendChild(document.createTextNode(text));
+    bookSelect.appendChild(option);
+  }
+
+  const selectOnChange = makeBookSelectOnChange(
+    hierarchy, chapterSelect, goSubmit);
+  bookSelect.addEventListener('change', selectOnChange);
+  bookSelect.value = CURR.book;
+  bookSelect.dispatchEvent(new Event('change'));
+}
 
 const initializeNavigation = () => {
   const XHTML_NS = 'http://www.w3.org/1999/xhtml';
@@ -130,9 +193,9 @@ const initializeNavigation = () => {
   let hierarchy = {};  // Maps from directory name to a list of files there.
   let xmls = [];
 
-  for (const book in bookChapters) {
+  for (const book in BOOK_CHAPTERS) {
     hierarchy[book] = [];
-    const numChapters = bookChapters[book];
+    const numChapters = BOOK_CHAPTERS[book];
     for (let i = 1; i <= numChapters; ++i) {
       const path = xmlPath(book, i);
       hierarchy[book].push(path);
@@ -140,10 +203,7 @@ const initializeNavigation = () => {
     }
   }
 
-  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
-  const currBook = currParts[0];
-  const currChapter = currParts[1];
-  const currXML = `../${currBook}/${currChapter}`;
+  const currXML = `../${CURR.book}/${CURR.chapter}`;
   const currPos = xmls.indexOf(currXML);
 
   const nav = document.createElementNS(XHTML_NS, 'nav');
@@ -169,58 +229,9 @@ const initializeNavigation = () => {
   }
   nav.appendChild(aNext);
 
-  const labelUpper = document.createElementNS(XHTML_NS, "label");
-  labelUpper.textContent = '⍺➜Α';
-  const checkUpper = document.createElementNS(XHTML_NS, "input");
-  checkUpper.type = "checkbox";
-  labelUpper.appendChild(checkUpper);
-  nav.appendChild(labelUpper);
+  nav.appendChild(createNavigationGreekUppercase());
 
-  const sheet = new CSSStyleSheet();
-  const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
-  const rule = sheet.cssRules[ruleIndex];
-  checkUpper.addEventListener('change', function(ev) {
-    toggleUpper(rule, this.checked);
-  })
-  document.adoptedStyleSheets.push(sheet);
-
-  if (window.location.hostname !== "") {
-    navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';
-  }
-
-  const bookSelect = document.createElementNS(XHTML_NS, 'select');
-  navForm.appendChild(bookSelect);
-
-  navForm.appendChild(document.createTextNode(' ❯ '));
-
-  const chapterSelect = document.createElementNS(XHTML_NS, 'select');
-  navForm.appendChild(chapterSelect);
-
-  navForm.appendChild(document.createTextNode(' ❯ '));
-
-  const goSubmit = document.createElementNS(XHTML_NS, 'input');
-  goSubmit.setAttribute('type', 'submit');
-  goSubmit.setAttribute('value', '🔎');
-  navForm.appendChild(goSubmit);
-
-  for (const book in bookChapters) {
-    const parts = book.split('-');
-    let text = parts[1];
-
-    const option = document.createElementNS(XHTML_NS, 'option');
-    option.setAttribute('value', book);
-    if (currBook == book) {
-      text += ' •';
-    }
-    option.appendChild(document.createTextNode(text));
-    bookSelect.appendChild(option);
-  }
-
-  const selectOnChange = makeBookSelectOnChange(
-    hierarchy, chapterSelect, goSubmit);
-  bookSelect.addEventListener('change', selectOnChange);
-  bookSelect.value = currBook;
-  bookSelect.dispatchEvent(new Event('change'));
+  populateNavigationForm(hierarchy, navForm);
 
   document.documentElement.insertBefore(
     nav, document.documentElement.firstChild);
