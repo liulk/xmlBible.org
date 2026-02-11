@@ -288,6 +288,14 @@ nav label {
     background: white;
 }
 
+book[testament="old"] nav label[testament="new"] {
+    display: none;
+}
+
+book[testament="new"] nav label[testament="old"] {
+    display: none;
+}
+
 label[dictionary] menu {
     display: inline-block;
     visibility: hidden;
