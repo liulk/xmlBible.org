@@ -238,6 +238,18 @@ nav a {
     user-select: none;
 }
 
+a#linkLXX {
+    font-size: 80%;
+    line-height: 200%;
+    color: black;
+    width: 1lh;
+    height: 1lh;
+}
+
+a#linkLXX:visited {
+    color: black;
+}
+
 nav a:not([href]) {
     color: lightgrey;
     background: linear-gradient(
@@ -278,6 +290,7 @@ nav .home {
 nav > a {
     border: 2px solid lightgrey;
     border-radius: 2ex;
+    margin: 0 0.25ex;
 }
 
 nav label {
@@ -289,11 +302,11 @@ nav label {
     background: white;
 }
 
-book[testament="old"] nav label[testament="new"] {
+book[testament="old"] *[testament="new"] {
     display: none;
 }
 
-book[testament="new"] nav label[testament="old"] {
+book[testament="new"] *[testament="old"] {
     display: none;
 }
 
