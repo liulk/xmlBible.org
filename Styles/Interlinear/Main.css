@@ -205,6 +205,7 @@ nav {
     padding: 0.3lh 10vw;
 
     border: 1px solid lightgrey;
+    user-select: none;
 }
 
 book[testament="old"] nav {
@@ -298,6 +299,10 @@ book[testament="new"] nav label[testament="old"] {
 
 label#optionLinkDenorm:has(input:checked) s {
     text-decoration: none;
+}
+
+label[dictionary] {
+    cursor: text;
 }
 
 label[dictionary] menu {
