@@ -60,6 +60,10 @@ const HEBREW_DICT_LINKS = [
     'html': '<img src="../../Styles/Interlinear/Assets/pealim.png"></img>',
   },
   {
+    'url': 'https://context.reverso.net/translation/hebrew-english/',
+    'html': '<img src="../../Styles/Interlinear/Assets/reverso.ico"></img>',
+  },
+  {
     'url': 'https://en.wiktionary.org/wiki/Special:Search?go=1&amp;search=',
     'html': '<img src="../../Styles/Interlinear/Assets/wiktionary.ico"></img>',
   }
