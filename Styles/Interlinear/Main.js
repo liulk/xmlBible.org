@@ -25,9 +25,13 @@ function getLangTags(words) {
 function dictionaryLinks(text, links) {
   const menu = document.createElementNS(XHTML_NS, 'menu');
   for (const link of links) {
+    let key = text;
+    if (link.key) {
+      key = link.key(key);
+    }
     const li = document.createElementNS(XHTML_NS, 'li');
     li.innerHTML =
-      `<a popup="popup" href="${link.url + text}">${link.html}</a>`;
+      `<a popup="popup" href="${link.url + encodeURI(key)}">${link.html}</a>`;
     menu.appendChild(li);
   }
 
@@ -54,6 +58,14 @@ const HEBREW_DICT_LINKS = [
   {
     'url': 'https://www.pealim.com/search/?q=',
     'html': '<img src="../../Styles/Interlinear/Assets/pealim.png"></img>',
+  },
+  {
+    'url': 'https://context.reverso.net/translation/hebrew-english/',
+    'html': '<img src="../../Styles/Interlinear/Assets/reverso.ico"></img>',
+  },
+  {
+    'url': 'https://en.wiktionary.org/wiki/Special:Search?go=1&amp;search=',
+    'html': '<img src="../../Styles/Interlinear/Assets/wiktionary.ico"></img>',
   }
 ];
 
@@ -61,6 +73,10 @@ const GREEK_DICT_LINKS = [
   {
     'url': 'https://logeion.uchicago.edu/',
     'html': '<img src="../../Styles/Interlinear/Assets/logeion.ico"></img>',
+  },
+  {
+    'url': 'https://en.wiktionary.org/wiki/Special:Search?go=1&amp;search=',
+    'html': '<img src="../../Styles/Interlinear/Assets/wiktionary.ico"></img>',
   }
 ];
 

@@ -1,5 +1,7 @@
+// XHTML_NS should already be defined in Main.js
+
 // The file paths are relative to the other Interlinear XML files.
-const bookChapters = {
+const BOOK_CHAPTERS = {
   '01-Genesis': 50,
   '02-Exodus': 40,
   '03-Leviticus': 27,
@@ -65,7 +67,76 @@ const bookChapters = {
   '63-2 John': 1,
   '64-3 John': 1,
   '65-Jude': 1,
-  '66-Revelation': 22
+  '66-Revelation': 22,
+};
+
+const TLA_CODES = {
+  '01-Genesis': 'GEN',
+  '02-Exodus': 'EXO',
+  '03-Leviticus': 'LEV',
+  '04-Numbers': 'NUM',
+  '05-Deuteronomy': 'DEU',
+  '06-Joshua': 'JOS',
+  '07-Judges': 'JDG',
+  '08-Ruth': 'RUT',
+  '09-1 Samuel': '1SA',
+  '10-2 Samuel': '2SA',
+  '11-1 Kings': '1KI',
+  '12-2 Kings': '2KI',
+  '13-1 Chronicles': '1CH',
+  '14-2 Chronicles': '2CH',
+  '15-Ezra': 'EZR',
+  '16-Nehemiah': 'NEH',
+  '17-Esther': 'EST',
+  '18-Job': 'JOB',
+  '19-Psalms': 'PSA',
+  '20-Proverbs': 'PRO',
+  '21-Ecclesiastes': 'ECC',
+  '22-Song of Solomon': 'SNG',
+  '23-Isaiah': 'ISA',
+  '24-Jeremiah': 'JER',
+  '25-Lamentations': 'LAM',
+  '26-Ezekiel': 'EZK',
+  '27-Daniel': 'DAN',
+  '28-Hosea': 'HOS',
+  '29-Joel': 'JOL',
+  '30-Amos': 'AMO',
+  '31-Obadiah': 'OBA',
+  '32-Jonah': 'JON',
+  '33-Micah': 'MIC',
+  '34-Nahum': 'NAM',
+  '35-Habakkuk': 'HAB',
+  '36-Zephaniah': 'ZEP',
+  '37-Haggai': 'HAG',
+  '38-Zechariah': 'ZEC',
+  '39-Malachi': 'MAL',
+  '40-Matthew': 'MAT',
+  '41-Mark': 'MRK',
+  '42-Luke': 'LUK',
+  '43-John': 'JHN',
+  '44-Acts': 'ACT',
+  '45-Romans': 'ROM',
+  '46-1 Corinthians': '1CO',
+  '47-2 Corinthians': '2CO',
+  '48-Galatians': 'GAL',
+  '49-Ephesians': 'EPH',
+  '50-Philippians': 'PHP',
+  '51-Colossians': 'COL',
+  '52-1 Thessalonians': '1TH',
+  '53-2 Thessalonians': '2TH',
+  '54-1 Timothy': '1TI',
+  '55-2 Timothy': '2TI',
+  '56-Titus': 'TIT',
+  '57-Philemon': 'PHM',
+  '58-Hebrews': 'HEB',
+  '59-James': 'JAS',
+  '60-1 Peter': '1PE',
+  '61-2 Peter': '2PE',
+  '62-1 John': '1JN',
+  '63-2 John': '2JN',
+  '64-3 John': '3JN',
+  '65-Jude': 'JUD',
+  '66-Revelation': 'REV',
 };
 
 // The file paths are relative to the other Interlinear XML files.
@@ -74,13 +145,68 @@ const xmlPath = (book, chapterNum) => {
   return `../${book}/chapter-${nnn}.xml`;
 }
 
+const getCurr = () => {
+  const parts = decodeURI(window.location.pathname).split('/').slice(-2);
+  return {'book': parts[0], 'chapter': parts[1]};
+}
+
+const CURR = getCurr();
+
+// Greek Uppercase.
+
+const createNavigationGreekUppercase = () => {
+  const sheet = new CSSStyleSheet();
+  const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
+  const rule = sheet.cssRules[ruleIndex];
+  document.adoptedStyleSheets.push(sheet);
+
+  const label = document.createElementNS(XHTML_NS, "label");
+  label.id = 'optionGreekUpper';
+  label.textContent = '⍺➜Α';
+  label.title = 'Show Greek in Uppercase.';
+  label.setAttribute('testament', 'new');
+
+  const check = document.createElementNS(XHTML_NS, "input");
+  check.type = "checkbox";
+  check.addEventListener('change', function(ev) {
+    rule.style.fontVariant = this.checked ? 'small-caps' : '';
+  })
+
+  label.appendChild(check);
+  return label;
+}
+
+// Link Denormalization (default is to normalize dictionary links).
+
+const createNavigationLinkDenorm = () => {
+  const label = document.createElementNS(XHTML_NS, "label");
+  label.id = 'optionLinkDenorm';
+  label.innerHTML = '<s>(:</s>🔗<s>ולְ)</s>';
+  label.title = 'Do not normalize dictionary links.';
+  label.setAttribute('testament', 'old');
+
+  const check = document.createElementNS(XHTML_NS, "input");
+  check.type = "checkbox";
+
+  label.appendChild(check);
+  return label;
+}
+
+// Link to LXX.
+
+const createNavigationLXX = () => {
+  const tla = TLA_CODES[CURR.book].toLowerCase();
+  const chapterNum = parseInt(CURR.chapter.substring(8, 11));
+  const a = document.createElementNS(XHTML_NS, "a");
+  a.id = 'linkLXX';
+  a.href = `https://www.blueletterbible.org/lxx/${tla}/${chapterNum}`;
+  a.title = 'Link to Septuagint text on Blue Letter Bible';
+  a.innerHTML = 'LXX';
+  a.setAttribute('testament', 'old');
+  return a;
+}
+
 const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
-  const XHTML_NS = 'http://www.w3.org/1999/xhtml';
-
-  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
-  const currBook = currParts[0];
-  const currChapter = currParts[1];
-
   return (e) => {
     // Remove all chapters.
     chapterSelect.textContent = '';
@@ -96,7 +222,7 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
       const parts = xml.split('/').slice(-2);
       const chapter = parts[1];
       let text = num;
-      if (book === currBook && chapter === currChapter) {
+      if (book === CURR.book && chapter === CURR.chapter) {
         text = text + ' •';
         currXML = xml;
       }
@@ -115,75 +241,7 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
   };
 };
 
-const toggleUpper = (rule, enabled) => {
-  rule.style.fontVariant = enabled ? 'small-caps' : '';
-}
-
-// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
-const leftArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
-const rightArrow = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
-
-const initializeNavigation = () => {
-  const XHTML_NS = 'http://www.w3.org/1999/xhtml';
-
-  // First convert the interlinearXMLs to a hierarchy.
-  let hierarchy = {};  // Maps from directory name to a list of files there.
-  let xmls = [];
-
-  for (const book in bookChapters) {
-    hierarchy[book] = [];
-    const numChapters = bookChapters[book];
-    for (let i = 1; i <= numChapters; ++i) {
-      const path = xmlPath(book, i);
-      hierarchy[book].push(path);
-      xmls.push(path);
-    }
-  }
-
-  const currParts = decodeURI(window.location.pathname).split('/').slice(-2);
-  const currBook = currParts[0];
-  const currChapter = currParts[1];
-  const currXML = `../${currBook}/${currChapter}`;
-  const currPos = xmls.indexOf(currXML);
-
-  const nav = document.createElementNS(XHTML_NS, 'nav');
-
-  const aPrev = document.createElementNS(XHTML_NS, 'a');
-  aPrev.id = 'prev';
-  aPrev.title = 'Previous';
-  aPrev.innerHTML = leftArrow;
-  if (currPos > 0) {
-    aPrev.href = xmls[currPos - 1];
-  }
-  nav.appendChild(aPrev);
-
-  const navForm = document.createElementNS(XHTML_NS, 'form');
-  nav.appendChild(navForm);
-
-  const aNext = document.createElementNS(XHTML_NS, 'a');
-  aNext.id = 'next';
-  aNext.title = 'Next';
-  aNext.innerHTML = rightArrow;
-  if (currPos < xmls.length - 1) {
-    aNext.href = xmls[currPos + 1];
-  }
-  nav.appendChild(aNext);
-
-  const labelUpper = document.createElementNS(XHTML_NS, "label");
-  labelUpper.textContent = '⍺➜Α';
-  const checkUpper = document.createElementNS(XHTML_NS, "input");
-  checkUpper.type = "checkbox";
-  labelUpper.appendChild(checkUpper);
-  nav.appendChild(labelUpper);
-
-  const sheet = new CSSStyleSheet();
-  const ruleIndex = sheet.insertRule('greek {}', sheet.rules.length);
-  const rule = sheet.cssRules[ruleIndex];
-  checkUpper.addEventListener('change', function(ev) {
-    toggleUpper(rule, this.checked);
-  })
-  document.adoptedStyleSheets.push(sheet);
-
+const populateNavigationForm = (hierarchy, navForm) => {
   if (window.location.hostname !== "") {
     navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';
   }
@@ -203,13 +261,13 @@ const initializeNavigation = () => {
   goSubmit.setAttribute('value', '🔎');
   navForm.appendChild(goSubmit);
 
-  for (const book in bookChapters) {
+  for (const book in BOOK_CHAPTERS) {
     const parts = book.split('-');
     let text = parts[1];
 
     const option = document.createElementNS(XHTML_NS, 'option');
     option.setAttribute('value', book);
-    if (currBook == book) {
+    if (CURR.book === book) {
       text += ' •';
     }
     option.appendChild(document.createTextNode(text));
@@ -219,8 +277,60 @@ const initializeNavigation = () => {
   const selectOnChange = makeBookSelectOnChange(
     hierarchy, chapterSelect, goSubmit);
   bookSelect.addEventListener('change', selectOnChange);
-  bookSelect.value = currBook;
+  bookSelect.value = CURR.book;
   bookSelect.dispatchEvent(new Event('change'));
+}
+
+// Modified from: https://www.reshot.com/free-svg-icons/chevron-arrow/
+const LEFT_ARROW = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M15.293 7.293 10.586 12l4.707 4.707 1.414-1.414L13.414 12l3.293-3.293-1.414-1.414z"/><path d="m12.707 8.707-1.414-1.414L6.586 12l4.707 4.707 1.414-1.414L9.414 12l3.293-3.293z"/></svg>';
+const RIGHT_ARROW = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22"><path d="M8.707 7.293 7.293 8.707 10.586 12l-3.293 3.293 1.414 1.414L13.414 12 8.707 7.293z"/><path d="M11.293 8.707 14.586 12l-3.293 3.293 1.414 1.414L17.414 12l-4.707-4.707-1.414 1.414z"/></svg>';
+
+const initializeNavigation = () => {
+  // First convert the interlinearXMLs to a hierarchy.
+  let hierarchy = {};  // Maps from directory name to a list of files there.
+  let xmls = [];
+
+  for (const book in BOOK_CHAPTERS) {
+    hierarchy[book] = [];
+    const numChapters = BOOK_CHAPTERS[book];
+    for (let i = 1; i <= numChapters; ++i) {
+      const path = xmlPath(book, i);
+      hierarchy[book].push(path);
+      xmls.push(path);
+    }
+  }
+
+  const currXML = `../${CURR.book}/${CURR.chapter}`;
+  const currPos = xmls.indexOf(currXML);
+
+  const nav = document.createElementNS(XHTML_NS, 'nav');
+
+  const aPrev = document.createElementNS(XHTML_NS, 'a');
+  aPrev.id = 'prev';
+  aPrev.title = 'Previous';
+  aPrev.innerHTML = LEFT_ARROW;
+  if (currPos > 0) {
+    aPrev.href = xmls[currPos - 1];
+  }
+  nav.appendChild(aPrev);
+
+  const navForm = document.createElementNS(XHTML_NS, 'form');
+  nav.appendChild(navForm);
+
+  const aNext = document.createElementNS(XHTML_NS, 'a');
+  aNext.id = 'next';
+  aNext.title = 'Next';
+  aNext.innerHTML = RIGHT_ARROW;
+  if (currPos < xmls.length - 1) {
+    aNext.href = xmls[currPos + 1];
+  }
+  nav.appendChild(aNext);
+
+  nav.appendChild(createNavigationLXX());
+  nav.appendChild(createNavigationGreekUppercase());
+  nav.appendChild(createNavigationLinkDenorm());
+
+  populateNavigationForm(hierarchy, navForm);
 
   document.documentElement.insertBefore(
     nav, document.documentElement.firstChild);
