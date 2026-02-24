@@ -218,35 +218,28 @@ book[testament="new"] nav {
     padding-left: 30ex;
 }
 
-nav form {
+nav > * {
     display: inline-block;
     margin: 0 2ex;
+    vertical-align: middle;
 }
 
 nav a {
-    display: inline-block;
-
     width: 1lh;
     height: 1lh;
-    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 2ex;
+    margin: 0 0.25ex;
 
-    font-size: 150%;
-    vertical-align: middle;
     background: white;
-
+    color: black;
+    text-align: center;
+    font-size: 150%;
     text-decoration: none;
     user-select: none;
 }
 
-a#linkLXX {
-    font-size: 80%;
-    line-height: 200%;
-    color: black;
-    width: 1lh;
-    height: 1lh;
-}
-
-a#linkLXX:visited {
+nav a:visited {
     color: black;
 }
 
@@ -281,25 +274,20 @@ nav a[href]:hover svg path {
     fill: lightblue;
 }
 
-nav .home {
+nav select, nav input {
+    padding: 0.5ex 1ex;
     border: 2px solid lightgrey;
+    background: white;
+}
+
+nav #home {
     margin-right: 1ex;
     padding: 0 0.25ex 0.5ex 0.25ex;
 }
 
-nav > a {
-    border: 2px solid lightgrey;
-    border-radius: 2ex;
-    margin: 0 0.25ex;
-}
-
-nav label {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 2ex;
-    padding: 0 0.5ex;
-    border: 2px solid lightgrey;
-    background: white;
+nav #linkLXX {
+    font-size: 80%;
+    line-height: 200%;
 }
 
 book[testament="old"] *[testament="new"] {
@@ -308,10 +296,6 @@ book[testament="old"] *[testament="new"] {
 
 book[testament="new"] *[testament="old"] {
     display: none;
-}
-
-label#optionLinkDenorm:has(input:checked) s {
-    text-decoration: none;
 }
 
 label[dictionary] {
