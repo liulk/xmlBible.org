@@ -13,19 +13,48 @@ function getLangTags(words) {
   return count;
 }
 
+const HEBREW_REGEXPS = {
+  'Art': /^ה\p{Mn}*/u,
+  'Conj-w': /^ו\p{Mn}*/u,
+  'Prep-b': /^ב\p{Mn}*/u,
+  'Prep-k': /^כ\p{Mn}*/u,
+  'Prep-l': /^ל\p{Mn}*/u,
+  'Prep-m': /^מ\p{Mn}*/u,
+};
+
+function hebrewStem(text, pos) {
+  pos = pos.replaceAll('&nbsp;', ' ').replaceAll('‑', '-');
+  text = text.replace(/\p{P}/ug, '');  // Strip punctuations.
+  if (pos.indexOf('|') < 0) {
+    return text;
+  }
+  const prefixes = pos.split('|')[0].split(',');
+
+  for (const prefix of prefixes) {
+    const re = HEBREW_REGEXPS[prefix.trim()];
+    if (re) {
+      text = text.replace(re, '');
+    }
+  }
+  return text;
+}
+
 // Builds dictionary menu of the form:
 //
 // <label dictionary="dictionary">
-//   ${text}
+//   <${tagName}>${text}</${tagName}>
 //   <menu>
 //     <li><a popup="popup" href="${links[i].url + text}">${links[i].html}</a></li>
 //     <li>...</li>
 //   </menu>
 // </label>
-function dictionaryLinks(text, links) {
+function dictionaryLinks(tagName, text, pos, links) {
   const menu = document.createElementNS(XHTML_NS, 'menu');
   for (const link of links) {
     let key = text;
+    if (tagName === 'hebrew') {
+      key = hebrewStem(key, pos);
+    }
     if (link.key) {
       key = link.key(key);
     }
@@ -35,9 +64,12 @@ function dictionaryLinks(text, links) {
     menu.appendChild(li);
   }
 
+  const langTag = document.createElement(tagName);
+  langTag.textContent = text;
+
   const label = document.createElementNS(XHTML_NS, 'label');
   label.setAttribute('dictionary', 'dictionary');
-  label.innerHTML = text;
+  label.appendChild(langTag);
   label.appendChild(menu);
   return label;
 }
@@ -48,9 +80,10 @@ function annotateLangLinks(word, tagName, links) {
     return false;
   }
   const langTag = langTags[0];
-  const label = dictionaryLinks(langTag.textContent, links);
-  langTag.innerHTML = '';
-  langTag.appendChild(label);
+  const posTag = word.getElementsByTagName('pos')[0];
+  const label = dictionaryLinks(
+    tagName, langTag.textContent, posTag.textContent, links);
+  word.replaceChild(label, langTag);
   return true;
 }
 
