@@ -160,14 +160,14 @@ const createNavigationGreekUppercase = () => {
   const rule = sheet.cssRules[ruleIndex];
   document.adoptedStyleSheets.push(sheet);
 
-  const label = document.createElementNS(XHTML_NS, "label");
+  const label = document.createElementNS(XHTML_NS, 'label');
   label.id = 'optionGreekUpper';
   label.textContent = '⍺➜Α';
   label.title = 'Show Greek in Uppercase.';
   label.setAttribute('testament', 'new');
 
-  const check = document.createElementNS(XHTML_NS, "input");
-  check.type = "checkbox";
+  const check = document.createElementNS(XHTML_NS, 'input');
+  check.type = 'checkbox';
   check.addEventListener('change', function(ev) {
     rule.style.fontVariant = this.checked ? 'small-caps' : '';
   })
@@ -176,20 +176,27 @@ const createNavigationGreekUppercase = () => {
   return label;
 }
 
-// Link Denormalization (default is to normalize dictionary links).
+// Link Mode Options.
 
-const createNavigationLinkDenorm = () => {
-  const label = document.createElementNS(XHTML_NS, "label");
-  label.id = 'optionLinkDenorm';
-  label.innerHTML = '<s>(:</s>🔗<s>ולְ)</s>';
-  label.title = 'Do not normalize dictionary links.';
-  label.setAttribute('testament', 'old');
+const LINK_MODES = {
+  'trimmed': '(̵:̵ 🔗 ו̵ל̵̵ְ)̵',
+  'untrimmed': '(: 🔗 ול)',
+  'lemma': ' 🔗 🦙',
+};
 
-  const check = document.createElementNS(XHTML_NS, "input");
-  check.type = "checkbox";
+const createNavigationLinkMode = () => {
+  const select = document.createElementNS(XHTML_NS, 'select');
+  select.id = 'optionLinkMode';
+  select.title = 'Link Mode: trimmed, untrimmed, lemma';
 
-  label.appendChild(check);
-  return label;
+  for (const value in LINK_MODES) {
+    const option = document.createElementNS(XHTML_NS, 'option');
+    option.value = value;
+    option.textContent = LINK_MODES[value];
+    select.appendChild(option);
+  }
+
+  return select;
 }
 
 // Link to LXX.
@@ -217,7 +224,7 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
 
     for (const xml of hierarchy[book]) {
       const option = document.createElementNS(XHTML_NS, 'option');
-      option.setAttribute('value', xml);
+      option.value = xml;
 
       const parts = xml.split('/').slice(-2);
       const chapter = parts[1];
@@ -235,7 +242,7 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
       chapterSelect.value = currXML;
     }
     chapterSelect.onchange = (e) => {
-      goSubmit.setAttribute('formaction', chapterSelect.value);
+      goSubmit.formAction = chapterSelect.value;
     };
     chapterSelect.dispatchEvent(new Event('change'));
   };
@@ -243,22 +250,25 @@ const makeBookSelectOnChange = (hierarchy, chapterSelect, goSubmit) => {
 
 const populateNavigationForm = (hierarchy, navForm) => {
   if (window.location.hostname !== "") {
-    navForm.innerHTML = '<a href="/" title="Go to home" class="home">⛪️</a> ';
+    navForm.innerHTML = '<a href="/" title="Go to home" id="home">⛪️</a> ';
   }
 
   const bookSelect = document.createElementNS(XHTML_NS, 'select');
+  bookSelect.title = 'Select a Book';
   navForm.appendChild(bookSelect);
 
   navForm.appendChild(document.createTextNode(' ❯ '));
 
   const chapterSelect = document.createElementNS(XHTML_NS, 'select');
+  chapterSelect.title = 'Select a Chapter';
   navForm.appendChild(chapterSelect);
 
   navForm.appendChild(document.createTextNode(' ❯ '));
 
   const goSubmit = document.createElementNS(XHTML_NS, 'input');
-  goSubmit.setAttribute('type', 'submit');
-  goSubmit.setAttribute('value', '🔎');
+  goSubmit.type = 'submit';
+  goSubmit.value = '📖';
+  goSubmit.title = 'Read the Selected Chapter';
   navForm.appendChild(goSubmit);
 
   for (const book in BOOK_CHAPTERS) {
@@ -266,7 +276,7 @@ const populateNavigationForm = (hierarchy, navForm) => {
     let text = parts[1];
 
     const option = document.createElementNS(XHTML_NS, 'option');
-    option.setAttribute('value', book);
+    option.value = book;
     if (CURR.book === book) {
       text += ' •';
     }
@@ -328,7 +338,7 @@ const initializeNavigation = () => {
 
   nav.appendChild(createNavigationLXX());
   nav.appendChild(createNavigationGreekUppercase());
-  nav.appendChild(createNavigationLinkDenorm());
+  nav.appendChild(createNavigationLinkMode());
 
   populateNavigationForm(hierarchy, navForm);
 
