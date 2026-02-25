@@ -14,6 +14,7 @@ function getLangTags(words) {
 }
 
 const HEBREW_REGEXPS = {
+  // \p{Mn} is the "Combination Mark for Non-space" for the cantillation marks.
   'Art': /^ה\p{Mn}*/u,
   'Conj-w': /^ו\p{Mn}*/u,
   'Prep-b': /^ב\p{Mn}*/u,
@@ -22,9 +23,12 @@ const HEBREW_REGEXPS = {
   'Prep-m': /^מ\p{Mn}*/u,
 };
 
-function hebrewStem(text, pos) {
+function trimPunctuation(text) {
+  return text.replaceAll(/\p{P}/ug, '');
+}
+
+function trimHebrew(text, pos) {
   pos = pos.replaceAll('&nbsp;', ' ').replaceAll('‑', '-');
-  text = text.replace(/\p{P}/ug, '');  // Strip punctuations.
   if (pos.indexOf('|') < 0) {
     return text;
   }
@@ -41,50 +45,53 @@ function hebrewStem(text, pos) {
 
 // Builds dictionary menu of the form:
 //
-// <label dictionary="dictionary">
-//   <${tagName}>${text}</${tagName}>
-//   <menu>
-//     <li><a popup="popup" href="${links[i].url + text}">${links[i].html}</a></li>
-//     <li>...</li>
-//   </menu>
-// </label>
-function dictionaryLinks(tagName, text, pos, links) {
+// <menu>
+//   <li><a popup="popup" href="${links[i].url + text}">${links[i].html}</a></li>
+//   <li>...</li>
+// </menu>
+function dictionaryLinks(mode, tagName, text, lemma, pos, links) {
+  let key;
+  switch (mode) {
+  case 'trimmed':
+    key = trimPunctuation(text);
+    if (tagName === 'hebrew') {
+      key = trimHebrew(key, pos);
+    }
+    break;
+
+  case 'untrimmed':
+    key = text;
+    break;
+
+  case 'lemma':
+    key = lemma;
+    break;
+  }
+
   const menu = document.createElementNS(XHTML_NS, 'menu');
   for (const link of links) {
-    let key = text;
-    if (tagName === 'hebrew') {
-      key = hebrewStem(key, pos);
-    }
-    if (link.key) {
-      key = link.key(key);
-    }
     const li = document.createElementNS(XHTML_NS, 'li');
     li.innerHTML =
       `<a popup="popup" href="${link.url + encodeURI(key)}">${link.html}</a>`;
     menu.appendChild(li);
   }
+  return menu;
+}
 
-  const langTag = document.createElement(tagName);
-  langTag.textContent = text;
+// Builds label as a mouse trap.
+//
+// <label dictionary="dictionary">
+//   <${tagName}>${text}</${tagName}>
+//   <menu><!-- to be created by dictionaryLinks() --></menu>
+// </label>
+function createLangLabel(tagName, text) {
+  const lang = document.createElement(tagName);
+  lang.textContent = text;
 
   const label = document.createElementNS(XHTML_NS, 'label');
   label.setAttribute('dictionary', 'dictionary');
-  label.appendChild(langTag);
-  label.appendChild(menu);
+  label.appendChild(lang);
   return label;
-}
-
-function annotateLangLinks(word, tagName, links) {
-  const langTags = word.getElementsByTagName(tagName);
-  if (!langTags.length) {
-    return false;
-  }
-  const langTag = langTags[0];
-  const posTag = word.getElementsByTagName('pos')[0];
-  const label = dictionaryLinks(
-    tagName, langTag.textContent, posTag.textContent, links);
-  word.replaceChild(label, langTag);
-  return true;
 }
 
 const HEBREW_DICT_LINKS = [
@@ -113,55 +120,71 @@ const GREEK_DICT_LINKS = [
   }
 ];
 
+function annotateWord(word) {
+  const pos = word.getElementsByTagName('pos')[0];
+
+  const hebrew = word.getElementsByTagName('hebrew')[0];
+  const greek = word.getElementsByTagName('greek')[0];
+  const lang = hebrew || greek;
+  if (!lang) {
+    return;
+  }
+
+  const english = word.getElementsByTagName('english')[0];
+  const strongs = word.getElementsByTagName('strongs')[0];
+  const sn = strongs.textContent;
+
+  let entry, links, prefix;
+  if (hebrew && typeof strongsHebrewDictionary === 'object') {
+    entry = strongsHebrewDictionary['H'+sn];
+    links = HEBREW_DICT_LINKS;
+    prefix = 'https://biblehub.com/hebrew';
+  } else if (greek && typeof strongsGreekDictionary === 'object') {
+    entry = strongsGreekDictionary['G'+sn];
+    links = GREEK_DICT_LINKS;
+    prefix = 'https://biblehub.com/greek';
+  }
+
+  const label = createLangLabel(lang?.tagName, lang?.textContent);
+  label.appendChild(document.createElementNS(XHTML_NS, 'menu'));  // Dummy.
+
+  label.addEventListener('mouseenter', (e) => {
+    const mode = document.getElementById('optionLinkMode')?.value;
+    const oldMenu = label.getElementsByTagName('menu')[0];
+    const newMenu = dictionaryLinks(
+      mode,
+      lang?.tagName,
+      lang?.textContent,
+      entry?.lemma,
+      pos?.textContent,
+      links);
+    label.replaceChild(newMenu, oldMenu);
+  });
+
+  word.replaceChild(label, lang);
+
+  const snLinkHTML =
+        `<a xmlns="${XHTML_NS}" href="${prefix}/${sn}.htm">${sn}</a>`;
+  strongs.innerHTML = snLinkHTML;
+
+  if (!entry) {
+    return;
+  }
+
+  const sd = document.createElement('strongs-definition');
+  const snDef = entry?.strongs_def || '';
+  sd.innerHTML =
+    `<a xmlns="${XHTML_NS}" href="${prefix}/${sn}.htm">${snDef}</a>`;
+  word.insertBefore(sd, strongs.nextSibling);
+
+  const ed = document.createElement('english-definition');
+  ed.appendChild(document.createTextNode(entry?.kjv_def || ''));
+  word.insertBefore(ed, english.nextSibling);
+}
+
 function addStrongsLinksAndDefinitions(words) {
-  // Check if the dictionaries have been loaded sucessfully.
-  const hasDict = (typeof strongsGreekDictionary === 'object' &&
-                   typeof strongsHebrewDictionary === 'object');
-
-  for (const w of words) {
-    const strongs = w.getElementsByTagName('strongs')[0];
-    const english = w.getElementsByTagName('english')[0];
-    const sn = strongs.textContent;
-    if (!sn) {
-      continue;
-    }
-
-    const isHebrew = annotateLangLinks(w, 'hebrew', HEBREW_DICT_LINKS);
-    const isGreek = annotateLangLinks(w, 'greek', GREEK_DICT_LINKS);
-    if (!isHebrew && !isGreek) {
-      continue;
-    }
-
-    let hrefPrefix;
-    if (isHebrew) {
-      hrefPrefix = 'https://biblehub.com/hebrew';
-    } else if (isGreek) {
-      hrefPrefix = 'https://biblehub.com/greek';
-    }
-    const snLinkHTML =
-          `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${sn}</a>`;
-    strongs.innerHTML = snLinkHTML;
-
-    if (!hasDict) {
-      continue;
-    }
-
-    let entry;
-    if (isHebrew) {
-      entry = strongsHebrewDictionary["H"+sn];
-    } else if (isGreek) {
-      entry = strongsGreekDictionary["G"+sn];
-    }
-
-    const sd = document.createElement('strongs-definition');
-    const snDef = entry?.strongs_def || '';
-    sd.innerHTML =
-      `<a xmlns="${XHTML_NS}" href="${hrefPrefix}/${sn}.htm">${snDef}</a>`;
-    w.insertBefore(sd, strongs.nextSibling);
-
-    const ed = document.createElement('english-definition');
-    ed.appendChild(document.createTextNode(entry?.kjv_def || ''));
-    w.insertBefore(ed, english.nextSibling);
+  for (const word of words) {
+    annotateWord(word);
   }
 }
 
