@@ -1,16 +1,7 @@
 const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 
-function getLangTags(words) {
-  const count = {};
-  for (const w of words) {
-    for (const child of w.children) {
-      if (child.nodeType !== child.ELEMENT_NODE) {
-        continue;
-      }
-      ++count[child.tagName];
-    }
-  }
-  return count;
+function asciify(text) {
+  return text.replaceAll(/\s+/g, ' ').replaceAll('‑', '-');
 }
 
 const HEBREW_REGEXPS = {
@@ -28,7 +19,7 @@ function trimPunctuation(text) {
 }
 
 function trimHebrew(text, pos) {
-  pos = pos.replaceAll('&nbsp;', ' ').replaceAll('‑', '-');
+  pos = asciify(pos);
   if (pos.indexOf('|') < 0) {
     return text;
   }
@@ -276,7 +267,7 @@ function renderLang(wordNumToLangMap, lang) {
   const before = lang.getAttribute('before') || '';
   const after = lang.getAttribute('after') || '';
 
-  render = render.replace('&nbsp;', ' ');
+  render = asciify(render);
   return before + render + after;
 }
 
@@ -295,6 +286,19 @@ function renderVersePreview(verse, langTag, joiner) {
 
 // The values are also the joiners for the language.
 const PREVIEW_LANGS = {'english': ' ', 'chinese': ''};
+
+function getLangTags(words) {
+  const count = {};
+  for (const w of words) {
+    for (const child of w.children) {
+      if (child.nodeType !== child.ELEMENT_NODE) {
+        continue;
+      }
+      ++count[child.tagName];
+    }
+  }
+  return count;
+}
 
 window.addEventListener('load', (e) => {
   // Check if the navigation has been loaded successfully.
